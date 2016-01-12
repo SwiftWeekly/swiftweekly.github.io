@@ -6,9 +6,13 @@
 
 ## About
 
-Lovingly built with [Jekyll](http://jekyllrb.com), [Bootstrap](http://getbootstrap.com), and [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
+Originally started and hosted at [jessesquires.com](http://www.jessesquires.com).
 
-Generously hosted by [GitHub](https://pages.github.com).
+Lovingly built with [Jekyll](http://jekyllrb.com), [Bootstrap](http://getbootstrap.com), and [Font Awesome](http://fortawesome.github.io/Font-Awesome/). Generously hosted by [GitHub](https://pages.github.com).
+
+## Contributing
+
+Please see [CONTRIBUTING.md](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CONTRIBUTING.md).
 
 ## License
 
