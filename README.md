@@ -12,7 +12,7 @@ Lovingly built with [Jekyll](http://jekyllrb.com), [Bootstrap](http://getbootstr
 
 ## Contributing
 
-Please see [CONTRIBUTING.md](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CONTRIBUTING.md).
+For translations, content suggestions, fixes, or corrections — please see [CONTRIBUTING.md](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CONTRIBUTING.md).
 
 ## License
 
