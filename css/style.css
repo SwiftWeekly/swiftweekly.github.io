@@ -1,15 +1,17 @@
 /* COMMON ELEMENTS */
 
 #main {
-   margin-top: 2.5rem;
-   margin-bottom: 2.5rem;
    background-color: #ffffff;
-   padding: 1rem;
 }
 
 body p {
    line-height: 2.5rem;
-   padding: 0.5rem 0rem 1rem 0rem;
+   padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+hr {
+   border-color: #d7d7d7;
+   width: 50%;
 }
 
 a {
@@ -27,7 +29,7 @@ a:visited {
 }
 
 a:hover {
-   color: #245D66;
+   color: #fbaf40;
    text-decoration: none;
 }
 
@@ -35,17 +37,13 @@ a:active {
    text-decoration:none;
 }
 
-#tagline a,
-a.btn,
-.btn,
-a.alert-link,
-.footnotes a,
-.gist-meta a {
-   border-width: 0px;
+#tagline a {
+   color: #333333;
+   border-bottom: 1px dotted #333333;
 }
 
-hr {
-   border-color: #d7d7d7;
+#tagline {
+   color: #666666;
 }
 
 blockquote {
@@ -75,18 +73,11 @@ header {
 header h1 {
    font-size: 50px;
    font-weight: normal;
-   letter-spacing: 1px;
-   line-height: 26px;
 }
 
 header h2 {
    font-size: 15px;
    line-height: 18px;
-   letter-spacing: 1px;
-}
-
-header h1 a {
-   color: #333333;
 }
 
 h1 > a:link {
@@ -97,27 +88,16 @@ h1 > a:hover {
    text-decoration:none;
 }
 
-header hr {
-   width: 50%;
-}
 /* POSTS */
 
-.post-list {
-   padding-top: 1em;
-   padding-bottom: 1rem;
-   text-align: left;
-}
-
 .post {
-   padding-top: 1rem;
-   padding-bottom: 4rem;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
 }
 
 .post-title {
    font-size: 40px;
-   font-weight: normal;
-   letter-spacing: 1px;
-   margin: 0px;
+   font-weight: lighter;
 }
 
 .post-subtitle {
@@ -129,30 +109,6 @@ header hr {
 .post-date {
    font-weight: normal;
    color: #666666;
-}
-
-.post-excerpt {
-   text-align: left;
-   line-height: 2.5rem;
-}
-
-.post-excerpt p {
-   margin-bottom: 0rem;
-   padding-bottom: 1rem;
-}
-
-.post-continue {
-   color: #666666;
-}
-
-.post-continue:hover {
-   color: #245D66;
-}
-
-a.post-continue,
-.post-title a {
-   border-width: 0px;
-   text-decoration: none;
 }
 
 /* PAGES */
@@ -186,46 +142,8 @@ a.post-continue,
    color: #666666;
 }
 
-.return-home {
-   display: block;
-   text-align: center;
-   margin: 0rem 0rem 3rem 0rem;
-   padding: 0rem;
-}
-
-.return-home a {
-   border-width: 0px;
-}
-
-.sharing {
-   padding-top: 1.5rem;
-}
-
-.footnotes ul {
-   list-style-type: none;
-   -webkit-padding-start: 0px !important;
-   -webkit-margin-before: 0px !important;
-   -webkit-margin-after: 0px !important;
-}
-
 code, pre {
-   background-color: #ffffff;
-}
-
-th, td {
-   background-color: #ffffff;
-}
-
-.table-header-footer {
-   padding: 0rem;
-   margin: 0rem;
-}
-
-/* STANDALONE PAGES */
-
-h1.page-title {
-   font-size: 30px;
-   color: #666666;
+   background-color: #eeeeee;
 }
 
 /* SOCIAL */
