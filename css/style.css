@@ -146,6 +146,10 @@ code, pre {
    background-color: #eeeeee;
 }
 
+.sharing {
+   padding: 0.5rem;
+}
+
 /* SOCIAL */
 
 .social a {
