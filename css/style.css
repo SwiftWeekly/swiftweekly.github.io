@@ -37,30 +37,20 @@ a:active {
    text-decoration:none;
 }
 
-#tagline a {
-   color: #333333;
-   border-bottom: 1px dotted #333333;
-}
-
-#tagline {
-   color: #666666;
-}
-
-blockquote {
-   border-color: #666666;
-   color: #999999;
-}
-
-.small-quote {
-   font-size: 13px;
-}
-
 .center {
    float: none;
    margin-left: auto;
    margin-right: auto;
    display: block;
    text-align: center;
+}
+
+.btn-default {
+   color: #666666;
+}
+
+code, pre {
+   background-color: #eeeeee;
 }
 
 /* HEADER */
@@ -88,6 +78,15 @@ h1 > a:hover {
    text-decoration:none;
 }
 
+#tagline a {
+   color: #333333;
+   border-bottom: 1px dotted #333333;
+}
+
+#tagline {
+   color: #666666;
+}
+
 /* POSTS */
 
 .post {
@@ -113,39 +112,6 @@ h1 > a:hover {
 
 /* PAGES */
 
-.page {
-   padding-top: 0rem;
-   padding-bottom: 1rem;
-}
-
-.page h4 {
-   padding-top: 1rem;
-}
-
-.page ul {
-   padding-top: 0.5rem;
-   padding-bottom: 1rem;
-}
-
-.pagination {
-   display: block;
-   margin-top: 0rem;
-   padding-top: 0rem;
-}
-
-.pager {
-   margin-top: 0rem;
-   padding-top: 0rem;
-}
-
-.btn-default {
-   color: #666666;
-}
-
-code, pre {
-   background-color: #eeeeee;
-}
-
 .sharing {
    padding: 0.5rem;
 }
@@ -153,7 +119,7 @@ code, pre {
 /* SOCIAL */
 
 .social a {
-   border-width: 0px;
+   color: #666666;
 }
 
 .social ul {
@@ -164,9 +130,5 @@ code, pre {
 
 .social ul li {
    display: inline-block;
-   list-style-type: none;
-   margin: 2px;
-   padding-left: 6px;
-   padding-right: 6px;
-   padding-bottom: 10px;
+   padding: 0.5rem;
 }

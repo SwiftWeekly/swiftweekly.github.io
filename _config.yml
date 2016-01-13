@@ -27,6 +27,7 @@ author:
 excerpt_separator: <!--excerpt-->
 
 links:
+   twitter: 'https://twitter.com/swiftlybrief'
    github: 'https://github.com/SwiftWeekly/swiftweekly.github.io'
    issue: 'https://github.com/SwiftWeekly/swiftweekly.github.io/issues/new'
    pull: 'https://github.com/SwiftWeekly/swiftweekly.github.io/compare'
