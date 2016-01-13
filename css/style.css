@@ -225,40 +225,23 @@ h1.page-title {
    color: #666666;
 }
 
-/* ABOUT */
-
-#about {
-   margin-top: 2rem;
-   margin-bottom: 2rem;
-}
-
-#about p {
-   line-height: 2rem;
-}
-
-/* GITHUB GISTS */
-
-.file-data {
-   background-color: #ffffff;
-}
-
-/* FOOTER */
+/* SOCIAL */
 
 #footer {
    padding-bottom: 30px;
 }
 
-#footer a {
+.social a {
    border-width: 0px;
 }
 
-#footer ul {
+.social ul {
    -webkit-padding-start: 0px !important;
    -webkit-margin-before: 0px !important;
    -webkit-margin-after: 0px !important;
 }
 
-#footer ul li {
+.social ul li {
    display: inline-block;
    list-style-type: none;
    margin: 2px;
