@@ -32,6 +32,4 @@ Andyy Hope started [a discussion](https://lists.swift.org/pipermail/swift-evolut
 
 Kevin Ballard [suggests](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20151221/004223.html) a more formal "This Week In Swift" newsletter. 😁 Maybe I should go ahead and setup swiftweekly.org?
 
-----------------------------
-
 **That's it for this week!** Cheers.

@@ -54,8 +54,6 @@ Fabian Ehrentraud started a [discussion](https://lists.swift.org/pipermail/swift
 
 Colin Cornaby [suggested](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20151214/002324.html) removing semi-colons completely from Swift following the trend of removing C-style language features. As noted on the mailing list, while semi-colons are often syntactic noise, they do serve a stylistic purpose for grouping similar statements on the same line. I could go either way on this, but it doesn't seem like the idea is gaining enough traction to warrant a formal proposal.
 
----------------------------------
-
 <blockquote>
    <p>Stare long enough into the language design, and the language design stares back into you.</p>
    <footer><a href="https://twitter.com/jckarter/status/676939142790569986">Joe Groff</a></footer>
