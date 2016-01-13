@@ -2,6 +2,8 @@
 
 *A community-driven weekly newsletter about Swift.org*
 
+> Curated by [@jesse_squires](https://twitter.com/jesse_squires).
+
 <img src="https://raw.githubusercontent.com/SwiftWeekly/swiftweekly.github.io/master/img/swift-weekly.png" width="250"/>
 
 ## About
