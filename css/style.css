@@ -1,0 +1,287 @@
+/* COMMON ELEMENTS */
+
+#main {
+   margin-top: 2.5rem;
+   margin-bottom: 2.5rem;
+   background-color: #ffffff;
+   padding: 1rem;
+}
+
+body p {
+   line-height: 2.5rem;
+   padding: 0.5rem 0rem 1rem 0rem;
+}
+
+a {
+   color: #fe4b2b;
+}
+
+a:link {
+   border-bottom: 1px dotted #fe4b2b;
+}
+
+a:visited {
+   color: #fe4b2b;
+   border-width: 0px;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #245D66;
+   text-decoration: none;
+}
+
+a:active {
+   text-decoration:none;
+}
+
+#tagline a,
+a.btn,
+.btn,
+a.alert-link,
+.footnotes a,
+.gist-meta a {
+   border-width: 0px;
+}
+
+hr {
+   border-color: #d7d7d7;
+}
+
+blockquote {
+   border-color: #666666;
+   color: #999999;
+}
+
+.small-quote {
+   font-size: 13px;
+}
+
+.center {
+   float: none;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   text-align: center;
+}
+
+/* HEADER */
+
+header {
+   margin-top: 30px;
+   text-align: center;
+}
+
+header h1 {
+   font-size: 50px;
+   font-weight: normal;
+   letter-spacing: 1px;
+   line-height: 26px;
+}
+
+header h2 {
+   font-size: 15px;
+   line-height: 18px;
+   letter-spacing: 1px;
+}
+
+header h1 a {
+   color: #333333;
+}
+
+h1 > a:link {
+   border-width: 0px;
+}
+
+h1 > a:hover {
+   text-decoration:none;
+}
+
+/* POSTS */
+
+.post-list {
+   padding-top: 1em;
+   padding-bottom: 1rem;
+   text-align: left;
+}
+
+.post {
+   padding-top: 1rem;
+   padding-bottom: 4rem;
+}
+
+.post-title {
+   font-size: 40px;
+   font-weight: normal;
+   letter-spacing: 1px;
+   margin: 0px;
+}
+
+.post-subtitle {
+   font-size: 30px;
+   font-weight: bolder;
+   margin: 0rem 0rem 1.5rem 0rem;
+}
+
+.post-date {
+   font-weight: bolder;
+   font-size: 1.5rem;
+   color: #666666;
+   margin: 0px;
+}
+
+.post-excerpt {
+   text-align: left;
+   line-height: 2.5rem;
+}
+
+.post-excerpt p {
+   margin-bottom: 0rem;
+   padding-bottom: 1rem;
+}
+
+.post-continue {
+   color: #666666;
+}
+
+.post-continue:hover {
+   color: #245D66;
+}
+
+a.post-continue,
+.post-title a {
+   border-width: 0px;
+   text-decoration: none;
+}
+
+/* PAGES */
+
+.page {
+   padding-top: 0rem;
+   padding-bottom: 1rem;
+}
+
+.page h4 {
+   padding-top: 1rem;
+}
+
+.page ul {
+   padding-top: 0.5rem;
+   padding-bottom: 1rem;
+}
+
+.pagination {
+   display: block;
+   margin-top: 0rem;
+   padding-top: 0rem;
+}
+
+.pager {
+   margin-top: 0rem;
+   padding-top: 0rem;
+}
+
+.btn-default {
+   color: #666666;
+}
+
+.return-home {
+   display: block;
+   text-align: center;
+   margin: 0rem 0rem 3rem 0rem;
+   padding: 0rem;
+}
+
+.return-home a {
+   border-width: 0px;
+}
+
+.sharing {
+   padding-top: 1.5rem;
+}
+
+.footnotes ul {
+   list-style-type: none;
+   -webkit-padding-start: 0px !important;
+   -webkit-margin-before: 0px !important;
+   -webkit-margin-after: 0px !important;
+}
+
+code, pre {
+   background-color: #ffffff;
+}
+
+th, td {
+   background-color: #ffffff;
+}
+
+.table-header-footer {
+   padding: 0rem;
+   margin: 0rem;
+}
+
+/* STANDALONE PAGES */
+
+h1.page-title {
+   font-size: 30px;
+   color: #666666;
+}
+
+/* ABOUT */
+
+#about {
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+
+#about p {
+   line-height: 2rem;
+}
+
+/* ARCHIVE */
+
+.archive-post {
+   margin-bottom: 4rem;
+}
+
+.archive-post h3 {
+   line-height: 3rem;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+}
+
+.archive-post h4 {
+   color: #777777;
+   line-height: 2rem;
+}
+
+/* GITHUB GISTS */
+
+.file-data {
+   background-color: #ffffff;
+}
+
+/* FOOTER */
+
+#footer {
+   padding-bottom: 30px;
+}
+
+#footer a {
+   border-width: 0px;
+}
+
+#footer ul {
+   -webkit-padding-start: 0px !important;
+   -webkit-margin-before: 0px !important;
+   -webkit-margin-after: 0px !important;
+}
+
+#footer ul li {
+   display: inline-block;
+   list-style-type: none;
+   margin: 2px;
+   padding-left: 6px;
+   padding-right: 6px;
+   padding-bottom: 10px;
+}

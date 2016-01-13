@@ -1,0 +1,34 @@
+# Dependencies
+markdown: redcarpet
+highlighter: pygments
+
+gems:
+  - jekyll-sitemap
+
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough", "superscript"]
+
+# Permalinks
+permalink: /:title/
+
+# Setup
+title: 'Swift Weekly Brief'
+tagline: 'A community-driven weekly newsletter about Swift.org'
+timezone: America/Los_Angeles
+
+url: http://www.swiftweekly.github.io
+
+author:
+  name: 'Jesse Squires'
+  handle: '@jesse_squires'
+  url: https://twitter.com/jesse_squires
+  gravatar: https://gravatar.com/avatar/428f8fdcf0f70e585363d23a6ec2121d?s=250
+
+paginate: 4
+
+excerpt_separator: <!--excerpt-->
+
+links:
+   github: 'https://github.com/SwiftWeekly/swiftweekly.github.io'
+   issue: 'https://github.com/SwiftWeekly/swiftweekly.github.io/issues/new'
+   pull: 'https://github.com/SwiftWeekly/swiftweekly.github.io/compare'
