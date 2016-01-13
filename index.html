@@ -6,7 +6,7 @@ title: Home
 <div class="post-list">
 	{% for post in site.posts %}
 		<article class="post">
-			<h1 class="post-title">
+			<h1 class="post-title text-center">
 				<a href="{{ post.url }}">{{ post.title }}</a>
 				<small class="post-date">{{ post.date | date_to_string }}</small>
 			</h1>
@@ -15,10 +15,6 @@ title: Home
 				<small class="text-danger"><strong>Updated: {{ post.date-updated }}</strong></small>
 			{% endif %}
 
-			<div class="post-excerpt">
-				{{ post.excerpt }}
-				<a href="{{ post.url }}" class="post-continue">Continue&hellip; <i class="fa fa-chevron-right"></i></a>
-			</div>
 		</article>
 	{% endfor %}
 </div> <!-- post-list -->
