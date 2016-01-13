@@ -3,14 +3,7 @@ layout: default
 ---
 
 <article class="page">
-   <span class="center return-home"><a href="/"><i class="fa fa-chevron-up fa-2x"></i></a></span>
-
-   <h1 class="post-title">{{ page.title }}</h1>
-
-   <h2 class="post-subtitle">
-      <small>{{ page.subtitle }}</small>
-      <small class="post-date">{{ page.date | date_to_string }}</small>
-   </h2>
+   <h1 class="post-title">{{ page.title }} <small class="post-date">{{ page.date | date_to_string }}</small></h1>
 
    {% if page.date-updated %}
       <small class="text-danger"><strong>Updated: {{ page.date-updated }}</strong></small>

@@ -97,6 +97,9 @@ h1 > a:hover {
    text-decoration:none;
 }
 
+header hr {
+   width: 50%;
+}
 /* POSTS */
 
 .post-list {
