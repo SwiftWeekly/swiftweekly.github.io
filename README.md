@@ -10,7 +10,7 @@
 
 Originally started and hosted at [jessesquires.com](http://www.jessesquires.com).
 
-Lovingly built with [Jekyll](http://jekyllrb.com), [Bootstrap](http://getbootstrap.com), and [Font Awesome](http://fortawesome.github.io/Font-Awesome/). Generously hosted by [GitHub](https://pages.github.com).
+Lovingly built with [Jekyll](http://jekyllrb.com), [Bootstrap](http://getbootstrap.com), [jQuery](http://jquery.com), and [Font Awesome](http://fortawesome.github.io/Font-Awesome/). Generously hosted by [GitHub](https://pages.github.com).
 
 ## Contributing
 
