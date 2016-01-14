@@ -9,6 +9,10 @@ body p {
    padding: 0.5rem 0rem 0.5rem 0rem;
 }
 
+body {
+   padding-bottom: 3rem;
+}
+
 hr {
    border-color: #d7d7d7;
    width: 50%;
@@ -43,10 +47,6 @@ a:active {
    margin-right: auto;
    display: block;
    text-align: center;
-}
-
-.btn-default {
-   color: #666666;
 }
 
 code, pre {
@@ -87,7 +87,7 @@ h1 > a:hover {
    color: #666666;
 }
 
-/* POSTS */
+/* POST LIST */
 
 .post {
    padding-top: 2rem;
@@ -116,9 +116,17 @@ h1 > a:hover {
    padding: 0.5rem;
 }
 
+.sharing a,
+.sharing a:visited,
+.sharing a:link {
+   color: #666666;
+   border: 1px solid #ccc;
+}
+
 /* SOCIAL */
 
-.social a {
+.social a,
+.social a:visited {
    color: #666666;
 }
 
