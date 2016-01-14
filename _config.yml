@@ -17,6 +17,7 @@ tagline: 'A community-driven weekly newsletter about Swift.org'
 timezone: America/Los_Angeles
 
 url: http://www.swiftweekly.github.io
+handle: '@swiftlybrief'
 
 author:
   name: 'Jesse Squires'

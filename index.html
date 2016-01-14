@@ -10,11 +10,9 @@ title: Home
 				<a href="{{ post.url }}">{{ post.title }}</a>
 				<small class="post-date">{{ post.date | date_to_string }}</small>
 			</h1>
-
 			{% if post.date-updated %}
-				<small class="text-danger"><strong>Updated: {{ post.date-updated }}</strong></small>
+				<small class="center text-danger"><strong>Updated: {{ post.date-updated }}</strong></small>
 			{% endif %}
-
 		</article>
 	{% endfor %}
 </div> <!-- post-list -->

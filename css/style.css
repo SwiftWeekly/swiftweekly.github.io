@@ -15,15 +15,15 @@ hr {
 }
 
 a {
-   color: #fe4b2b;
+   color: #f05138;
 }
 
 a:link {
-   border-bottom: 1px dotted #fe4b2b;
+   border-bottom: 1px dotted #f05138;
 }
 
 a:visited {
-   color: #fe4b2b;
+   color: #f05138;
    border-width: 0px;
    text-decoration: none;
 }
