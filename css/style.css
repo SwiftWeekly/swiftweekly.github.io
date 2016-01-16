@@ -1,16 +1,13 @@
 /* COMMON ELEMENTS */
 
-#main {
+body {
+   padding-bottom: 3rem;
    background-color: #ffffff;
 }
 
 body p {
    line-height: 2.5rem;
    padding: 0.5rem 0rem 0.5rem 0rem;
-}
-
-body {
-   padding-bottom: 3rem;
 }
 
 hr {
