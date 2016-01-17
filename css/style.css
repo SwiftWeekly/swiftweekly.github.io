@@ -3,6 +3,7 @@
 body {
    background-color: #ffffff;
    padding-bottom: 3rem;
+   padding-top: 3rem;
 }
 
 body p {
@@ -14,6 +15,16 @@ hr {
    border-color: #d7d7d7;
    width: 50%;
 }
+
+.center {
+   float: none;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   text-align: center;
+}
+
+/* LINKS */
 
 a {
    color: #f05138;
@@ -38,18 +49,13 @@ a:active {
    text-decoration:none;
 }
 
-.center {
-   float: none;
-   margin-left: auto;
-   margin-right: auto;
-   display: block;
-   text-align: center;
+h1 > a:link {
+   border-width: 0px;
 }
 
 /* HEADER */
 
 header {
-   margin-top: 30px;
    text-align: center;
 }
 
@@ -60,15 +66,7 @@ header h1 {
 
 header h2 {
    font-size: 15px;
-   line-height: 18px;
-}
-
-h1 > a:link {
-   border-width: 0px;
-}
-
-h1 > a:hover {
-   text-decoration:none;
+   line-height: 22px;
 }
 
 .tagline a {
