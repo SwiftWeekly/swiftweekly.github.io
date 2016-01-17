@@ -19,3 +19,5 @@ For translations, content suggestions, fixes, or corrections — please see [`CO
 ## License
 
 This work is released under the [CC0 1.0 Universal (CC0 1.0) license](http://creativecommons.org/publicdomain/zero/1.0/). See [`LICENSE`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/LICENSE).
+
+All code is licensed under an [MIT License](http://opensource.org/licenses/MIT).
