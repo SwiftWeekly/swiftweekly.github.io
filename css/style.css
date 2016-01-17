@@ -117,20 +117,20 @@ h1 > a:hover {
    border: 1px solid #ccc;
 }
 
-/* SOCIAL */
+/* SUBSCRIBE */
 
-.social a,
-.social a:visited {
+.subscribe a,
+.subscribe a:visited {
    color: #666666;
 }
 
-.social ul {
+.subscribe ul {
    -webkit-padding-start: 0px !important;
    -webkit-margin-before: 0px !important;
    -webkit-margin-after: 0px !important;
 }
 
-.social ul li {
+.subscribe ul li {
    display: inline-block;
    padding: 0.5rem;
 }
