@@ -1,8 +1,8 @@
 /* COMMON ELEMENTS */
 
 body {
-   padding-bottom: 3rem;
    background-color: #ffffff;
+   padding-bottom: 3rem;
 }
 
 body p {
@@ -46,10 +46,6 @@ a:active {
    text-align: center;
 }
 
-code, pre {
-   background-color: #eeeeee;
-}
-
 /* HEADER */
 
 header {
@@ -75,12 +71,12 @@ h1 > a:hover {
    text-decoration:none;
 }
 
-#tagline a {
+.tagline a {
    color: #333333;
    border-bottom: 1px dotted #333333;
 }
 
-#tagline {
+.tagline {
    color: #666666;
 }
 

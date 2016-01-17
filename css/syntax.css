@@ -1,4 +1,6 @@
-.highlight { background: #ffffff; }
+code, pre { background-color: #eeeeee; }
+code { color: #b2182d; }
+.highlight { background: #eeeeee; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { color: #a81c5d; font-weight: bold } /* Keyword */
@@ -63,10 +65,10 @@
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
 /* Display line numbers like GitHub gists */
-.highlight .lineno { color: #cccccc; display:inline-block; padding: 0rem 1rem 0rem 0rem; border-right:1px solid #cccccc; }
+.highlight .lineno { color: #666666; display:inline-block; padding: 0rem 1rem 0rem 0rem; border-right:1px solid #cccccc; }
 .highlight pre code { display: block; white-space: pre; overflow-x: auto; word-wrap: normal; }
 
 /* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
-.highlight .lineno { -webkit-user-select: none;-moz-user-select: none; -o-user-select: none; } 
+.highlight .lineno { -webkit-user-select: none;-moz-user-select: none; -o-user-select: none; }
 .lineno::-moz-selection { background-color: transparent; } /* Mozilla specific */
 .lineno::selection { background-color: transparent; } /* Other major browsers */
