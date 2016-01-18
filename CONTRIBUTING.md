@@ -26,7 +26,7 @@ Please [open an issue][issueLink] or [submit a pull request][prLink]!
 
 **Prerequisites:** you should have a good understanding of how [Jekyll](http://jekyllrb.com) and [GitHub-Pages](https://pages.github.com) work.
 
-:warning: Please use the provided [template](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/template/YYYY-MM-DD-issue-N.md). And remember, we publish **every Thursday**. :warning:
+:warning: Remember, we publish **every Thursday**.
 
 ### Contributing to the next issue
 
@@ -38,7 +38,7 @@ If you would like to contribute a thing or two to the next issue, it's easy! You
     - Choose an author handle
     - Provide your name
     - Provide your url. This should be a `Twitter` or `GitHub` url.
-2. Copy the template, providing the date, issue number, and author. (Don't forget to remove the `==TEMPLATE==` text at the beginning.)
+2. Copy the provided [template](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/template/YYYY-MM-DD-issue-N.md). Fill in the date, issue number, and author. (Don't forget to remove the `==TEMPLATE==` text at the beginning.)
 3. Write your complete issue. Follow the example set by previous issues.
 4. Make sure the `.md` file is in the `_posts/` directory.
 5. Run `jekyll build` on your local copy to preview.
