@@ -18,13 +18,21 @@ Something you want to share or have included in the newsletter? Please [open an 
 
 Please [open an issue][issueLink] or [submit a pull request][prLink]!
 
-### Submitting an issue
+## Contributing content directly
 
-Prerequisites: you should have a good understanding of how [Jekyll](http://jekyllrb.com) and [GitHub-Pages](https://pages.github.com) work.
+*Would you like to contribute directly to the next issue? Awesome! Here's how to get started.*
+
+**Prerequisites:** you should have a good understanding of how [Jekyll](http://jekyllrb.com) and [GitHub-Pages](https://pages.github.com) work.
 
 :warning: Please use the provided [template](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/template/YYYY-MM-DD-issue-N.md).
 
 :warning: Remember, we publish **every Thursday**.
+
+### Contributing to the next issue
+
+If you would like to contribute a thing or two to the next issue, it's easy! You can find the drafts for upcoming issues in the [`drafts/`](https://github.com/SwiftWeekly/swiftweekly.github.io/tree/master/_drafts) directory. (Spoiler alert! :smile:) Add your content, then submit a [pull request][prLink].
+
+### Submitting a new issue
 
 1. Copy the template, providing the date, issue number, and other relevant information. (Don't forget to remove the `==TEMPLATE==` text at the beginning.)
 2. Write your complete issue. Follow the example set by previous issues.
