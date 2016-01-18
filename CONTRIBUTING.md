@@ -39,7 +39,7 @@ If you would like to contribute a thing or two to the next issue, it's easy! You
 1. Add yourself under `authors:` in the `_config.yml` file. (If you haven't already.)
     - Choose an author handle
     - Provide your name
-    - Provide a url This should be a Twitter or GitHub url.
+    - Provide your url. This should be a `Twitter` or `GitHub` url.
 2. Copy the template, providing the date, issue number, and author. (Don't forget to remove the `==TEMPLATE==` text at the beginning.)
 3. Write your complete issue. Follow the example set by previous issues.
 4. Make sure the `.md` file is in the `_posts/` directory.
