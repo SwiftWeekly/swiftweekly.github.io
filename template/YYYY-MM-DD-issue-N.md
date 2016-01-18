@@ -1,9 +1,11 @@
 ==TEMPLATE==
 
 ---
+
 layout: post
-title: ! 'Issue #N'
-author: Your Name
+title: ! 'Issue <#N#>'
+author: <#Your Name#>
+
 ---
 
 > TODO: comment (optional)
