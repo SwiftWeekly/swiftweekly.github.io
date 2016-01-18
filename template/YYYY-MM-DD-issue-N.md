@@ -3,8 +3,8 @@
 ---
 
 layout: post
-title: ! 'Issue <#N#>'
-author: <#Your Name#>
+title: ! 'Issue <#number#>'
+author: <#author tag from _config.yml#>
 
 ---
 
