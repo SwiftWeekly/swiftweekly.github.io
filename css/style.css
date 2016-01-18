@@ -40,8 +40,11 @@ a:visited {
    text-decoration: none;
 }
 
-a:hover {
+a:hover,
+.tagline a:hover,
+.lead a:hover {
    color: #fbaf40;
+   border-color: #fbaf40;
    text-decoration: none;
 }
 
@@ -69,12 +72,13 @@ header h2 {
    line-height: 22px;
 }
 
-.tagline a {
+.tagline a,
+.lead a {
    color: #333333;
    border-bottom: 1px dotted #333333;
 }
 
-.tagline {
+.tagline, .lead {
    color: #666666;
 }
 
@@ -100,6 +104,11 @@ header h2 {
    font-weight: normal;
    color: #666666;
    display: inline-block;
+}
+
+.lead {
+   padding: 0rem;
+   margin-bottom: 2rem;
 }
 
 /* PAGES */
