@@ -12,6 +12,31 @@ This newsletter was originally started by [Jesse Squires](https://github.com/jes
 
 Lovingly built with [Jekyll](http://jekyllrb.com), [Bootstrap](http://getbootstrap.com), [jQuery](http://jquery.com), and [Font Awesome](http://fortawesome.github.io/Font-Awesome/). Generously hosted by [GitHub](https://pages.github.com).
 
+## Usage
+
+#### Installation
+
+You'll need [bundler](http://bundler.io) installed.
+
+```bash
+$ git clone https://github.com/SwiftWeekly/swiftweekly.github.io.git
+$ cd swiftweekly.github.io/
+$ bundle install
+```
+
+#### Building the site
+
+```bash
+$ jekyll build
+```
+
+#### Previewing the site locally
+
+```bash
+$ jekyll serve 
+# Now browse to http://localhost:4000
+```
+
 ## Contributing
 
 For translations, content suggestions, fixes, or corrections — please see [`CONTRIBUTING.md`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CONTRIBUTING.md).
