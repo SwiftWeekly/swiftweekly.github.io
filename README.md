@@ -1,4 +1,4 @@
-# [swiftweekly.github.io](http://swiftweekly.github.io)
+# [swiftweekly.github.io](https://swiftweekly.github.io)
 
 *A community-driven weekly newsletter about Swift.org*
 
@@ -10,7 +10,7 @@
 
 This newsletter was originally started by [Jesse Squires](https://github.com/jessesquires), and hosted on his blog at [jessesquires.com](http://www.jessesquires.com).
 
-Lovingly built with [Jekyll](http://jekyllrb.com), [Bootstrap](http://getbootstrap.com), [jQuery](http://jquery.com), and [Font Awesome](http://fortawesome.github.io/Font-Awesome/). Generously hosted by [GitHub](https://pages.github.com).
+Lovingly built with [Jekyll](https://jekyllrb.com), [Bootstrap](https://getbootstrap.com), [jQuery](https://jquery.com), and [Font Awesome](https://fortawesome.github.io/Font-Awesome/). Generously hosted by [GitHub](https://pages.github.com).
 
 ## Usage
 
@@ -43,6 +43,6 @@ For translations, content suggestions, fixes, or corrections — please see [`CO
 
 ## License
 
-This work is released under the [CC0 1.0 Universal (CC0 1.0) license](http://creativecommons.org/publicdomain/zero/1.0/). See [`LICENSE`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/LICENSE).
+This work is released under the [CC0 1.0 Universal (CC0 1.0) license](https://creativecommons.org/publicdomain/zero/1.0/). See [`LICENSE`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/LICENSE).
 
-All code is licensed under an [MIT License](http://opensource.org/licenses/MIT).
+All code is licensed under an [MIT License](https://opensource.org/licenses/MIT).
