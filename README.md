@@ -8,7 +8,7 @@
 
 ## About
 
-This newsletter was originally started by [Jesse Squires](https://github.com/jessesquires), and hosted on his blog at [jessesquires.com](http://www.jessesquires.com).
+This newsletter was originally started by [Jesse Squires](https://github.com/jessesquires), and hosted on his blog at [jessesquires.com](http://www.jessesquires.com). After issue #4, this site was created to host the newsletter instead, and all previous issues were [migrated](http://www.jessesquires.com/new-weekly-brief/). It is now completely open for the community. Contributions are welcomed and encouraged!
 
 Lovingly built with [Jekyll](https://jekyllrb.com), [Bootstrap](https://getbootstrap.com), [jQuery](https://jquery.com), and [Font Awesome](https://fortawesome.github.io/Font-Awesome/). Generously hosted by [GitHub](https://pages.github.com).
 
