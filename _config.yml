@@ -16,7 +16,7 @@ title: 'Swift Weekly Brief'
 tagline: 'A community-driven weekly newsletter about Swift.org'
 timezone: America/Los_Angeles
 
-url: http://swiftweekly.github.io
+url: https://swiftweekly.github.io
 handle: '@swiftlybrief'
 
 author:
@@ -34,4 +34,5 @@ links:
 authors:
   jsq:
     name: 'Jesse Squires'
+    twitter: '@jesse_squires'
     url: 'https://twitter.com/jesse_squires'
