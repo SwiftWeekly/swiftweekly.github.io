@@ -1,12 +1,6 @@
 # Dependencies
-markdown: redcarpet
-highlighter: pygments
-
-gems:
-  - jekyll-sitemap
-
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough", "superscript"]
+markdown: kramdown
+highlighter: rouge
 
 # Permalinks
 permalink: /:title/
