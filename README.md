@@ -27,13 +27,13 @@ $ bundle install
 #### Building the site
 
 ```bash
-$ jekyll build
+$ bundle exec jekyll build
 ```
 
 #### Previewing the site locally
 
 ```bash
-$ jekyll serve 
+$ bundle exec jekyll serve 
 # Now browse to http://localhost:4000
 ```
 
