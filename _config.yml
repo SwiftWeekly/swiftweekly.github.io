@@ -2,6 +2,11 @@
 markdown: kramdown
 highlighter: rouge
 
+gems:
+  - jekyll-sitemap
+
+exclude: [vendor]
+
 # Permalinks
 permalink: /:title/
 
@@ -30,5 +35,3 @@ authors:
     name: 'Jesse Squires'
     twitter: '@jesse_squires'
     url: 'https://twitter.com/jesse_squires'
-    
-exclude: [vendor]
