@@ -30,3 +30,5 @@ authors:
     name: 'Jesse Squires'
     twitter: '@jesse_squires'
     url: 'https://twitter.com/jesse_squires'
+    
+exclude: [vendor]
