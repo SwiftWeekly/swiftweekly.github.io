@@ -1,0 +1,70 @@
+---
+layout: default
+title: Search issues
+---
+
+<style type="text/css">
+	/*
+		fix google custom search conflicts with bootstrap
+		solution: http://css-tricks.com/forums/topic/troubles-with-box-sizing-and-google-custom-search/
+	*/
+	*, .cse:before, .cse:after {
+		-webkit-box-sizing: inherit;
+		-moz-box-sizing: inherit;
+		box-sizing: inherit;
+	}
+
+	/*
+		other hacks for google custom search (gcs)
+	*/
+	.gcsc-branding,
+	.gsc-control-wrapper-cse,
+	.gsc-control-cse.gsc-control-cse-en {
+		background-color: #fff;
+		border-radius: 0.5em;
+		border-color: #d7d7d7;
+	}
+
+	a.gsst_a,
+	a.gcsc-branding-clickable {
+		text-decoration: none;
+		border-width: 0px;
+	}
+
+	#gs_cb50{
+		color: #f05138;
+	}
+
+	.gsc-webResult.gsc-result,
+	.gsc-webResult.gsc-result:hover {
+		background-color: #fff;
+		border-color: #fff;
+	}
+
+	.searchbox {
+		margin: 2.5rem 0rem 2.5rem 0rem;
+	}
+</style>
+
+<div class="searchbox">
+	<h1 class="text-center">{{ page.title }}</h1>
+	<script>
+		(function() {
+		var cx = '011538828544940938420:wtjft8gesai';
+		var gcse = document.createElement('script');
+		gcse.type = 'text/javascript';
+		gcse.async = true;
+		gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+		'//cse.google.com/cse.js?cx=' + cx;
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(gcse, s);
+		})();
+	</script>
+
+	<div class="row">
+		<div class="col-sm-8 col-sm-offset-2">
+			<gcse:search></gcse:search>
+		</div>
+	</div>
+
+</div>
