@@ -28,6 +28,10 @@ layout: null
       <updated>{{ post.date | date_to_xmlschema }}</updated>
       {% endif %}
 
+      <author>
+         <name>{{ site.authors[post.author].name }}</name>
+      </author>
+
       <content type="html">{{ post.content | xml_escape }}</content>
    </entry>
    {% endfor %}
