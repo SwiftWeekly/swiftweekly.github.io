@@ -124,6 +124,10 @@ header h2 {
    border: 1px solid #ccc;
 }
 
+blockquote {
+   color: #555;
+}
+
 /* SUBSCRIBE */
 
 .subscribe a,
