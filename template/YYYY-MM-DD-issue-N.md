@@ -3,14 +3,18 @@
 ---
 
 layout: post
-title: ! 'Issue <#number#>'
-author: <#author tag from _config.yml#>
+title: ! 'Issue #'
+author: <#author#>
 
 ---
 
-> TODO: comment (optional)
+> TODO: comment
 
 <!--excerpt-->
+
+### Starter tasks
+
+{% include task_remind.html %}
 
 ### Commits and pull requests
 
