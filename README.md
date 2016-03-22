@@ -1,8 +1,10 @@
 # [swiftweekly.github.io](https://swiftweekly.github.io) [![Build Status](https://travis-ci.org/SwiftWeekly/swiftweekly.github.io.svg?branch=master)](https://travis-ci.org/SwiftWeekly/swiftweekly.github.io)
 
-*A community-driven weekly newsletter about Swift.org*
+*A community-driven weekly newsletter about [Swift.org](https://swift.org)*
 
-> Curated by [@jesse_squires](https://twitter.com/jesse_squires).
+> Curated by [@jesse_squires](https://twitter.com/jesse_squires). 
+>
+>[**Subscribe**](http://swiftweekly.github.io/subscribe/)
 
 <img src="https://raw.githubusercontent.com/SwiftWeekly/swiftweekly.github.io/master/img/swift-weekly.png" width="250"/>
 
