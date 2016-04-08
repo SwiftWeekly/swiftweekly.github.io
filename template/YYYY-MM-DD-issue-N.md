@@ -1,11 +1,9 @@
-==TEMPLATE==
-
+==TEMPLATE== 
+<!-- remove this line -->
 ---
-
 layout: post
 title: ! 'Issue #'
-author: <#author#>
-
+author: jsq
 ---
 
 > TODO: comment
@@ -18,16 +16,20 @@ author: <#author#>
 
 ### Commits and pull requests
 
-> TODO:
+> TODO
 
-### Proposals
+### Accepted proposals
 
-> TODO:
+> TODO
+
+### Proposals in review
+
+> TODO
 
 ### Mailing lists
 
-> TODO:
+> TODO
 
 ### Finally
 
-> TODO:
+> TODO
