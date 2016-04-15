@@ -40,6 +40,8 @@ author: $3
 
 > TODO
 
-### Finally" >> $ISSUE
+### Finally
+
+> TODO" >> $ISSUE
 
 echo "Successfully created '$ISSUE' written by '$3'"
