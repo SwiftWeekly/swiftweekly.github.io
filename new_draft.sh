@@ -1,9 +1,13 @@
-==TEMPLATE== 
-<!-- remove this line -->
----
+#!/bin/bash
+
+ISSUE="_drafts/$1-issue-$2.md"
+
+touch $ISSUE
+
+echo "---
 layout: post
-title: ! 'Issue #'
-author: jsq
+title: ! 'Issue #$2'
+author: $3
 ---
 
 > TODO: comment
@@ -30,6 +34,4 @@ author: jsq
 
 > TODO
 
-### Finally
-
-> TODO
+### Finally" >> $ISSUE
