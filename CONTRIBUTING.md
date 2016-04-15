@@ -38,12 +38,21 @@ If you would like to contribute a thing or two to the next issue, it's easy! You
     - Choose an author handle
     - Provide your name
     - Provide your url. This should be a `Twitter` or `GitHub` url.
-2. Copy the provided [template](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/template/YYYY-MM-DD-issue-N.md). Fill in the date, issue number, and author. (Don't forget to remove the `==TEMPLATE==` text at the beginning.)
+2. Run the `new_draft.sh` script to generate an issue template in `_drafts/`. (See example below)
 3. Write your complete issue. Follow the example set by previous issues.
 4. Make sure the `.md` file is in the `_posts/` directory.
 5. Run `jekyll build` on your local copy to preview.
 6. Submit a [pull request][prLink]. :tada:
 
+#### Generating a draft
+
+Example:
+
+```bash
+# usage: ./new_draft.sh <DATE> <ISSUE #> <AUTHOR>
+
+$ ./new_draft.sh 2016-04-21 19 jsq  # creates _drafts/2016-04-21-issue-19.md 
+```
 
 [issueLink]:https://github.com/SwiftWeekly/swiftweekly.github.io/issues/new
 [prLink]:https://github.com/SwiftWeekly/swiftweekly.github.io/compare
