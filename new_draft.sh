@@ -2,7 +2,7 @@
 
 if [ "$#" -ne 3 ]; then
    echo "Error: expected 3 parameters"
-   echo "Usage: $0 <DATE> <ISSUE #> <AUTHOR>"
+   echo "Usage: $0 <YYYY-MM-DD> <ISSUE #> <AUTHOR>"
    exit 1
 fi
 
