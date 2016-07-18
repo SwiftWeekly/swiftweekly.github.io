@@ -47,7 +47,7 @@ $ bundle exec jekyll build --future --drafts --watch
 
 ## Contributing
 
-For translations, content suggestions, fixes, or corrections — please see [`CONTRIBUTING.md`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CONTRIBUTING.md).
+For content suggestions, fixes, or corrections — please see [`CONTRIBUTING.md`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CONTRIBUTING.md).
 
 ## License
 
