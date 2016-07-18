@@ -2,10 +2,6 @@
 
 *Contributions are welcome and encouraged!* :tada:
 
-### Translating :scroll:
-
-Interested in translating content? Great! [Open an issue][issueLink] to start the conversation. 
-
 ### Content Suggestions :memo:
 
 Something you want to share or have included in the newsletter? Please [open an issue][issueLink] and provide the following:
