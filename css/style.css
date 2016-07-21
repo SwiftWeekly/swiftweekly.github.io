@@ -125,7 +125,9 @@ header h2 {
 }
 
 blockquote {
-   color: #555;
+   color: #666;
+   font-size: 16px;
+   margin-left: 22px;
 }
 
 .task-remind {
