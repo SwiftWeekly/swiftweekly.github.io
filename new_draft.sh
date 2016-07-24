@@ -8,6 +8,7 @@ fi
 
 ISSUE="_drafts/$1-issue-$2.md"
 
+mkdir -p "_drafts"
 touch $ISSUE
 
 echo "---
@@ -32,6 +33,14 @@ author: $3
 
 > TODO
 
+### Returned proposals
+
+> TODO
+
+### Rejected proposals
+
+> TODO
+
 ### Proposals in review
 
 > TODO
@@ -42,6 +51,8 @@ author: $3
 
 ### Finally
 
-> TODO" >> $ISSUE
+> TODO" > $ISSUE
 
 echo "Successfully created '$ISSUE' written by '$3'"
+echo "Opening..."
+open $ISSUE
