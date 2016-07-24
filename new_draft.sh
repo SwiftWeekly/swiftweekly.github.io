@@ -1,9 +1,25 @@
 #!/bin/bash
 
 if [ "$#" -ne 3 ]; then
-   echo "Error: expected 3 parameters"
+   echo "💥: expected 3 parameters"
    echo "Usage: $0 <YYYY-MM-DD> <ISSUE #> <AUTHOR>"
+   echo "Example: $0 2016-01-31 6 jsq"
    exit 1
+fi
+
+if [[ ! ($1 =~ ^[0-9]{4}\-[0-9]{2}\-[0-9]{2}$) ]]; then
+    echo "💥: param 1, date, should be valid date format YYYY-MM-DD. Found '$1'"
+    exit 1
+fi
+
+if [[ ! ($2 =~ ^[0-9]+$) ]]; then
+    echo "💥: param 2, issue number, should be an integer. Found '$2'"
+    exit 1
+fi
+
+if [[ ! ($3 =~ ^[A-Za-z]+$) ]]; then
+    echo "💥: param 3, author handle, should be alphabetic. Found '$3'"
+    exit 1
 fi
 
 ISSUE="_drafts/$1-issue-$2.md"
