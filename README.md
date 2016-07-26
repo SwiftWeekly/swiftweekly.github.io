@@ -8,6 +8,8 @@
 
 <img src="https://raw.githubusercontent.com/SwiftWeekly/swiftweekly.github.io/master/img/swift-weekly.png" width="250"/>
 
+> Also available via [RSS](http://swiftweekly.github.io/feed.xml) and [Apple News](https://apple.news/TIlGIYluMTGWA-CIToVtF4Q).
+
 ## About
 
 This newsletter was originally started by [Jesse Squires](https://github.com/jessesquires), and hosted on his blog at [jessesquires.com](http://www.jessesquires.com). After issue #4, this site was created to provide the newsletter with a proper, dedicated home. All previous issues were [migrated](http://www.jessesquires.com/new-weekly-brief/), and it is now completely open for the community. Contributions are welcomed and encouraged!
