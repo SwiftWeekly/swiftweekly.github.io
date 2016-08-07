@@ -35,9 +35,3 @@ links:
   github: 'https://github.com/SwiftWeekly/swiftweekly.github.io'
   issue: 'https://github.com/SwiftWeekly/swiftweekly.github.io/issues/new'
   pull: 'https://github.com/SwiftWeekly/swiftweekly.github.io/compare'
-
-authors:
-  jsq:
-    name: 'Jesse Squires'
-    twitter: '@jesse_squires'
-    url: 'https://twitter.com/jesse_squires'

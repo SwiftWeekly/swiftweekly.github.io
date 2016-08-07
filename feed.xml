@@ -29,7 +29,7 @@ layout: null
       {% endif %}
 
       <author>
-         <name>{{ site.authors[post.author].name }}</name>
+         <name>{{ site.data.authors[post.author].name }}</name>
       </author>
 
       <content type="html">{{ post.content | xml_escape }}</content>

@@ -2,11 +2,11 @@
 layout: default
 ---
 
-{% assign author = site.authors[page.author] %}
+{% assign author = site.data.authors[page.author] %}
 
 <article>
    <h1 class="post-title">{{ page.title }} <small class="post-date">{{ page.date | date_to_string }}</small></h1>
-   <p class="lead"><em>Written by: <a href="{{ author.url }}" target="_blank">{{ author.name }}</a></em></p>
+   <p class="lead"><em>Written by: <a href="https://twitter.com/{{ author.twitter }}" target="_blank">{{ author.name }}</a></em></p>
    {% if page.date-updated %}
       <small class="text-danger"><strong>Updated: {{ page.date-updated }}</strong></small>
    {% endif %}
