@@ -47,5 +47,16 @@ Example:
 $ ./new_draft.sh 2016-04-21 19 jsq  # creates _drafts/2016-04-21-issue-19.md 
 ```
 
+## Tips
+
+Tips for authors to keep up with what's going on.
+
+- Watch all of the main [Apple repositories](https://github.com/apple).
+- Follow the prominent [contributors](https://github.com/orgs/apple/people).
+- Monitor [swift-evolution-announce](https://lists.swift.org/pipermail/swift-evolution-announce/) for important, high-level announcements.
+- Skim the other [mailing lists](https://lists.swift.org/mailman/listinfo) periodically. Look for interesting subject lines and Core Team participation in threads.
+ 
+Finally, it helps to keep a running draft throughout the week, adding a little bit each day.
+
 [issueLink]:https://github.com/SwiftWeekly/swiftweekly.github.io/issues/new
 [prLink]:https://github.com/SwiftWeekly/swiftweekly.github.io/compare
