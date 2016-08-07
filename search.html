@@ -4,19 +4,30 @@ title: Search issues
 ---
 
 <style type="text/css">
-	/*
-		fix google custom search conflicts with bootstrap
-		solution: http://css-tricks.com/forums/topic/troubles-with-box-sizing-and-google-custom-search/
-	*/
-	*, .cse:before, .cse:after {
-		-webkit-box-sizing: inherit;
-		-moz-box-sizing: inherit;
-		box-sizing: inherit;
-	}
+   /*
+   fix google custom search conflicts with bootstrap
+   solutions:
+   http://css-tricks.com/forums/topic/troubles-with-box-sizing-and-google-custom-search/
+   http://stackoverflow.com/questions/21932819/google-cse-with-twitter-bootstrap-not-displaying-the-search-box-correctly
+   */
+   .cse:before, .cse:after {
+      -webkit-box-sizing: inherit;
+      -moz-box-sizing: inherit;
+      box-sizing: inherit;
+   }
 
-	/*
-		other hacks for google custom search (gcs)
-	*/
+   input.gsc-input,
+   .gsc-input-box,
+   .gsc-input-box-hover,
+   .gsc-input-box-focus,
+   .gsc-search-button {
+      box-sizing: content-box;
+      line-height: normal;
+   }
+
+   /*
+   other hacks for google custom search (gcs)
+   */
 	.gcsc-branding,
 	.gsc-control-wrapper-cse,
 	.gsc-control-cse.gsc-control-cse-en {
@@ -42,7 +53,7 @@ title: Search issues
 	}
 
 	.searchbox {
-		margin: 2.5rem 0rem 2.5rem 0rem;
+		margin: 1rem 0rem 1rem 0rem;
 	}
 </style>
 
