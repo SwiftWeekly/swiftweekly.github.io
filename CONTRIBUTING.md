@@ -1,12 +1,12 @@
 # Contributing to the Swift Weekly Brief
 
-*Contributions are welcome and encouraged!* :tada:
+*Contributions are welcome and encouraged!*
 
-#### Suggestions :memo:
+### Suggestions
 
 Have something you want to share in the newsletter? Please [open an issue][issueLink] with a link and description.
 
-#### Fixes :bug:
+### Fixes
 
 Please [open an issue][issueLink] or [submit a pull request][prLink]!
 
