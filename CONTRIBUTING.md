@@ -10,15 +10,13 @@ Have something you want to share in the newsletter? Please [open an issue][issue
 
 Please [open an issue][issueLink] or [submit a pull request][prLink]!
 
---------------------------------
+### Prerequisites
 
-## Contributing
+You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [GitHub-Pages](https://pages.github.com) work.
 
-*Would you like to contribute to the next issue? Awesome! Here's how to get started.*
+### Publishing
 
-**Prerequisites:** you should have a good understanding of how [Jekyll](http://jekyllrb.com) and [GitHub-Pages](https://pages.github.com) work.
-
-:warning: Remember, we publish **every Thursday**. :warning:
+:warning: We publish **every Thursday**. :warning:
 
 ## Upcoming issues
 
