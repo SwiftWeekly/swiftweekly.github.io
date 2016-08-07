@@ -2,28 +2,34 @@
 markdown: kramdown
 highlighter: rouge
 
-gems:
-  - jekyll-sitemap
+kramdown:
+   input: GFM
+   syntax_highlighter: rouge
+
+gems: [jekyll-sitemap, jekyll-paginate, jekyll-seo-tag]
 
 exclude: [vendor]
 
 # Permalinks
 permalink: /:title/
 
-# Setup
+# Site
 title: 'Swift Weekly Brief'
-tagline: 'A community-driven weekly newsletter about Swift.org'
+description: 'A community-driven weekly newsletter about Swift.org'
+url: https://swiftweekly.github.io
+logo: /img/logo.png
 timezone: America/Los_Angeles
 
-url: https://swiftweekly.github.io
 handle: '@swiftlybrief'
 
-author:
+curator:
   name: 'Jesse Squires'
   url: https://twitter.com/jesse_squires
 
+# Setup
 excerpt_separator: <!--excerpt-->
 
+# Data
 links:
   twitter: 'https://twitter.com/swiftlybrief'
   github: 'https://github.com/SwiftWeekly/swiftweekly.github.io'
