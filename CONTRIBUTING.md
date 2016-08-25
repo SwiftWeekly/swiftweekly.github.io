@@ -4,7 +4,7 @@
 
 ### Suggestions
 
-Have something you want to share in the newsletter? Please [open an issue][issueLink] with a link and description.
+Have something you want to share in the newsletter? Please [open an issue][issueLink] or [submit a pull request][prLink] with a link and description.
 
 ### Fixes
 
