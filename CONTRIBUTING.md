@@ -1,4 +1,4 @@
-# Contributing to the Swift Weekly Brief
+# Contributing to *Swift Weekly Brief*
 
 *Contributions are welcome and encouraged!*
 
@@ -18,22 +18,25 @@ You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [G
 
 :warning: We publish **every Thursday**. :warning:
 
-## Upcoming issues
+# Upcoming issues
 
 If you would like to contribute to the next issue, it's easy! You can find the drafts for upcoming issues in the [`_drafts/`](https://github.com/SwiftWeekly/swiftweekly.github.io/tree/master/_drafts) directory. (Spoiler alert! :smile:) Add your content, then submit a [pull request][prLink].
 
-## Writing an issue
+# Writing an issue
 
 1. Add yourself to [`_data/authors.yml`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/_data/authors.yml). Provide a handle, name, and twitter username.
 2. Run the [`new_draft.sh`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/new_draft.sh) script to generate an issue template in `_drafts/`. (See example below)
 3. Write the issue in _`drafts/`. Follow the example set by previous issues.
- 
-## Publishing an issue
+4. **For code snippets, use jekyll highlight blocks:** `{% highlight swift %} /*code*/ {% endhighlight %}`
+5. See the handy tips below!
+
+# Publishing an issue
 
 1. When ready to publish, move the `.md` file from `_drafts/` to the `_posts/` directory.
 2. Run `jekyll build` on your local copy to preview.
 3. Make sure everything looks good. :ok_hand:
 4. Submit a [pull request][prLink] or push to master. :tada:
+
 
 #### Generating a draft
 
@@ -45,14 +48,15 @@ Example:
 $ ./new_draft.sh 2016-04-21 19 jsq  # creates _drafts/2016-04-21-issue-19.md 
 ```
 
-## Tips
+# Tips
 
-Tips for authors to keep up with what's going on.
+Tips for authors to keep up with what's going on:
 
 - Watch all of the main [Apple repositories](https://github.com/apple).
 - Follow the prominent [contributors](https://github.com/orgs/apple/people).
 - Monitor [swift-evolution-announce](https://lists.swift.org/pipermail/swift-evolution-announce/) for important, high-level announcements.
 - Skim the other [mailing lists](https://lists.swift.org/mailman/listinfo) periodically. Look for interesting subject lines and Core Team participation in threads.
+- When in doubt, refer to previous issues for examples.
  
 Finally, it helps to keep a running draft throughout the week, adding a little bit each day.
 
