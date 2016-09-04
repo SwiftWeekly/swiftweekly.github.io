@@ -18,6 +18,10 @@ You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [G
 
 :warning: We publish **every Thursday**. :warning:
 
+New issues should be pushed to `master` **before** 12pm Pacific Time, preferrably around 10am if possible. Emails are automagically sent via Mailchimp's [RSS-to-Email](https://mailchimp.com/features/rss-to-email/). 
+
+> NOTE: Publishing too late (*at or after* 12pm) will prevent emails from being sent.
+
 # Upcoming issues
 
 If you would like to contribute to the next issue, it's easy! You can find the drafts for upcoming issues in the [`_drafts/`](https://github.com/SwiftWeekly/swiftweekly.github.io/tree/master/_drafts) directory. (Spoiler alert! :smile:) Add your content, then submit a [pull request][prLink].
