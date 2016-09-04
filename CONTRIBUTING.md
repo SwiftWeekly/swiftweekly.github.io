@@ -22,6 +22,8 @@ New issues should be pushed to `master` **before** 12pm Pacific Time, preferrabl
 
 > NOTE: Publishing too late (*at or after* 12pm) will prevent emails from being sent.
 
+Tweets via [@swiftlybrief](https://twitter.com/swiftlybrief) are currently done manually. Just ping Jesse when tweets need tweeting.
+
 # Upcoming issues
 
 If you would like to contribute to the next issue, it's easy! You can find the drafts for upcoming issues in the [`_drafts/`](https://github.com/SwiftWeekly/swiftweekly.github.io/tree/master/_drafts) directory. (Spoiler alert! :smile:) Add your content, then submit a [pull request][prLink].
