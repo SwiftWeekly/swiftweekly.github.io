@@ -8,7 +8,7 @@ Have something you want to share in the newsletter? Please [open an issue][issue
 
 ### Fixes
 
-Please [open an issue][issueLink] or [submit a pull request][prLink]!
+Spelling, grammar, or code. Please [open an issue][issueLink] or [submit a pull request][prLink]!
 
 ### Prerequisites
 
@@ -23,6 +23,13 @@ New issues should be pushed to `master` **before** 12pm Pacific Time, preferrabl
 > NOTE: Publishing too late (*at or after* 12pm) will prevent emails from being sent.
 
 Tweets via [@swiftlybrief](https://twitter.com/swiftlybrief) are currently done manually. Just ping Jesse when tweets need tweeting.
+
+### Continuous integration
+
+We use [travis-ci](https://travis-ci.org/SwiftWeekly/swiftweekly.github.io), [danger](http://danger.systems), and [proselint](http://proselint.com) (via [danger-prose](https://github.com/dbgrandi/danger-prose)). This ensures:
+
+- We're always pushing valid markdown and `jekyll` is happy
+- We write elegant prose — no grammar/spelling mistakes, and no offensive or unwelcoming language. See the [`Dangerfile`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/Dangerfile) for more details.
 
 # Upcoming issues
 
@@ -62,6 +69,7 @@ Tips for authors to keep up with what's going on:
 - Follow the prominent [contributors](https://github.com/orgs/apple/people).
 - Monitor [swift-evolution-announce](https://lists.swift.org/pipermail/swift-evolution-announce/) for important, high-level announcements.
 - Skim the other [mailing lists](https://lists.swift.org/mailman/listinfo) periodically. Look for interesting subject lines and Core Team participation in threads.
+- Starter tasks: check [this filter](https://bugs.swift.org/issues/?filter=10451)
 - When in doubt, refer to previous issues for examples.
  
 Finally, it helps to keep a running draft throughout the week, adding a little bit each day.
