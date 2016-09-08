@@ -8,7 +8,7 @@ Have something you want to share in the newsletter? Please [open an issue][issue
 
 ### Fixes
 
-Please [open an issue][issueLink] or [submit a pull request][prLink]!
+Spelling, grammar, or code. Please [open an issue][issueLink] or [submit a pull request][prLink]!
 
 ### Prerequisites
 
@@ -23,6 +23,13 @@ New issues should be pushed to `master` **before** 12pm Pacific Time, preferrabl
 > NOTE: Publishing too late (*at or after* 12pm) will prevent emails from being sent.
 
 Tweets via [@swiftlybrief](https://twitter.com/swiftlybrief) are currently done manually. Just ping Jesse when tweets need tweeting.
+
+### Continuous integration
+
+We use [travis-ci](https://travis-ci.org/SwiftWeekly/swiftweekly.github.io), [danger](http://danger.systems), and [proselint](http://proselint.com) (via [danger-prose](https://github.com/dbgrandi/danger-prose)). This ensures:
+
+- We're always pushing valid markdown and `jekyll` is happy
+- We write elegant prose — no grammar/spelling mistakes, and no offensive or unwelcoming language. See the [`Dangerfile`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/Dangerfile) for more details.
 
 # Upcoming issues
 
