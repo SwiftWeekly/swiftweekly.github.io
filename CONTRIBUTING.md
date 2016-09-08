@@ -69,6 +69,7 @@ Tips for authors to keep up with what's going on:
 - Follow the prominent [contributors](https://github.com/orgs/apple/people).
 - Monitor [swift-evolution-announce](https://lists.swift.org/pipermail/swift-evolution-announce/) for important, high-level announcements.
 - Skim the other [mailing lists](https://lists.swift.org/mailman/listinfo) periodically. Look for interesting subject lines and Core Team participation in threads.
+- Starter tasks: check [this filter](https://bugs.swift.org/issues/?filter=10451)
 - When in doubt, refer to previous issues for examples.
  
 Finally, it helps to keep a running draft throughout the week, adding a little bit each day.
