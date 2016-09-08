@@ -5,5 +5,7 @@ gem 'github-pages'
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
 
-gem 'danger'
-gem 'danger-prose'
+group :distribution do
+  gem 'danger'
+  gem 'danger-prose'
+end
