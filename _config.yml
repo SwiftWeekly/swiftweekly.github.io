@@ -6,7 +6,7 @@ kramdown:
    input: GFM
    syntax_highlighter: rouge
 
-gems: [jekyll-sitemap, jekyll-paginate, jekyll-seo-tag]
+gems: [jekyll-sitemap, jekyll-seo-tag]
 
 exclude: [vendor]
 
@@ -20,7 +20,8 @@ url: https://swiftweekly.github.io
 logo: /img/logo.png
 timezone: America/Los_Angeles
 
-handle: '@swiftlybrief'
+twitter:
+  username: swiftlybrief
 
 curator:
   name: 'Jesse Squires'

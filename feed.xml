@@ -14,6 +14,14 @@ layout: null
    <author>
       <name>{{ site.curator.name }}</name>
    </author>
+   <icon>/img/logo.png</icon>
+   <category term="swift"/>
+   <category term="objective-c"/>
+   <category term="ios"/>
+   <category term="macos"/>
+   <category term="watchos"/>
+   <category term="tvos"/>
+   <category term="programming"/>
 
    {% for post in site.posts %}
    <entry>
