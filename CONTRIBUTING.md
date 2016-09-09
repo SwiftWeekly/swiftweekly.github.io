@@ -39,7 +39,7 @@ If you would like to contribute to the next issue, it's easy! You can find the d
 
 1. Add yourself to [`_data/authors.yml`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/_data/authors.yml). Provide a handle, name, and twitter username.
 2. Run the [`new_draft.sh`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/new_draft.sh) script to generate an issue template in `_drafts/`. (See example below)
-3. Write the issue in _`drafts/`. Follow the example set by previous issues.
+3. Write the issue in `_drafts/`. Follow the example set by previous issues.
 4. **For code snippets, use jekyll highlight blocks:** `{% highlight swift %} /*code*/ {% endhighlight %}`
 5. See the handy tips below!
 
