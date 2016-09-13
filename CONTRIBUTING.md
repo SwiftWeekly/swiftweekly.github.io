@@ -18,7 +18,7 @@ You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [G
 
 :warning: We publish **every Thursday**. :warning:
 
-New issues should be pushed to `master` **before** noon (12 p.m.) Pacific Time, preferrably around 10 a.m. if possible. Emails are automagically sent via Mailchimp's [RSS-to-Email](https://mailchimp.com/features/rss-to-email/). 
+New issues should be pushed to `master` **before** noon (12 p.m.) Pacific Time, preferably around 10 a.m. if possible. Emails are automagically sent via Mailchimp's [RSS-to-Email](https://mailchimp.com/features/rss-to-email/).
 
 > NOTE: Publishing too late (*at or after* noon (12 p.m.) will prevent emails from being sent.
 
@@ -39,7 +39,7 @@ If you would like to contribute to the next issue, it's easy! You can find the d
 
 1. Add yourself to [`_data/authors.yml`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/_data/authors.yml). Provide a handle, name, and twitter username.
 2. Run the [`new_draft.sh`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/new_draft.sh) script to generate an issue template in `_drafts/`. (See example below)
-3. Write the issue in _`drafts/`. Follow the example set by previous issues.
+3. Write the issue in `_drafts/`. Follow the example set by previous issues.
 4. **For code snippets, use jekyll highlight blocks:** `{% highlight swift %} /*code*/ {% endhighlight %}`
 5. See the handy tips below!
 
