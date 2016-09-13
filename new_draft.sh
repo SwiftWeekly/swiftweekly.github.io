@@ -33,7 +33,7 @@ title: ! 'Issue #$2'
 author: $3
 ---
 
-> TODO: comment
+> TODO: intro comments
 
 <!--excerpt-->
 
@@ -67,7 +67,7 @@ author: $3
 
 ### Finally
 
-> TODO" > $ISSUE
+> TODO: something funny/fun. tweet, link, etc. " > $ISSUE
 
 echo "Successfully created '$ISSUE' written by '$3'"
 echo "Opening..."
