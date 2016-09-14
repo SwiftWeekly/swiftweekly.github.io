@@ -18,9 +18,9 @@ You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [G
 
 :warning: We publish **every Thursday**. :warning:
 
-New issues should be pushed to `master` **before** 12pm Pacific Time, preferably around 10am if possible. Emails are automagically sent via Mailchimp's [RSS-to-Email](https://mailchimp.com/features/rss-to-email/). 
+New issues should be pushed to `master` **before** noon (12 p.m.) Pacific Time, preferably around 10 a.m. if possible. Emails are automagically sent via Mailchimp's [RSS-to-Email](https://mailchimp.com/features/rss-to-email/).
 
-> NOTE: Publishing too late (*at or after* 12pm) will prevent emails from being sent.
+> NOTE: Publishing too late (*at or after* noon (12 p.m.) will prevent emails from being sent.
 
 Tweets via [@swiftlybrief](https://twitter.com/swiftlybrief) are currently done manually. Just ping Jesse when tweets need tweeting.
 
