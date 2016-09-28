@@ -69,6 +69,9 @@ Tips for authors to keep up with what's going on:
 - Follow the prominent [contributors](https://github.com/orgs/apple/people).
 - Monitor [swift-evolution-announce](https://lists.swift.org/pipermail/swift-evolution-announce/) for important, high-level announcements.
 - Skim the other [mailing lists](https://lists.swift.org/mailman/listinfo) periodically. Look for interesting subject lines and Core Team participation in threads.
+  - A trick to quickly read only the emails since the last issue:
+    1. Subscribe to the mailing lists, and have emails sent to your personal Gmail account.
+    2. Enter the following into the Gmail search bar to only display emails sent since the last Swift Weekly Brief issue: `to:swift-evolution@swift.org after:2016/9/22`, where `2016/09/22` is the date of the last issue.
 - Starter tasks: check [this filter](https://bugs.swift.org/issues/?filter=10451)
 - When in doubt, refer to previous issues for examples.
  
