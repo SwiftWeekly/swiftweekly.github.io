@@ -67,7 +67,7 @@ author: $3
 
 ### Finally
 
-> TODO: something funny/fun. tweet, link, etc. " > $ISSUE
+> TODO: something funny/fun. tweet, link, etc." > $ISSUE
 
 echo "Successfully created '$ISSUE' written by '$3'"
 echo "Opening..."
