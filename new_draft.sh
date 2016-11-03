@@ -41,6 +41,10 @@ author: $3
 
 {% include task_remind.html %}
 
+### News and community
+
+> TODO
+
 ### Commits and pull requests
 
 > TODO
