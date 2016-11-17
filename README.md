@@ -5,10 +5,10 @@
 > Curated by [@jesse_squires](https://twitter.com/jesse_squires). 
 >
 >[**Subscribe**](http://swiftweekly.github.io/subscribe/) to get the best summary about what's happening in the Swift open source project every week.
+>
+> Also available via [RSS](http://swiftweekly.github.io/feed.xml) and [Apple News](https://apple.news/TIlGIYluMTGWA-CIToVtF4Q).
 
 <img src="https://raw.githubusercontent.com/SwiftWeekly/swiftweekly.github.io/master/img/logo.png" width="250"/>
-
-> Also available via [RSS](http://swiftweekly.github.io/feed.xml) and [Apple News](https://apple.news/TIlGIYluMTGWA-CIToVtF4Q).
 
 ## About
 
