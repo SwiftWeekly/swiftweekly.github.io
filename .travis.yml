@@ -5,7 +5,7 @@ sudo: false
 cache: 
   - bundler
 
-install:
+before_script:
   - npm install -g markdown-link-check
 
 script:
