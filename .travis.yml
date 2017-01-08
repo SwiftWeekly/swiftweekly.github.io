@@ -15,4 +15,4 @@ script:
   - find . -name "*.md" | while read filename; do
         echo "--- Searching $filename ---";
         cat "$filename" | markdown-link-check;
-      done
+    done
