@@ -4,7 +4,6 @@ sudo: false
 
 cache: 
   - bundler
-  - markdown-link-check
 
 before_install:
   - npm install -g markdown-link-check
