@@ -1,7 +1,7 @@
 {% if page.sponsor %}
 <div class="alert alert-warning sponsor">
     <h4>Sponsored Link</h4>
-    <h4><a href="{{ page.sponsor.link | xml_escape }}/?utm_campaign={{ site.title | xml_escape }}&utm_medium=web&utm_source={{ site.title | xml_escape }} {{ page.title | remove: '#' | xml_escape }}"
+    <h4><a href="{{ page.sponsor.link }}/?utm_campaign=Swift_Weekly_Brief&utm_medium=web&utm_source=Swift_Weekly_Brief_{{ page.title | remove: 'Issue #' }}"
         target="_blank">{{ page.sponsor.heading | markdownify }}</a>
     </h4>
     <p>{{ page.sponsor.body | markdownify }}</p>
