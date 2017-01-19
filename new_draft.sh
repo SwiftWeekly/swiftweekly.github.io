@@ -37,6 +37,8 @@ author: $3
 
 <!--excerpt-->
 
+{% include sponsor.html %}
+
 ### Starter tasks
 
 {% include task_remind.html %}
