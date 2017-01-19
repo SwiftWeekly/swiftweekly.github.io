@@ -52,7 +52,8 @@ a:active {
    text-decoration:none;
 }
 
-h1 > a:link {
+h1 > a:link,
+.sponsor a:link {
    border-width: 0px;
 }
 
@@ -80,6 +81,17 @@ header h2 {
 
 .tagline, .lead {
    color: #666666;
+}
+
+/* SPONSOR */
+
+.sponsor p {
+   padding: 0rem;
+}
+
+.sponsor {
+   margin-top: 3rem;
+   margin-bottom: 3rem;
 }
 
 /* POST LIST */

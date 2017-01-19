@@ -5,11 +5,23 @@ layout: default
 {% assign author = site.data.authors[page.author] %}
 
 <article>
-   <h1 class="post-title">{{ page.title }} <small class="post-date">{{ page.date | date_to_string }}</small></h1>
-   <p class="lead"><em>Written by: <a href="https://twitter.com/{{ author.twitter }}" target="_blank">{{ author.name }}</a></em></p>
-   <div class="post-content">
-      {{ content }}
-   </div> <!-- post-content -->
+    <h1 class="post-title">{{ page.title }} <small class="post-date">{{ page.date | date_to_string }}</small></h1>
+    <p class="lead"><em>Written by: <a href="https://twitter.com/{{ author.twitter }}" target="_blank">{{ author.name }}</a></em></p>
+    <div class="post-content">
+        {{ page.excerpt }}
+
+        {% if page.sponsor %}
+        <div class="alert alert-warning sponsor">
+            <h4>Sponsored Link</h4>
+            <h4><a href="{{ page.sponsor.link }}/?utm_campaign={{ site.title }}&utm_medium=web&utm_source={{ site.title }} {{ page.title | remove: '#' }}"
+                target="_blank">{{ page.sponsor.heading | markdownify }}</a>
+            </h4>
+            <p>{{ page.sponsor.body | markdownify }}</p>
+        </div>
+        {% endif %}
+
+        {{ page.content | remove: page.excerpt }}
+    </div> <!-- post-content -->
 </article>
 
 {% include social_share.html %}
