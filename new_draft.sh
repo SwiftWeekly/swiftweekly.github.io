@@ -41,6 +41,8 @@ author: $3
 
 ### Starter tasks
 
+> TODO
+
 {% include task_remind.html %}
 
 ### News and community
