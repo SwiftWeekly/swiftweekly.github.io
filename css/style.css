@@ -159,3 +159,10 @@ blockquote {
    display: inline-block;
    padding: 0.5rem;
 }
+
+/* AUTHORS */
+
+.posts-list li {
+  min-width: 70px;
+  display: inline-block;
+}

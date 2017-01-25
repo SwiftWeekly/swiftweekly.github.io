@@ -1,0 +1,16 @@
+---
+layout: default
+title: Authors
+permalink: /authors/
+---
+<h1 class="center">List of authors</h1>
+{% for author in site.data.authors %}
+  {% assign posts = site.posts | where: "author", author[0] %}
+  <h2 class="lead post-title"><a href="https://twitter.com/{{ author[1].twitter }}"><em>{{ author[1].name }}</em></a> <small>{{ posts.size }} post{% if posts.size > 1 %}s{% endif %}</small></h2>
+  <p>{{ author[1].bio }}</p>
+  <ul class="posts-list">
+    {% for post in posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
