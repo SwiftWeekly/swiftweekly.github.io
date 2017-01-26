@@ -166,3 +166,7 @@ blockquote {
   min-width: 70px;
   display: inline-block;
 }
+
+.post-count {
+   display: inline-block;
+}
