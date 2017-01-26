@@ -16,6 +16,10 @@ This newsletter was originally started by [Jesse Squires](https://github.com/jes
 
 Lovingly built with [Jekyll](https://jekyllrb.com), [Bootstrap](https://getbootstrap.com), [jQuery](https://jquery.com), and [Font Awesome](https://fortawesome.github.io/Font-Awesome/). Generously hosted by [GitHub](https://pages.github.com).
 
+## Authors
+
+There are a number of [contributing authors](https://swiftweekly.github.io/authors/) to the newsletter. If you'd like to join, open an issue to discuss!
+
 ## Usage
 
 #### Installation
