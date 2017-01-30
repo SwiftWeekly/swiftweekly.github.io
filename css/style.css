@@ -187,3 +187,7 @@ blockquote {
 .post-count {
    display: inline-block;
 }
+
+.img-circle {
+   border-radius: 50%;
+}

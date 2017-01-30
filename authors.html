@@ -7,6 +7,7 @@ title: Authors
 <br />
 {% for author in site.data.authors %}
     {% assign posts = site.posts | where: "author", author[0] %}
+    <img class ="img-circle" src="https://github.com/{{ author[1].github }}.png?size=80" />
     <p class="lead"><a href="https://twitter.com/{{ author[1].twitter }}">{{ author[1].name }}</a>
         <span class="post-count text-muted">{{ posts.size }} post{% if posts.size > 1 %}s{% endif %}</span>
     </p>
