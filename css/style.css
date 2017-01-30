@@ -145,6 +145,11 @@ blockquote {
 
 /* SUBSCRIBE */
 
+.pager {
+   margin-top: 1rem;
+   margin-bottom: 0.5rem;
+}
+
 .subscribe a,
 .subscribe a:visited {
    color: #666666;
@@ -163,13 +168,13 @@ blockquote {
 
 .subscribe ul li {
    display: inline-block;
-   padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+   padding: 0.25rem;
 }
 
 .social ul li a {
    border-width: 0px;
-   margin-left: 0.5rem;
-   margin-right: 0.5rem;
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
 }
 
 /* AUTHORS */
