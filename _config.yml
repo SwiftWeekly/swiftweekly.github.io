@@ -3,8 +3,8 @@ markdown: kramdown
 highlighter: rouge
 
 kramdown:
-   input: GFM
-   syntax_highlighter: rouge
+    input: GFM
+    syntax_highlighter: rouge
 
 gems: [jekyll-sitemap, jekyll-seo-tag]
 
@@ -21,18 +21,20 @@ logo: /img/logo.png
 timezone: America/Los_Angeles
 
 twitter:
-  username: swiftlybrief
+    username: swiftlybrief
 
 curator:
-  name: 'Jesse Squires'
-  url: https://twitter.com/jesse_squires
+    name: 'Jesse Squires'
+    url: https://twitter.com/jesse_squires
 
 # Setup
 excerpt_separator: <!--excerpt-->
 
 # Data
 links:
-  twitter: 'https://twitter.com/swiftlybrief'
-  github: 'https://github.com/SwiftWeekly/swiftweekly.github.io'
-  issue: 'https://github.com/SwiftWeekly/swiftweekly.github.io/issues/new'
-  pull: 'https://github.com/SwiftWeekly/swiftweekly.github.io/compare'
+    rss: '/feed.xml'
+    twitter: 'https://twitter.com/swiftlybrief'
+    github: 'https://github.com/SwiftWeekly/swiftweekly.github.io'
+    issue: 'https://github.com/SwiftWeekly/swiftweekly.github.io/issues/new'
+    pull: 'https://github.com/SwiftWeekly/swiftweekly.github.io/compare'
+    applenews: 'https://apple.news/TIlGIYluMTGWA-CIToVtF4Q'

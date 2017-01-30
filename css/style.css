@@ -53,7 +53,8 @@ a:active {
 }
 
 h1 > a:link,
-.sponsor a:link {
+.sponsor a:link,
+a.btn {
    border-width: 0px;
 }
 
@@ -149,15 +150,26 @@ blockquote {
    color: #666666;
 }
 
+.subscribe ul li a:hover {
+   color: #444444;
+   text-decoration: none;
+}
+
 .subscribe ul {
-   -webkit-padding-start: 1px !important;
-   -webkit-margin-before: 1px !important;
-   -webkit-margin-after: 1px !important;
+   -webkit-padding-start: 0px !important;
+   -webkit-margin-before: 0px !important;
+   -webkit-margin-after: 0px !important;
 }
 
 .subscribe ul li {
    display: inline-block;
-   padding: 0.5rem;
+   padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+}
+
+.social ul li a {
+   border-width: 0px;
+   margin-left: 0.5rem;
+   margin-right: 0.5rem;
 }
 
 /* AUTHORS */
