@@ -4,4 +4,6 @@
     <h4><a href="{{ page.sponsor.link }}/?utm_campaign=Swift_Weekly_Brief&utm_medium=web&utm_source=Swift_Weekly_Brief_{{ page.title | remove: 'Issue #' }}" target="_blank">{{ page.sponsor.heading }}</a></h4>
     <p>{{ page.sponsor.body | markdownify }}</p>
 </div>
+{% else %}
+<p class="text-muted"><b>Interested in sponsoring Swift Weekly Brief? <a href="/sponsorship/">Learn more here</a>.</b></p>
 {% endif %}
