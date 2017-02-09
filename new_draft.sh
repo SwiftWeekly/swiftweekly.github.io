@@ -31,6 +31,10 @@ echo "---
 layout: post
 title: ! 'Issue #$2'
 author: $3
+sponsor:
+    link:
+    heading:
+    body:
 ---
 
 > TODO: intro comments
