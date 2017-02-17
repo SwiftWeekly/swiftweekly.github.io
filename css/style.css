@@ -171,12 +171,6 @@ blockquote {
    padding: 0.25rem;
 }
 
-.social ul li a {
-   border-width: 0px;
-   padding-left: 0.5rem;
-   padding-right: 0.5rem;
-}
-
 /* AUTHORS */
 
 .posts-list li {
@@ -186,4 +180,36 @@ blockquote {
 
 .post-count {
    display: inline-block;
+}
+
+/* BOTTOM ICONS */
+
+footer a, footer a:visited,
+.social a, .social a:visited {
+  color: #444444;
+}
+
+.social ul li a {
+  border-width: 0px;
+}
+
+.social ul li a:hover {
+   color: #666666;
+   text-decoration: none;
+}
+
+.social ul {
+   -webkit-padding-start: 0px !important;
+   -webkit-margin-before: 0px !important;
+   -webkit-margin-after: 0px !important;
+}
+
+.social ul li {
+   display: inline-block;
+   padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+
+.social ul li {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
