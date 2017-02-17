@@ -34,7 +34,7 @@ the Swift Weekly Brief <a href="{{ site.links.twitter }}">twitter account</a> wi
 | 16 March      | **Booked** |
 | 23 March      | **Booked** |
 | 30 March      | **Booked** |
-| 06 April      | Open       |
+| 06 April      | **Booked** |
 | 13 April      | **Booked** |
 | 20 April      | Open       |
 | 27 April      | Open       |
