@@ -126,15 +126,15 @@ header h2 {
 
 /* PAGES */
 
-.sharing {
-   padding: 0.5rem;
-}
-
 .sharing a,
 .sharing a:visited,
 .sharing a:link {
    color: #666666;
-   border: 1px solid #ccc;
+}
+
+.sharing ul li a:hover {
+   color: #f05138;
+   text-decoration: none;
 }
 
 blockquote {
