@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% assign author = site.data.authors[page.author] %}
+{% assign issue_number = page.title | remove: 'Issue #' %}
 
 <article>
     <h1 class="post-title">{{ page.title }} <small class="post-date">{{ page.date | date_to_string }}</small></h1>
