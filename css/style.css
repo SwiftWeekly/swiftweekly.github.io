@@ -213,3 +213,25 @@ footer a, footer a:visited,
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
+
+/* iphone 6 plus */
+@media (max-width: 414px) {
+   header h1 {
+      font-size: 46px;
+   }
+}
+
+/* iphone 6 */
+@media (max-width: 375px) {
+   header h1 {
+      font-size: 42px;
+   }
+}
+
+/* iphone 5 */
+@media (max-width: 320px) {
+   header h1 {
+      font-size: 36px;
+   }
+}
+
