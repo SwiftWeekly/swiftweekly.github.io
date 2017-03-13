@@ -233,5 +233,8 @@ footer a, footer a:visited,
    header h1 {
       font-size: 36px;
    }
-}
 
+   header h2 {
+      font-size: 13px;
+   }
+}
