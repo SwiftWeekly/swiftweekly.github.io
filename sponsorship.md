@@ -26,6 +26,7 @@ the Swift Weekly Brief <a href="{{ site.links.twitter }}">twitter account</a> wi
 <ul>
     <li><a href="/issue-53/">Issue #53</a></li>
     <li><a href="/issue-56/">Issue #56</a></li>
+    <li><a href="/issue-60/">Issue #60</a></li>
 </ul>
 
 <p class="text-muted text-center"><b>Thank you for supporting this independent, community-driven newsletter!</b></p>
