@@ -126,15 +126,15 @@ header h2 {
 
 /* PAGES */
 
-.sharing {
-   padding: 0.5rem;
-}
-
 .sharing a,
 .sharing a:visited,
 .sharing a:link {
    color: #666666;
-   border: 1px solid #ccc;
+}
+
+.sharing ul li a:hover {
+   color: #f05138;
+   text-decoration: none;
 }
 
 blockquote {
@@ -171,12 +171,6 @@ blockquote {
    padding: 0.25rem;
 }
 
-.social ul li a {
-   border-width: 0px;
-   padding-left: 0.5rem;
-   padding-right: 0.5rem;
-}
-
 /* AUTHORS */
 
 .posts-list li {
@@ -186,4 +180,61 @@ blockquote {
 
 .post-count {
    display: inline-block;
+}
+
+/* BOTTOM ICONS */
+
+footer a, footer a:visited,
+.social a, .social a:visited {
+  color: #444444;
+}
+
+.social ul li a {
+  border-width: 0px;
+}
+
+.social ul li a:hover {
+   color: #666666;
+   text-decoration: none;
+}
+
+.social ul {
+   -webkit-padding-start: 0px !important;
+   -webkit-margin-before: 0px !important;
+   -webkit-margin-after: 0px !important;
+}
+
+.social ul li {
+   display: inline-block;
+   padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+
+.social ul li {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+/* iphone 6 plus */
+@media (max-width: 414px) {
+   header h1 {
+      font-size: 46px;
+   }
+}
+
+/* iphone 6 */
+@media (max-width: 375px) {
+   header h1 {
+      font-size: 42px;
+   }
+}
+
+/* iphone 5 */
+@media (max-width: 320px) {
+   header h1 {
+      font-size: 36px;
+   }
+
+   header h2 {
+      font-size: 13px;
+   }
 }

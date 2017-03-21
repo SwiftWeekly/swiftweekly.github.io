@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'github-pages'
+gem 'github-pages', '~> 127', group: :jekyll_plugins
 
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
