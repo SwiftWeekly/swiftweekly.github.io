@@ -27,6 +27,7 @@ the Swift Weekly Brief <a href="{{ site.links.twitter }}">twitter account</a> wi
     <li><a href="/issue-53/">Issue #53</a></li>
     <li><a href="/issue-56/">Issue #56</a></li>
     <li><a href="/issue-60/">Issue #60</a></li>
+    <li><a href="/issue-63/">Issue #63</a></li>
 </ul>
 
 <p class="text-muted text-center"><b>Thank you for supporting this independent, community-driven newsletter!</b></p>
@@ -47,7 +48,7 @@ the Swift Weekly Brief <a href="{{ site.links.twitter }}">twitter account</a> wi
 | 30 March      | **Booked** |
 | 06 April      | **Booked** |
 | 13 April      | **Booked** |
-| 20 April      | Open       |
+| 20 April      | ---------  |
 | 27 April      | Open       |
 | 04 May        | Open       |
 | 11 May        | Open       |
