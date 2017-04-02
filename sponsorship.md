@@ -54,6 +54,15 @@ the Swift Weekly Brief <a href="{{ site.links.twitter }}">twitter account</a> wi
 | 11 May        | Open       |
 | 18 May        | Open       |
 | 25 May        | Open       |
+| 01 June       | Open       |
+| 08 June       | Open       |
+| 15 June       | Open       |
+| 22 June       | Open       |
+| 29 June       | Open       |
+| 06 July       | Open       |
+| 13 July       | Open       |
+| 20 July       | Open       |
+| 27 July       | Open       |
 {: class="table table-striped table-bordered"}
 </div>
 
