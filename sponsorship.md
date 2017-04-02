@@ -40,12 +40,6 @@ the Swift Weekly Brief <a href="{{ site.links.twitter }}">twitter account</a> wi
 <div class="table-responsive" markdown="1">
 | <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Issue | <i class="fa fa-star" aria-hidden="true"></i>&nbsp; Status |
 |:--------------|:-----------|
-| 23 February   | **Booked** |
-| 02 March      | **Booked** |
-| 09 March      | **Booked** |
-| 16 March      | **Booked** |
-| 23 March      | **Booked** |
-| 30 March      | **Booked** |
 | 06 April      | **Booked** |
 | 13 April      | **Booked** |
 | 20 April      | ---------  |
