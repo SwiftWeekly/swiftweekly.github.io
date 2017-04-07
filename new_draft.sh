@@ -32,9 +32,9 @@ layout: post
 title: ! 'Issue #$2'
 author: $3
 sponsor:
-    link:
-    heading:
-    body:
+    link: TODO
+    heading: TODO
+    body: TODO
 ---
 
 > TODO: intro comments
