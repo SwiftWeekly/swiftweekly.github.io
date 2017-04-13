@@ -1,15 +1,21 @@
 jsq:
     name: 'Jesse Squires'
     twitter: jesse_squires
+    github: jessesquires
 modocache:
     name: 'Brian Gesiak'
     twitter: modocache
+    github: modocache
 jpsim:
     name: 'JP Simard'
     twitter: simjp
+    github: jpsim
 btb:
     name: 'Bas Broek'
     twitter: basthomas
+    github: BasThomas
 gregheo:
     name: 'Greg Heo'
     twitter: gregheo
+    github: gregheo
+    
