@@ -12,15 +12,15 @@ Spelling, grammar, or code. Please [open an issue][issueLink] or [submit a pull 
 
 ### Prerequisites
 
-You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [GitHub-Pages](https://pages.github.com) work.
+You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [GitHub-Pages](https://pages.github.com) work — or be willing to learn. :smile: And we would be happy to help you with any questions, just ask!
 
 ### Publishing
 
 :warning: We publish **every Thursday**. :warning:
 
-New issues should be pushed to `master` **before** noon (12 p.m.) Pacific Time, preferably around 10 a.m. if possible. Emails are automagically sent via Mailchimp's [RSS-to-Email](https://mailchimp.com/features/rss-to-email/).
+New issues should be pushed to `master` **before** noon Pacific Time, preferably around 10 a.m. if possible. Emails are automagically sent via Mailchimp's [RSS-to-Email](https://mailchimp.com/features/rss-to-email/).
 
-> NOTE: Publishing too late (*at or after* noon (12 p.m.) will prevent emails from being sent.
+> NOTE: Publishing too late (*at or after* noon PST) will prevent emails from being sent.
 
 Tweets via [@swiftlybrief](https://twitter.com/swiftlybrief) are currently done manually. Just ping Jesse when tweets need tweeting.
 
@@ -66,7 +66,7 @@ $ ./new_draft.sh 2016-04-21 19 jsq  # creates _drafts/2016-04-21-issue-19.md
 Tips for authors to keep up with what's going on:
 
 - Watch all of the main [Apple repositories](https://github.com/apple).
-- Follow the prominent [contributors](https://github.com/orgs/apple/people).
+- Follow the prominent [contributors](https://github.com/orgs/apple/people) on GitHub and Twitter.
 - Monitor [swift-evolution-announce](https://lists.swift.org/pipermail/swift-evolution-announce/) for important, high-level announcements.
 - Skim the other [mailing lists](https://lists.swift.org/mailman/listinfo) periodically. Look for interesting subject lines and Core Team participation in threads.
   - A trick to quickly read only the emails since the last issue:
