@@ -12,7 +12,7 @@ Spelling, grammar, or code. Please [open an issue][issueLink] or [submit a pull 
 
 ### Prerequisites
 
-You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [GitHub-Pages](https://pages.github.com) work, and we would be happy to help you out with any questions.
+You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [GitHub-Pages](https://pages.github.com) work — or be willing to learn. :smile: And we would be happy to help you with any questions, just ask!
 
 ### Publishing
 
