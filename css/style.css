@@ -75,9 +75,10 @@ header h2 {
 }
 
 .tagline a,
-.lead a {
-   color: #333333;
-   border-bottom: 1px dotted #333333;
+.lead a,
+.author-name a {
+   color: #444444;
+   border-bottom: 1px dotted #444444;
 }
 
 .tagline, .lead {
@@ -172,6 +173,12 @@ blockquote {
 }
 
 /* AUTHORS */
+
+.posts-list {
+   padding: 0px;
+   margin: 0px;
+   -webkit-padding-start: 4px;
+}
 
 .posts-list li {
   min-width: 70px;
