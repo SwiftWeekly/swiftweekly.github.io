@@ -43,7 +43,7 @@ $ bundle exec jekyll serve
 # Now browse to http://localhost:4000
 ```
 
-#### Writing a draft
+#### Writing and previewing drafts
 
 ```bash
 $ bundle exec jekyll build --future --drafts --watch
