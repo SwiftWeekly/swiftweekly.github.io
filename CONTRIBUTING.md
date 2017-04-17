@@ -65,6 +65,10 @@ $ ./new_draft.sh 2016-04-21 19 jsq  # creates _drafts/2016-04-21-issue-19.md
 
 ```bash
 $ bundle exec jekyll build --future --drafts 
+
+# -- or --
+
+$ bundle exec jekyll serve --future --drafts --watch
 ```
 
 # Tips
