@@ -61,6 +61,12 @@ Example:
 $ ./new_draft.sh 2016-04-21 19 jsq  # creates _drafts/2016-04-21-issue-19.md 
 ```
 
+#### Preview the site locally, with drafts
+
+```bash
+$ bundle exec jekyll build --future --drafts 
+```
+
 # Tips
 
 Tips for authors to keep up with what's going on:
