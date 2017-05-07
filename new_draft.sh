@@ -22,10 +22,9 @@ if [[ ! ($3 =~ ^[A-Za-z]+$) ]]; then
     exit 1
 fi
 
-ISSUE="_drafts/$1-issue-$2.md"
+ISSUE="_drafts/draft-$1-issue-$2.md"
 
 mkdir -p "_drafts"
-touch $ISSUE
 
 echo "---
 layout: post
