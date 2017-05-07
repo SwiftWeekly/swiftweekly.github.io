@@ -1,8 +1,19 @@
+os: osx
 language: ruby
-sudo: false
-cache: bundler
 rvm: 2.1.3
+sudo: false
+
+cache: 
+  - bundler
+
+before_script:
+  - npm install -g markdown-link-check
 
 script:
+  - set -o pipefail
   - bundle exec jekyll build --future --drafts
   - bundle exec danger
+  - find . -name "*.md" | while read filename; do
+        echo "Searching $filename";
+        cat "$filename" | markdown-link-check;
+    done
