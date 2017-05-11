@@ -22,7 +22,9 @@ New issues should be pushed to `master` **before** noon Pacific Time, preferably
 
 > NOTE: Publishing too late (*at or after* noon PST) will prevent emails from being sent.
 
-Tweets via [@swiftlybrief](https://twitter.com/swiftlybrief) are currently done manually. Just ping Jesse when tweets need tweeting.
+### Tweets
+
+Tweets via [@swiftlybrief](https://twitter.com/swiftlybrief) are automated via [IFTTT](https://ifttt.com). If there's a problem, contact Jesse.
 
 ### Continuous integration
 
