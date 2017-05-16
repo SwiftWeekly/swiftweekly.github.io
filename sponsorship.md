@@ -9,16 +9,18 @@ title: Sponsorship
 <h2 class="text-center">Sponsorship</h2>
 <p class="lead text-center">Interested in becoming a sponsor?</p>
 
-<p>Swift Weekly Brief is distributed <b>every Thursday</b> to thousands of savvy Swift developers and enthusiasts.
+<p><i>Swift Weekly Brief</i> is distributed <b>every Thursday</b> to thousands of savvy Swift developers and enthusiasts.
 Each issue contains quality links and commentary on what's happening in the <a href="https://swift.org">Swift.org</a> open source projects,
-as well as what's happening in the Swift community at large.</p>
+as well as what's happening in the Swift community at large.
 
 <h3>Sponsored Links</h3>
 <p>There is a single Sponsored Link available per issue for <b>$75</b>.
 This is featured prominently at the beginning of an issue, after the opening comments and before the first headline.
 These links are great to get conferences, products, or services noticed by subscribers and followers.
 Sponsored Links should be relevant to the Swift developer community. Additionally, a tweet will be sent out from
-the Swift Weekly Brief <a href="{{ site.links.twitter }}">twitter account</a> with the link to thank the sponsor.</p>
+the Swift Weekly Brief <a href="{{ site.links.twitter }}">Twitter account</a> with the link to thank the sponsor.</p>
+
+<i>Swift Weekly Brief</i> has over 2,000 subscribers and over <a href="{{ site.links.twitter }}">4,500 followers</a> on Twitter.</p>
 
 <h4>Examples</h4>
 
