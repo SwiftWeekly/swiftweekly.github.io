@@ -2,29 +2,31 @@
 
 *Contributions are welcome and encouraged!*
 
-### Suggestions
+You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [GitHub-Pages](https://pages.github.com) work — or be willing to learn. :smile: We are happy to help you with any questions, just ask!
 
-Have something you want to share in the newsletter? Please [open an issue][issueLink] or [submit a pull request][prLink] with a link and description.
+# Contributions
 
-### Fixes
+#### Suggestions
+
+Have something you want to share in the newsletter? Please find [the latest issue notes](https://github.com/SwiftWeekly/swiftweekly.github.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22full+issue+notes%22) and add a comment. Or you can [open an issue][issueLink] or [submit a pull request][prLink] to the [current draft](https://github.com/SwiftWeekly/swiftweekly.github.io/tree/master/_drafts) with a link and description.
+
+#### Fixes
 
 Spelling, grammar, or code. Please [open an issue][issueLink] or [submit a pull request][prLink]!
 
-### Prerequisites
-
-You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [GitHub-Pages](https://pages.github.com) work — or be willing to learn. :smile: And we would be happy to help you with any questions, just ask!
-
-### Publishing
+# Publishing
 
 :warning: We publish **every Thursday**. :warning:
 
-New issues should be pushed to `master` **before** noon Pacific Time, preferably around 10 a.m. if possible. Emails are automagically sent via Mailchimp's [RSS-to-Email](https://mailchimp.com/features/rss-to-email/).
+New issues should be pushed to `master` **before noon** Pacific Time, preferably around 10 or 11 a.m. if possible. Pushing early allows us to catch and fix any last minute errors. If there are any problems, contact [Jesse](https://twitter.com/jesse_squires).
 
-> NOTE: Publishing too late (*at or after* noon PST) will prevent emails from being sent.
+### Emails
+
+Emails are automatically sent via Mailchimp's [RSS-to-Email](https://mailchimp.com/features/rss-to-email/) feature. **Publishing too late (*at or after* noon PST) will prevent emails from being sent.** If emails fail to send on Thursday at noon PST, Mailchimp will retry on Friday at noon PST.
 
 ### Tweets
 
-Tweets via [@swiftlybrief](https://twitter.com/swiftlybrief) are automated via [IFTTT](https://ifttt.com). If there's a problem, contact Jesse.
+Tweets from [@swiftlybrief](https://twitter.com/swiftlybrief) are automated via [IFTTT](https://ifttt.com). 
 
 ### Continuous integration
 
@@ -33,13 +35,9 @@ We use [travis-ci](https://travis-ci.org/SwiftWeekly/swiftweekly.github.io), [da
 - We're always pushing valid markdown and `jekyll` is happy
 - We write elegant prose — no grammar/spelling mistakes, and no offensive or unwelcoming language. See the [`Dangerfile`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/Dangerfile) for more details.
 
-# Upcoming issues
-
-If you would like to contribute to the next issue, it's easy! You can find the drafts for upcoming issues in the [`_drafts/`](https://github.com/SwiftWeekly/swiftweekly.github.io/tree/master/_drafts) directory. (Spoiler alert! :smile:) Add your content, then submit a [pull request][prLink].
-
 # Writing an issue
 
-1. Add yourself to [`_data/authors.yml`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/_data/authors.yml). Provide a handle, name, and twitter username.
+1. Add yourself to [`_data/authors.yml`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/_data/authors.yml). Provide a handle, your name, GitHub username, and Twitter username.
 2. Run the [`new_draft.sh`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/new_draft.sh) script to generate an issue template in `_drafts/`. (See example below)
 3. Write the issue in `_drafts/`. Follow the example set by previous issues.
 4. **For code snippets, use jekyll highlight blocks:** `{% highlight swift %} /*code*/ {% endhighlight %}`
