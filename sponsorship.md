@@ -42,7 +42,6 @@ the Swift Weekly Brief <a href="{{ site.links.twitter }}">Twitter account</a> wi
 <div class="table-responsive" markdown="1">
 | <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Issue | <i class="fa fa-star" aria-hidden="true"></i>&nbsp; Status |
 |:--------------|:-----------|
-| 18 May        | Open       |
 | 25 May        | Open       |
 | 01 June       | Open       |
 | 08 June       | Open       |
