@@ -4,7 +4,7 @@
 
 You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [GitHub-Pages](https://pages.github.com) work — or be willing to learn. :smile: We are happy to help you with any questions, just ask!
 
-## Contributions
+# Contributions
 
 #### Suggestions
 
@@ -14,7 +14,7 @@ Have something you want to share in the newsletter? Please find [the latest issu
 
 Spelling, grammar, or code. Please [open an issue][issueLink] or [submit a pull request][prLink]!
 
-## Publishing
+# Publishing
 
 :warning: We publish **every Thursday**. :warning:
 
