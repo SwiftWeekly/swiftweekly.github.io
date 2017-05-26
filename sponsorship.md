@@ -17,9 +17,9 @@ as well as what's happening in the Swift community at large.
 <p>There is a single Sponsored Link available per issue for <b>$100</b>.
 This is featured prominently at the beginning of an issue &mdash; after the opening comments but before the first section headline.
 These links are great to get conferences, products, or services noticed by subscribers and followers.
-Sponsored Links should be relevant to the Swift developer community.
+Sponsored Links should be relevant to the Swift developer community.</p>
 
-<i>Swift Weekly Brief</i> has over 2,000 subscribers and over <a href="{{ site.links.twitter }}">4,600 followers</a> on Twitter.</p>
+<p><i>Swift Weekly Brief</i> has over 2,000 subscribers and over <a href="{{ site.links.twitter }}">4,600 followers</a> on Twitter.</p>
 
 <h4>Examples</h4>
 
