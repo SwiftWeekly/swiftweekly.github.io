@@ -14,13 +14,12 @@ Each issue contains quality links and commentary on what's happening in the <a h
 as well as what's happening in the Swift community at large.
 
 <h3>Sponsored Links</h3>
-<p>There is a single Sponsored Link available per issue for <b>$75</b>.
-This is featured prominently at the beginning of an issue, after the opening comments and before the first headline.
+<p>There is a single Sponsored Link available per issue for <b>$100</b>.
+This is featured prominently at the beginning of an issue &mdash; after the opening comments but before the first section headline.
 These links are great to get conferences, products, or services noticed by subscribers and followers.
-Sponsored Links should be relevant to the Swift developer community. Additionally, a tweet will be sent out from
-the Swift Weekly Brief <a href="{{ site.links.twitter }}">Twitter account</a> with the link to thank the sponsor.</p>
+Sponsored Links should be relevant to the Swift developer community.
 
-<i>Swift Weekly Brief</i> has over 2,000 subscribers and over <a href="{{ site.links.twitter }}">4,500 followers</a> on Twitter.</p>
+<i>Swift Weekly Brief</i> has over 2,000 subscribers and over <a href="{{ site.links.twitter }}">4,600 followers</a> on Twitter.</p>
 
 <h4>Examples</h4>
 
@@ -42,7 +41,6 @@ the Swift Weekly Brief <a href="{{ site.links.twitter }}">Twitter account</a> wi
 <div class="table-responsive" markdown="1">
 | <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Issue | <i class="fa fa-star" aria-hidden="true"></i>&nbsp; Status |
 |:--------------|:-----------|
-| 25 May        | Open       |
 | 01 June       | Open       |
 | 08 June       | Open       |
 | 15 June       | Open       |
