@@ -41,8 +41,6 @@ Sponsored Links should be relevant to the Swift developer community.</p>
 <div class="table-responsive" markdown="1">
 | <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Issue | <i class="fa fa-star" aria-hidden="true"></i>&nbsp; Status |
 |:--------------|:-----------|
-| 01 June       | Open       |
-| 08 June       | Open       |
 | 15 June       | Open       |
 | 22 June       | Open       |
 | 29 June       | Open       |
