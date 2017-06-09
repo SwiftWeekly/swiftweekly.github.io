@@ -24,7 +24,7 @@ You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [G
 1. **For code snippets, use jekyll highlight blocks:** `{% highlight swift %} /*code*/ {% endhighlight %}`
 1. See the handy tips below!
 
-#### Generating a draft
+### Generating a draft
 
 Example:
 
@@ -34,7 +34,7 @@ Example:
 $ ./new_draft.sh 2016-04-21 19 jsq  # creates _drafts/2016-04-21-issue-19.md 
 ```
 
-#### Preview the site locally, with drafts
+### Preview the site locally, with drafts
 
 ```bash
 $ bundle exec jekyll build --future --drafts 
