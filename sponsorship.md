@@ -29,7 +29,7 @@ Sponsored Links should be relevant to the Swift community.
 <a href="/issue-53/">Issue #53</a>,
 <a href="/issue-56/">Issue #56</a>,
 <a href="/issue-60/">Issue #60</a>,
-<a href="/issue-63/">Issue #63</a>.
+<a href="/issue-63/">Issue #63</a>
 </p>
 
 <p class="text-muted text-center">
@@ -44,11 +44,10 @@ Sponsored Links should be relevant to the Swift community.
 <div class="table-responsive" markdown="1">
 | <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Issue | <i class="fa fa-star" aria-hidden="true"></i>&nbsp; Status |
 |:--------------|:-----------|
-| 15 June       | Open       |
-| 22 June       | Open       |
-| 29 June       | Open       |
+| 22 June       | **Booked** |
+| 29 June       | *Hold*     |
 | 06 July       | Open       |
-| 13 July       | Open       |
+| 13 July       | *Hold*     |
 | 20 July       | Open       |
 | 27 July       | Open       |
 | 03 August     | Open       |
