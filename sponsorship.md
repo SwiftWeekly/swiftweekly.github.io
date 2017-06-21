@@ -44,10 +44,10 @@ Sponsored Links should be relevant to the Swift community.
 <div class="table-responsive" markdown="1">
 | <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Issue | <i class="fa fa-star" aria-hidden="true"></i>&nbsp; Status |
 |:--------------|:-----------|
-| 22 June       | Open       |
-| 29 June       | Open       |
+| 22 June       | **Booked** |
+| 29 June       | *Hold*     |
 | 06 July       | Open       |
-| 13 July       | Open       |
+| 13 July       | *Hold*     |
 | 20 July       | Open       |
 | 27 July       | Open       |
 | 03 August     | Open       |
