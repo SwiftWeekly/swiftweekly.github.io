@@ -5,6 +5,17 @@
     <meta name="keywords" content="open source, apps, iOS, objective-c, swift, cocoa, apple, xcode, app store, software, programming, engineering, swiftlang">
     <meta name="author" content="{{ site.curator.name }}">
 
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@swiftlybrief" />
+    <meta name="twitter:image" content="https://swiftweekly.github.io/img/logo.png" />
+{% if page.title == "Home" %}
+    <meta name="twitter:title" content="{{ site.title }}" />
+    <meta name="twitter:description" content="{{ site.description }}" />
+{% else %}
+    <meta name="twitter:title" content="{{ site.title }} {{ page.title }}" />
+    <meta name="twitter:description" content="{{ page.excerpt | normalize_whitespace | strip_html | truncatewords: 40 }}" />
+{% endif %}
+
     <title>
     {% if page.title == "Home" %}
        {{ site.title }} &middot; {{ site.description }}
