@@ -20,8 +20,14 @@ There are over 2,000 subscribers and over <a href="{{ site.links.twitter }}">4,7
 <p>
 There is a single Sponsored Link available per issue for <b>$100</b>.
 This is featured prominently at the beginning of an issue &mdash; after the opening comments but before the first section headline.
-These links are great to get conferences, developer tools, products, or services noticed by subscribers and followers.
-Sponsored Links should be relevant to the Swift community.
+These links are great to get conferences, developer tools, workshops, products, or services noticed by subscribers and followers.
+Sponsored Links should be relevant to the Swift programming community.
+</p>
+
+<p>
+<b>Analytics:</b> for each issue, the following <a href="https://www.utm-parameters.com/utm-parameters-using-google-analytics/">UTM parameters</a> are generated for sponsored links:
+<code>utm_campaign=Swift_Weekly_Brief</code> and <code>utm_source=Swift_Weekly_Brief_{Issue}</code> where <code>{Issue}</code> is the issue number of the newsletter,
+for example "Swift_Weekly_Brief_42".
 </p>
 
 <p>
@@ -29,7 +35,8 @@ Sponsored Links should be relevant to the Swift community.
 <a href="/issue-53/">Issue #53</a>,
 <a href="/issue-56/">Issue #56</a>,
 <a href="/issue-60/">Issue #60</a>,
-<a href="/issue-63/">Issue #63</a>
+<a href="/issue-63/">Issue #63</a>,
+<a href="/issue-75/">Issue #75</a>
 </p>
 
 <p class="text-muted text-center">
@@ -44,10 +51,9 @@ Sponsored Links should be relevant to the Swift community.
 <div class="table-responsive" markdown="1">
 | <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Issue | <i class="fa fa-star" aria-hidden="true"></i>&nbsp; Status |
 |:--------------|:-----------|
-| 22 June       | **Booked** |
-| 29 June       | *Hold*     |
+| 29 June       | **Booked** |
 | 06 July       | Open       |
-| 13 July       | *Hold*     |
+| 13 July       | **Booked** |
 | 20 July       | Open       |
 | 27 July       | Open       |
 | 03 August     | Open       |
