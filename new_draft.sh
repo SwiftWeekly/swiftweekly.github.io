@@ -35,6 +35,7 @@ sponsor:
     link: TODO
     heading: TODO
     body: TODO
+    displaylink: TODO
 ---
 
 > TODO: intro comments
