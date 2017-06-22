@@ -13,7 +13,7 @@
     <meta name="twitter:title" content="{{ site.title }}" />
     <meta name="twitter:description" content="{{ site.description }}" />
 {% else %}
-	{% assign author = site.data.authors[page.author] %}
+    {% assign author = site.data.authors[page.author] %}
     <meta name="twitter:title" content="{{ site.title }} {{ page.title }}" />
     <meta name="twitter:description" content="{{ page.excerpt | normalize_whitespace | strip_html | truncatewords: 40 }}" />
     <meta name="twitter:creator" content="{{ author.twitter }}" />
