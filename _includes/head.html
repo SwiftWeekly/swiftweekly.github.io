@@ -6,14 +6,17 @@
     <meta name="author" content="{{ site.curator.name }}">
 
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@swiftlybrief" />
-    <meta name="twitter:image" content="https://swiftweekly.github.io/img/logo.png" />
+    <meta name="twitter:site" content="{{ site.twitter.username }}" />
+    <meta name="twitter:image" content="{{ site.url }}{{ site.logo }}" />
+    <meta name="twitter:image:alt" content="{{ site.title }} logo" />
 {% if page.title == "Home" %}
     <meta name="twitter:title" content="{{ site.title }}" />
     <meta name="twitter:description" content="{{ site.description }}" />
 {% else %}
+    {% assign author = site.data.authors[page.author] %}
     <meta name="twitter:title" content="{{ site.title }} {{ page.title }}" />
     <meta name="twitter:description" content="{{ page.excerpt | normalize_whitespace | strip_html | truncatewords: 40 }}" />
+    <meta name="twitter:creator" content="{{ author.twitter }}" />
 {% endif %}
 
     <title>
