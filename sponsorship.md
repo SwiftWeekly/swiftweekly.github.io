@@ -51,7 +51,7 @@ for example "Swift_Weekly_Brief_42".
 <div class="table-responsive" markdown="1">
 | <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Issue | <i class="fa fa-star" aria-hidden="true"></i>&nbsp; Status |
 |:--------------|:-----------|
-| 06 July       | **Booked*  |
+| 06 July       | **Booked** |
 | 13 July       | **Booked** |
 | 20 July       | Open       |
 | 27 July       | Open       |
