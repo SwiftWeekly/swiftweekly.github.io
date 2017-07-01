@@ -13,7 +13,7 @@ title: Sponsorship
 <i>Swift Weekly Brief</i> is distributed <b>every Thursday</b> to thousands of savvy Swift developers and enthusiasts.
 Each issue contains quality links and commentary on what's happening in the <a href="https://swift.org">Swift.org</a> open source projects,
 as well as what's happening in the Swift community at large.
-There are over 2,000 subscribers and over <a href="{{ site.links.twitter }}">4,700 followers</a> on Twitter.
+There are over 2,100 subscribers and over <a href="{{ site.links.twitter }}">4,800 followers</a> on Twitter.
 </p>
 
 <h3>Sponsored Links</h3>
@@ -51,8 +51,7 @@ for example "Swift_Weekly_Brief_42".
 <div class="table-responsive" markdown="1">
 | <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Issue | <i class="fa fa-star" aria-hidden="true"></i>&nbsp; Status |
 |:--------------|:-----------|
-| 29 June       | **Booked** |
-| 06 July       | *Hold*     |
+| 06 July       | **Booked** |
 | 13 July       | **Booked** |
 | 20 July       | Open       |
 | 27 July       | Open       |
@@ -60,6 +59,11 @@ for example "Swift_Weekly_Brief_42".
 | 10 August     | Open       |
 | 17 August     | Open       |
 | 24 August     | Open       |
+| 31 August     | Open       |
+| 07 September  | Open       |
+| 14 September  | Open       |
+| 21 September  | Open       |
+| 28 September  | Open       |
 {: class="table table-striped table-bordered"}
 </div>
 
