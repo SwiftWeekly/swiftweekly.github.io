@@ -53,6 +53,10 @@ $ bundle exec jekyll build --future --drafts --watch
 
 For content suggestions, fixes, or corrections — please see [`CONTRIBUTING.md`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CONTRIBUTING.md).
 
+## Conduct
+
+Please read our [Code of Conduct](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CODE_OF_CONDUCT.md). Violations will not be tolerated and will result in immediate removal/blocking from the organization.
+
 ## License
 
 This work is released under the [CC0 1.0 Universal (CC0 1.0) license](https://creativecommons.org/publicdomain/zero/1.0/). See [`LICENSE`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/LICENSE).
