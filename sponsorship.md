@@ -53,8 +53,8 @@ for example "Swift_Weekly_Brief_42".
 |:--------------|:-----------|
 | 13 July       | **Booked** |
 | 20 July       | Open       |
-| 27 July       | Open       |
-| 03 August     | Open       |
+| 27 July       | *HOLD*     |
+| 03 August     | *HOLD*     |
 | 10 August     | Open       |
 | 17 August     | Open       |
 | 24 August     | Open       |
