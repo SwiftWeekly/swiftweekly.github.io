@@ -58,8 +58,8 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 |:--------------|:-----------|
 | 13 July       | **Booked** |
 | 20 July       | Open       |
-| 27 July       | *HOLD*     |
-| 03 August     | *HOLD*     |
+| 27 July       | **Booked** |
+| 03 August     | **Booked** |
 | 10 August     | Open       |
 | 17 August     | Open       |
 | 24 August     | Open       |
