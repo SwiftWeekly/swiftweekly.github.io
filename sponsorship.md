@@ -57,10 +57,10 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 | <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Issue | <i class="fa fa-star" aria-hidden="true"></i>&nbsp; Status |
 |:--------------|:-----------|
 | 13 July       | **Booked** |
-| 20 July       | Open       |
+| 20 July       | *HOLD*     |
 | 27 July       | **Booked** |
 | 03 August     | **Booked** |
-| 10 August     | Open       |
+| 10 August     | *HOLD*     |
 | 17 August     | Open       |
 | 24 August     | Open       |
 | 31 August     | Open       |
