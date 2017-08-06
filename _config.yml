@@ -8,7 +8,7 @@ kramdown:
 
 gems: [jekyll-sitemap, jekyll-seo-tag]
 
-exclude: [vendor]
+exclude: [vendor, Dangerfile, Gemfile, Gemfile.lock, LICENSE, README.md, new_draft.sh]
 
 # Permalinks
 permalink: /:title/
