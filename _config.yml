@@ -2,12 +2,10 @@
 markdown: kramdown
 highlighter: rouge
 
-kramdown:
-    input: GFM
-    syntax_highlighter: rouge
+plugins:
+    - jekyll-sitemap
 
-gems: [jekyll-sitemap, jekyll-seo-tag]
-
+# File rules
 exclude: [vendor, Dangerfile, Gemfile, Gemfile.lock, LICENSE, README.md, CODE_OF_CONDUCT.md, CONTRIBUTING.md, new_draft.sh]
 
 # Permalinks
