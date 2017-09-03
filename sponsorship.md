@@ -24,9 +24,13 @@ These links are great to get conferences, developer tools, workshops, products, 
 Sponsored Links should be relevant to the Swift programming community. To sponsor an issue, get in touch using the button below.
 </p>
 
+<p class="text-muted text-center">
+<b>Thank you for supporting this independent, community-driven newsletter!</b>
+</p>
+
 <h3>Details</h3>
 <p>
-<b>Requirements:</b> please provide a link, title, and paragraph for your sponsorship. Titles should be a few words and paragraphs should be 3-6 sentences. Paragraphs may contain additional links if needed, but this is not recommended nor encouraged.
+<b>Materials:</b> please provide a <u>link</u>, <u>title</u>, and <u>paragraph</u> for your sponsorship. Titles should be a few words and paragraphs should be 3-6 sentences. Paragraphs may contain additional links if needed, but this is not recommended nor encouraged.
 </p>
 
 <p>
@@ -44,8 +48,8 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 <a href="/issue-76/">Issue #76</a>
 </p>
 
-<p class="text-muted text-center">
-<b>Thank you for supporting this independent, community-driven newsletter!</b>
+<p class="text-warning text-center">
+<b>When contacting us, please provide your sponsorship materials!</b>
 </p>
 
 <a class="btn btn-warning btn-lg center" href="mailto:jesse@jessesquires.com?subject=Swift Weekly Brief Sponsorship">Get in touch</a>
@@ -56,7 +60,6 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 <div class="table-responsive" markdown="1">
 | <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Issue | <i class="fa fa-star" aria-hidden="true"></i>&nbsp; Status |
 |:--------------|:-----------|
-| 07 September  | Open       |
 | 14 September  | Open       |
 | 21 September  | Open       |
 | 28 September  | Open       |
@@ -64,8 +67,12 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 | 12 October    | Open       |
 | 19 October    | Open       |
 | 26 October    | Open       |
+| *November*    | *TDB*      |
+| *December*    | *TDB*      |
 {: class="table table-striped table-bordered"}
 </div>
+
+
 
 </div> <!-- col -->
 </div> <!-- row -->
