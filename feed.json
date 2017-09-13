@@ -1,0 +1,40 @@
+---
+layout: null
+---
+
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "{{ site.title }}",
+    "home_page_url": "{{ site.url }}",
+    "feed_url": "{{ site.url }}/feed.json",
+    "description": "{{ site.description }}",
+    "icon": "{{ site.url }}{{ site.logo }}",
+    "favicon": "{{ site.url }}/favicon.ico",
+    "expired": false,
+    "author": {
+        "name": "{{ site.curator.name }}",
+        "url": "{{ site.url }}"
+    },
+    "items": [
+        {% for post in site.posts %}
+        {
+            "id": "{{ site.url }}{{ post.id }}",
+            "url": "{{ site.url }}{{ post.url }}",
+            "title": {{ post.title | jsonify }},
+            "date_published": "{{ post.date | date_to_xmlschema }}",
+            {% if post.date-updated %}
+            "date_modified": "{{ post.date-updated | date_to_xmlschema }}",
+            {% else %}
+            "date_modified": "{{ post.date | date_to_xmlschema }}",
+            {% endif %}
+            "author": {
+                "name": "{{ site.data.authors[post.author].name }}",
+                "url": "https://twitter.com/{{ site.data.authors[post.author].twitter }}"
+                "avatar": "https://github.com/{{ site.data.authors[post.author].github }}.png?size=100"
+            },
+            "summary": {{ post.excerpt | jsonify }},
+            "content_html": {{ post.content | jsonify }}
+        }{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+    ]
+}
