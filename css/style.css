@@ -146,11 +146,6 @@ blockquote {
 
 /* SUBSCRIBE */
 
-.pager {
-   margin-top: 1rem;
-   margin-bottom: 0.5rem;
-}
-
 .subscribe a,
 .subscribe a:visited {
    color: #666666;

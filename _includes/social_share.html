@@ -1,5 +1,17 @@
 
+{% assign base_edit_url = 'https://github.com/SwiftWeekly/swiftweekly.github.io/edit/master/_posts/' %}
+
+{% assign issue_date = page.date | date: "%Y-%m-%d" %}
+{% assign issue_number = page.title | remove: 'Issue #' %}
+{% assign file_name = issue_date | append: '-issue-' | append: issue_number | append: '.md' %}
+
+{% assign edit_url = base_edit_url | append: file_name %}
+
 <div class="row center sharing">
+   <small class="text-muted text-center">
+      <i class="fa fa-pencil" aria-hidden="true"></i> <a href="{{ edit_url }}" target="_blank"><strong>Edit</strong></a> this issue on GitHub.
+   </small>
+
    <nav aria-label="Page navigation">
       <ul class="pagination">
          {% if page.previous.url %}
