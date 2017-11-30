@@ -12,6 +12,22 @@
     {% endif %}
     </title>
 
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="{{ site.url }}{{ site.logo }}" />
+    {% if page.title == "Home" %}
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{{ site.description }}"/>    
+    {% else %}
+    {% assign author = site.data.authors[page.author] %}
+    <meta property="og:title" content="{{ site.title }} {{ page.title }}" />
+    <meta property="og:description" content="{{ page.excerpt | normalize_whitespace | strip_html | truncatewords: 40 }}"/>
+    {% endif %}
+    
+
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@{{ site.twitter.username }}" />
