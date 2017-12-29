@@ -1,24 +1,40 @@
 #!/bin/bash
 
+HELP="
+New draft script help
+---------------------
+There are 3 parameters:
+  1. date <YYYY-MM-DD>
+  2. issue <NUMBER>
+  3. author <AUTHOR>
+
+EXAMPLE:
+--------
+For issue #100, on Jan 4, 2018, by jsq
+Run: $0 2018-01-04 100 jsq
+"
+
 if [ "$#" -ne 3 ]; then
-   echo "💥: expected 3 parameters"
-   echo "Usage: $0 <YYYY-MM-DD> <ISSUE #> <AUTHOR>"
-   echo "Example: $0 2016-01-31 6 jsq"
+   echo "$HELP"
    exit 1
 fi
 
 if [[ ! ($1 =~ ^[0-9]{4}\-[0-9]{2}\-[0-9]{2}$) ]]; then
-    echo "💥: param 1, date, should be valid date format YYYY-MM-DD. Found '$1'"
+    echo "💥  ERROR: param 1, <DATE>, should be valid date format YYYY-MM-DD. Found '$1'"
+    echo "$HELP"
     exit 1
 fi
 
 if [[ ! ($2 =~ ^[0-9]+$) ]]; then
-    echo "💥: param 2, issue number, should be an integer. Found '$2'"
+    echo "💥  ERROR: param 2, <ISSUE>, should be an integer. Found '$2'"
+    echo "$HELP"
     exit 1
 fi
 
 if [[ ! ($3 =~ ^[A-Za-z]+$) ]]; then
-    echo "💥: param 3, author handle, should be alphabetic. Found '$3'"
+    echo "💥  ERROR: param 3, <AUTHOR>, should be alphabetic. Found '$3'"
+    echo "Find valid author options in _data/authors.yml"
+    echo "$HELP"
     exit 1
 fi
 
@@ -32,6 +48,7 @@ layout: post
 title: ! 'Issue #$2'
 author: $3
 sponsor:
+    <!-- fill-in sponsor info or remove -->
     link: TODO
     heading: TODO
     body: TODO
