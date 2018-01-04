@@ -9,6 +9,8 @@ title: Sponsorship
 <h2 class="text-center">Sponsorship</h2>
 <p class="lead text-center">Interested in becoming a sponsor?</p>
 
+{% include hiatus.html %}
+
 <p>
 <i>Swift Weekly Brief</i> is distributed <b>every Thursday</b> to thousands of savvy Swift developers and enthusiasts.
 Each issue contains quality links and commentary on what's happening in the <a href="https://swift.org">Swift.org</a> open source projects,
@@ -47,12 +49,6 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 <a href="/issue-75/">Issue #75</a>,
 <a href="/issue-76/">Issue #76</a>
 </p>
-
-<p class="text-warning text-center">
-<b>When contacting us, please provide your sponsorship materials!</b>
-</p>
-
-<a class="btn btn-warning btn-lg center" href="mailto:jesse@jessesquires.com?subject=Swift Weekly Brief Sponsorship">Get in touch</a>
 
 </div> <!-- col -->
 </div> <!-- row -->
