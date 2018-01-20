@@ -24,7 +24,7 @@ You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [G
 1. Add the [`current issue` and `full issue notes`](https://github.com/SwiftWeekly/swiftweekly.github.io/issues?utf8=✓&q=is%3Aissue+label%3A%22current+issue%22+label%3A%22full+issue+notes%22+) labels.  
 1. We use this throughout the week to collect notes and make it easy for external contributors to contribute content. We also use this issue to collaborate with the other [Swift Weekly writers](https://swiftweekly.github.io/authors/) and troubleshoot any problems that come up.
 1. Write the issue in `_drafts/` throughout the week. We recommend writing a little each day to make it easier. 
-1. For style and content, set the guide below. Also, follow the example set by previous issues.
+1. For style and content, see the guide below. Also, follow the example set by previous issues.
 1. **For code snippets, use jekyll highlight blocks:** 
 ```jekyll
 {% highlight swift %} 
@@ -101,7 +101,7 @@ Some good indications on whether or not a discussion is worth including:
 
 # 📰 Publishing an issue
 
-> 💡 **Note:** We publish **every Thursday**.
+> 💡 **Note:** We publish *every other Thursday*.
 
 New issues should be pushed to `master` **before noon** Pacific Time, preferably around 10 or 11 a.m. if possible. Pushing early allows us to catch and fix any last minute errors. If there are any problems, contact [Bas](https://twitter.com/BasThomas) or [Jesse](https://www.jessesquires.com/contact/).
 
