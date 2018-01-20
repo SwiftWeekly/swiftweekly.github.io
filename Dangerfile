@@ -12,10 +12,10 @@ is_publishing_issue = !(git.added_files.grep(/_posts/).empty?)
 if is_publishing_issue
   warn("Looks like you're publishing a new issue! 🎉
 **Don't forget to:**
-- [ ] Review [our style guide](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CONTRIBUTING.md#-writing-style-guide) before merging
-- [ ] After you merge, close the GitHub issue notes for this newsletter issue
-- [ ] Open the next GitHub issue, add the correct labels, assign it to the next writer
-- [ ] Run the `new_draft.sh` script and push the next draft")
+1. Review [our style guide](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CONTRIBUTING.md#-writing-style-guide) before merging
+2. After you merge, close the GitHub issue notes for this newsletter issue
+3. Open the next GitHub issue, add the correct labels, assign it to the next writer
+4. Run the `new_draft.sh` script and push the next draft")
 end
 
 # Check spelling and prose
