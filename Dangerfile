@@ -32,4 +32,4 @@ prose.ignored_words = [
     "CoreFoundation", "Swift.org", "WWDC", "@objc"
 ]
 prose.lint_files
-prose.check_spelling
+prose.check_spelling "_posts/*.md"
