@@ -8,27 +8,30 @@ title: Authors
 <br />
 <div class="row">
 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-    {% for author in site.data.authors %}
-    {% assign posts = site.posts | where: "author", author[0] %}
-    {% if posts.size > 0 %}
-    <div class="media">
+
+    {% assign posts_by_author = site.posts | group_by: 'author' | sort: 'size' | reverse %}
+
+    {% for each_item in posts_by_author %}
+        {% assign author = site.data.authors[each_item.name] %}
+        {% assign author_posts = each_item.items %}
+        <div class="media">
         <div class="media-left">
-            <img class="media-object img-rounded" src="https://github.com/{{ author[1].github }}.png?size=100" alt="{{ author[1].name }}" title="{{ author[1].name }}"/>
+            <img class="media-object img-rounded" src="https://github.com/{{ author.github }}.png?size=100" alt="{{ author.name }}" title="{{ author.name }}"/>
         </div>
         <div class="media-body">
             <h3 class="media-heading author-name">
-                <a href="https://twitter.com/{{ author[1].twitter }}">{{ author[1].name }}</a>
-                <small class="lead post-count text-muted">{{ posts.size }} issue{% if posts.size > 1 %}s{% endif %}</small>
+                <a href="https://twitter.com/{{ author.twitter }}">{{ author.name }}</a>
+                <small class="lead post-count text-muted">{{ author_posts.size }} issue{% if author_posts.size > 1 %}s{% endif %}</small>
             </h3>
             <ul class="posts-list">
-                {% for post in posts %}
+                {% for post in author_posts %}
                 <li><a href="{{ post.url }}">{{ post.title }}</a></li>
                 {% endfor %}
             </ul>
         </div>
-    </div>
-    <br/><br/>
-    {% endif %}
+        </div>
+        <br/><br/>
     {% endfor %}
+
 </div> <!-- col -->
 </div> <!-- row -->
