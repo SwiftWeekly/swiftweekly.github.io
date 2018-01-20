@@ -1,8 +1,7 @@
-# welcome first-time contributors
-# welcome_message.greet
-
+# Reminders for writing a draft
+is_adding_draft = !(git.added_files.grep(/_drafts/).empty?)
 is_editing_draft = !(git.modified_files.grep(/_drafts/).empty?)
-if is_editing_draft
+if is_editing_draft || is_adding_draft
   warn("Looks like you're editing a draft! 🤓
     Don't forget to:
     1. Review [our style guide](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CONTRIBUTING.md#-writing-style-guide)
@@ -10,6 +9,7 @@ if is_editing_draft
     )
 end
 
+# Reminders for publishing an issue
 is_publishing_issue = !(git.added_files.grep(/_posts/).empty?)
 if is_publishing_issue
   warn("Looks like you're publishing an issue! 🎉
@@ -32,4 +32,4 @@ prose.ignored_words = [
     "CoreFoundation", "Swift.org", "WWDC", "@objc"
 ]
 prose.lint_files
-prose.check_spelling
+prose.check_spelling "_posts/*.md"
