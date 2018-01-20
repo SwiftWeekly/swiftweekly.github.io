@@ -12,9 +12,7 @@ You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [G
 
 **Fixes:** Spelling, grammar, or code. Please [open an issue][issueLink] or [submit a pull request][prLink]!
 
-# 📝 Writing an issue
-
-### Setup and process
+## ⚙️ Setup and process
 
 1. Add yourself to [`_data/authors.yml`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/_data/authors.yml). Please provide:
     - A username to reference for the site
@@ -22,11 +20,23 @@ You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [G
     - GitHub username
     - Twitter username
 1. Run the [`new_draft.sh`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/new_draft.sh) script to generate an issue template in `_drafts/`. See the example below.
-1. Open a [`full issue notes`](https://github.com/SwiftWeekly/swiftweekly.github.io/issues?utf8=✓&q=is%3Aissue%20label%3A%22full%20issue%20notes%22%20) issue on GitHub, assigned to yourself. Add the [`current issue`](https://github.com/SwiftWeekly/swiftweekly.github.io/issues?q=is%3Aissue+label%3A%22current+issue%22) label.  We use this throughout the week to collect notes and make it easy for external contributors to contribute content. We also use this issue to collaborate with the other [Swift Weekly writers](https://swiftweekly.github.io/authors/) and troubleshoot any problems that come up.
+1. Open an issue on GitHub. Set the title to the newsletter issue number and date. 
+**Example:** `[100] Issue #100 - Jan 04, 2018`
+1. Assign it to yourself. 
+1. Add the [`current issue` and `full issue notes`](https://github.com/SwiftWeekly/swiftweekly.github.io/issues?utf8=✓&q=is%3Aissue+label%3A%22current+issue%22+label%3A%22full+issue+notes%22+) labels.  
+1. We use this throughout the week to collect notes and make it easy for external contributors to contribute content. We also use this issue to collaborate with the other [Swift Weekly writers](https://swiftweekly.github.io/authors/) and troubleshoot any problems that come up.
 1. Write the issue in `_drafts/` throughout the week. We recommend writing a little each day to make it easier. 
-1. For style and content, follow the example set by previous issues.
-1. **For code snippets, use jekyll highlight blocks:** `{% highlight swift %} /*code*/ {% endhighlight %}`
-1. See the handy tips below!
+1. For style and content, set the guide below. Also, follow the example set by previous issues.
+1. **For code snippets, use jekyll highlight blocks:** 
+```jekyll
+{% highlight swift %} 
+
+// swift code here
+
+{% endhighlight %}
+```
+
+> 💡 **Note:** See the handy tips below!
 
 ### Generating a draft
 
@@ -35,7 +45,9 @@ Example:
 ```bash
 # usage: ./new_draft.sh <DATE (yyyy-MM-dd)> <ISSUE #> <AUTHOR>
 
-$ ./new_draft.sh 2016-04-21 19 jsq  # creates _drafts/2016-04-21-issue-19.md 
+$ ./new_draft.sh 2016-04-21 19 jsq  
+
+# creates _drafts/2016-04-21-issue-19.md 
 ```
 
 ### Preview the site locally, with drafts
@@ -48,7 +60,7 @@ $ bundle exec jekyll build --future --drafts
 $ bundle exec jekyll serve --future --drafts --watch
 ```
 
-### Writing style
+## 📝 Writing style guide
 
 We encourage all writes to use their own voice and express their own personality in their writing. This is what makes a great issue.
 
@@ -64,11 +76,12 @@ We encourage all writes to use their own voice and express their own personality
 
 * Avoid jargon and abbreviations when possible. 
     * **Example:** use *pull request* rather than *PR*
+    * **Example:** write *for example* rather than *e.g.*
 
 * Avoid contractions if possible. Again, this is easier to read, especially for ESL readers. 
     * **Example:** use *do not* rather than *don't*.
 
-* For "Commits and pull requests" use the format: `PERSON did ACTION`. 
+* For the *"Commits and pull requests"* section use the format: `PERSON did ACTION`. 
     * **Example:** *"Chris Lattner opened a pull request for a prototype of async/await."*
 
 * For "Proposals in review" use the format: `SE-NNNN: TITLE by AUTHOR is under review`.
@@ -77,58 +90,55 @@ We encourage all writes to use their own voice and express their own personality
 * For "Accepted proposals", "Rejected Proposals", etc. use the format: `SE-NNNN: TITLE was STATUS`.
     * **Example:** [SE-0150](https://github.com/apple/swift-evolution/blob/master/proposals/0150-package-manager-branch-support.md): Package Manager Support for branches [was accepted](https://lists.swift.org/pipermail/swift-evolution-announce/2017-February/000315.html).
 
-### Evaluating mailing list content
+## 🕵️‍♀️ Evaluating ~~mailing list~~ [Swift Forum](https://swift.org/community/#forums) content
 
-Not all mailing list discussions are important/valuable enough to be listed in the newsletter. There can be a lot of noise and bikeshedding on the lists that simply isn't relevant to readers. Try to avoid these and focus on "big picture" ideas and discussions pertinent to current or future proposals.
+Not all ~~mailing list~~ forum discussions are important and valuable enough to be listed in the newsletter. There can be a lot of noise and bikeshedding that simply is not relevant to readers — or ideas are not solid enough. Try to avoid these and focus on "big picture" ideas and discussions pertinent to current or future proposals.
 
 Some good indications on whether or not a discussion is worth including:
-* There is a lot of activity/replies to a thread
-* The Core Team or broader Swift team has responded and is highly engaged in the discussion
+* There is a lot of activity and replies.
+* The Core Team or broader Swift team has responded positively.
+* The Core Team or broader Swift team is highly engaged in the discussion.
 
-> **Note:** This does not mean that discussions without these characteristics aren't worthwhile. These are simply a few guidelines to evaluate discussions.
+> 💡 **Note:** This does not mean that discussions without these characteristics are not worth mentioning. These are simply a few guidelines.
 
-# Publishing an issue
+# 📰 Publishing an issue
 
-:warning: We publish **every Thursday**. :warning:
+> 💡 **Note:** We publish **every Thursday**.
 
-New issues should be pushed to `master` **before noon** Pacific Time, preferably around 10 or 11 a.m. if possible. Pushing early allows us to catch and fix any last minute errors. If there are any problems, contact [Jesse](https://twitter.com/jesse_squires).
+New issues should be pushed to `master` **before noon** Pacific Time, preferably around 10 or 11 a.m. if possible. Pushing early allows us to catch and fix any last minute errors. If there are any problems, contact [Bas](https://twitter.com/BasThomas) or [Jesse](https://www.jessesquires.com/contact/).
 
 1. When ready to publish, move the `.md` file from `_drafts/` to the `_posts/` directory.
 2. Run `jekyll build` on your local copy to preview.
 3. Make sure everything looks good. :ok_hand:
-4. Submit a [pull request][prLink] or push to master. :tada:
+4. Submit a [pull request][prLink] or push to `master`. :tada:
 
-### Emails
+### ~~Emails~~
 
-Emails are automatically sent via Mailchimp's [RSS-to-Email](https://mailchimp.com/features/rss-to-email/) feature. **Publishing too late (*at or after* noon PST) will prevent emails from being sent.** If emails fail to send on Thursday at noon PST, Mailchimp will retry on Friday at noon PST.
+~~Emails are automatically sent via Mailchimp's [RSS-to-Email](https://mailchimp.com/features/rss-to-email/) feature. **Publishing too late (*at or after* noon PST) will prevent emails from being sent.** If emails fail to send on Thursday at noon PST, Mailchimp will retry on Friday at noon PST.~~
+
+> ⚠️ **Warning:** we currently are not sending emails. This section is here for historical reasons.
 
 ### Tweets
 
 Tweets from [@swiftlybrief](https://twitter.com/swiftlybrief) are automated via [IFTTT](https://ifttt.com). 
 
-### Continuous integration
+## 🎢 Continuous integration
 
 We use [travis-ci](https://travis-ci.org/SwiftWeekly/swiftweekly.github.io), [danger](http://danger.systems), and [proselint](http://proselint.com) (via [danger-prose](https://github.com/dbgrandi/danger-prose)). This ensures:
 
-- We're always pushing valid markdown and `jekyll` is happy
+- We're always pushing valid markdown and `jekyll` can build the site.
 - We write elegant prose — no grammar/spelling mistakes, and no offensive or unwelcoming language. See the [`Dangerfile`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/Dangerfile) for more details.
 
-# 💡Tips
-
-*Tips for authors to keep up with what's going on:*
+## 💡Tips
 
 - Watch all of the main [Apple repositories](https://github.com/apple).
 - Follow the prominent [contributors](https://github.com/orgs/apple/people) on GitHub and Twitter.
-- Monitor [swift-evolution-announce](https://lists.swift.org/pipermail/swift-evolution-announce/) for important, high-level announcements.
-- Skim the other [mailing lists](https://lists.swift.org/mailman/listinfo) periodically. Look for interesting subject lines and Core Team participation in threads.
-  - A trick to quickly read only the emails since the last issue:
-    1. Subscribe to the mailing lists, and have emails sent to your personal Gmail account.
-    2. Enter the following into the Gmail search bar to only display emails sent since the last Swift Weekly Brief issue: `to:swift-evolution@swift.org after:2016/9/22`, where `2016/09/22` is the date of the last issue.
-- There's also an awesome macOS app called [Hirundo](https://stylemac.com/hirundo/), which makes managing the mailing lists a lot easier.
+- Monitor and follow discussions on the [Swift Forums](https://forums.swift.org), and configure your notification settings.
+- ~~Monitor [swift-evolution-announce](https://lists.swift.org/pipermail/swift-evolution-announce/) for important, high-level announcements.~~
+- ~~Skim the other [mailing lists](https://lists.swift.org/mailman/listinfo) periodically. Look for interesting subject lines and Core Team participation in threads.~~
 - Starter tasks: check [this filter](https://bugs.swift.org/issues/?filter=10451).
 - When in doubt, refer to previous issues for examples.
- 
-Finally, it helps to keep a running draft throughout the week, adding a little bit each day.
+- Keep a draft running throughout the week, add a little bit of content each day.
 
 [issueLink]:https://github.com/SwiftWeekly/swiftweekly.github.io/issues/new
 [prLink]:https://github.com/SwiftWeekly/swiftweekly.github.io/compare
