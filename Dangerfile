@@ -1,5 +1,5 @@
 # welcome first-time contributors
-welcome_message.greet
+# welcome_message.greet
 
 is_editing_draft = !(git.modified_files.grep(/_drafts/).empty?)
 if is_editing_draft
