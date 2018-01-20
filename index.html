@@ -5,18 +5,24 @@ title: Home
 
 <div>
 
-<div class="row">
+    <div class="row">
     <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
         {% include hiatus.html %}
     </div>
-</div>
+    </div>
 
-{% for post in site.posts %}
-<article class="post">
-    <h1 class="post-title text-center">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <small class="post-date">{{ post.date | date_to_string }}</small>
-    </h1>
-</article>
-{% endfor %}
+    <div class="row">
+    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+        {% include search_box.html %}
+    </div>
+    </div>
+
+    {% for post in site.posts %}
+    <article class="post">
+        <h1 class="post-title text-center">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <small class="post-date">{{ post.date | date_to_string }}</small>
+        </h1>
+    </article>
+    {% endfor %}
 </div> <!-- post-list -->
