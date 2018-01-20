@@ -12,7 +12,7 @@ You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [G
 
 ## ⚙️ Setup and process
 
-1. Add yourself to [`_data/authors.yml`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/_data/authors.yml). Please provide:
+1. Add yourself to [`_data/authors.yml`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/_data/authors.yml), if you haven't already. Please provide:
     - A username to reference for the site
     - Your name
     - GitHub username
