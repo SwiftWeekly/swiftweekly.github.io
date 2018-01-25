@@ -21,10 +21,6 @@ timezone: America/Los_Angeles
 twitter:
     username: swiftlybrief
 
-curator:
-    name: 'Jesse Squires'
-    url: https://twitter.com/jesse_squires
-
 # Setup
 excerpt_separator: <!--excerpt-->
 

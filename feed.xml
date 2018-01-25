@@ -12,7 +12,7 @@ layout: null
    <updated>{{ site.time | date_to_xmlschema }}</updated>
    <id>{{ site.url }}/</id>
    <author>
-      <name>{{ site.curator.name }}</name>
+      <name>{{ site.title }}</name>
    </author>
    <icon>/img/logo.png</icon>
    <category term="swift"/>
