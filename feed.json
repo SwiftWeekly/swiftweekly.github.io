@@ -12,7 +12,7 @@ layout: null
     "favicon": "{{ site.url }}/favicon.ico",
     "expired": false,
     "author": {
-        "name": "{{ site.curator.name }}",
+        "name": "{{ site.title }}",
         "url": "{{ site.url }}"
     },
     "items": [

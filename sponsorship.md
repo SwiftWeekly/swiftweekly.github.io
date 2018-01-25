@@ -6,10 +6,13 @@ title: Sponsorship
 <div class="row">
 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
 
-<h2 class="text-center">Sponsorship</h2>
+<h2 class="text-center">{{ page.title }}</h2>
 <p class="lead text-center">Interested in becoming a sponsor?</p>
 
-{% include hiatus.html %}
+<div class="alert alert-danger" role="alert">
+    <h3>On hiatus <small class="text-danger"><i>04 Jan 2018</i></small></h3>
+    <p>We're taking a break from sponsorships. We may return in the future. Thank you for your support!</p>
+</div>
 
 <p>
 <i>Swift Weekly Brief</i> is distributed <b>every Thursday</b> to thousands of savvy Swift developers and enthusiasts.
