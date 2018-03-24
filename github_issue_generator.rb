@@ -35,24 +35,24 @@ class GitHubIssueGenerator < CLAide::Command
     help! 'The --number flag is required.' unless @number
     help! 'The --date flag is required.' unless @date
 
-    help! 'The --number flag must be a valid number.' if @number.to_i == 0
+    help! 'The --number flag must be a valid number.' if @number.to_i.zero?
     help! 'The --date flag is not valid. It should follow the MMMM dd, YYYY date format, for example `December 6, 2015`.' unless valid_date?(@date)
   end
 
   def run
     repo = 'SwiftWeekly/swiftweekly.github.io'
     title = "[#{@number}] Issue \##{@number} - #{@date}"
-    body = <<-eos
+    body = <<-MD
 To contribute to this issue, simply leave a comment here. Please also review [our contributing guidelines](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CONTRIBUTING.md).
 
 The current draft for this issue in [`_drafts/`](https://github.com/SwiftWeekly/swiftweekly.github.io/tree/master/_drafts). If you want to contribute directly, feel free to [open a pull request](https://github.com/SwiftWeekly/swiftweekly.github.io/compare?expand=1).
-    eos
+    MD
 
     labels = ['full issue notes']
     labels << (@future_issue ? 'future issue' : 'current issue')
     labels << 'needs writer' if @needs_writer
 
-    octokit = Octokit::Client.new(:access_token => @token)
+    octokit = Octokit::Client.new(access_token: @token)
 
     options = {}
     options[:assignee] = octokit.user.login unless @no_writer || @needs_writer
@@ -64,12 +64,9 @@ The current draft for this issue in [`_drafts/`](https://github.com/SwiftWeekly/
   end
 
   private
+
   def valid_date?(date)
-    begin
-      Date.parse(date) != nil
-    rescue
-      false
-    end
+    !Date.parse(date).nil? rescue false
   end
 end
 
