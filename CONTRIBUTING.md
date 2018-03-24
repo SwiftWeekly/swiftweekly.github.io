@@ -57,7 +57,7 @@ Example:
 
 $ export SWIFTWEEKLY_TOKEN=access_token
 
-# usage: ruby ./github_issue_generator.rb --number=<ISSUE #> --date=<DATE (MMMM dd, YYYY)>
+# usage: ruby ./github_issue_generator.rb --number=<ISSUE #> --date=<DATE (MMMM d, YYYY)>
 
 $ ruby ./github_issue_generator.rb --number=1 --date='December 6, 2015'
 
