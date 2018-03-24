@@ -36,8 +36,6 @@ class GitHubIssueGenerator < CLAide::Command
     help! 'The --date flag is required.' unless @date
 
     help! 'The --number flag must be a valid number.' if @number.to_i == 0
-
-    help! 'The --date flag is required.' unless @date
     help! 'The --date flag is not valid. It should follow the MMMM dd, YYYY date format, for example `December 6, 2015`.' unless valid_date? @date
   end
 
