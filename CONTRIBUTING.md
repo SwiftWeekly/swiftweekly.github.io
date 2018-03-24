@@ -48,6 +48,22 @@ $ ./new_draft.sh 2016-04-21 19 jsq
 # creates _drafts/2016-04-21-issue-19.md 
 ```
 
+### Generating a GitHub issue
+
+Example:
+
+```bash
+$ export SWIFTWEEKLY_TOKEN=<GitHub access token with `public_repo` scope>
+
+# usage: ruby ./github_issue_generator.rb --number=<ISSUE #> --date=<DATE (MMMM dd, YYYY)>
+
+$ ruby ./github_issue_generator.rb --number=1 --date='December 6, 2015'
+
+# more options and help:
+
+$ ruby ./github_issue_generator.rb --help
+```
+
 ### Preview the site locally, with drafts
 
 ```bash
