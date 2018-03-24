@@ -53,7 +53,9 @@ $ ./new_draft.sh 2016-04-21 19 jsq
 Example:
 
 ```bash
-$ export SWIFTWEEKLY_TOKEN=<GitHub access token with `public_repo` scope>
+# usage: export SWIFTWEEKLY_TOKEN=<GitHub access token with `public_repo` scope>
+
+$ export SWIFTWEEKLY_TOKEN=access_token
 
 # usage: ruby ./github_issue_generator.rb --number=<ISSUE #> --date=<DATE (MMMM dd, YYYY)>
 
