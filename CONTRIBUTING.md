@@ -41,7 +41,7 @@ You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [G
 Example:
 
 ```bash
-# usage: ./new_draft.sh <DATE (yyyy-MM-dd)> <ISSUE #> <AUTHOR>
+# usage: ./new_draft.sh <DATE (YYYY-MM-dd)> <ISSUE #> <AUTHOR>
 
 $ ./new_draft.sh 2016-04-21 19 jsq  
 
