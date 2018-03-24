@@ -4,7 +4,7 @@ require 'octokit'
 require 'colorize'
 
 class GitHubIssueGenerator < CLAide::Command
-  self.description = 'Generates a GitHub issue for the specified issue number.'
+  self.description = 'Generates a GitHub issue for the specified issue number and date.'
   self.command = 'github-issue'
 
   def self.options
