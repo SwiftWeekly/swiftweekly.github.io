@@ -54,9 +54,8 @@ The current draft for this issue in [`_drafts/`](https://github.com/SwiftWeekly/
 
     octokit = Octokit::Client.new(access_token: @token)
 
-    options = {}
+    options = { labels: labels.join(',') }
     options[:assignee] = octokit.user.login unless @no_writer || @needs_writer
-    options[:labels] = labels.join(',')
 
     issue = octokit.create_issue(repo, title, body, options)
     puts "Issue succesfully created over at #{issue.html_url}.".green
