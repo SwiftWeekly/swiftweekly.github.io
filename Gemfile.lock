@@ -19,6 +19,7 @@ GEM
     coffee-script-source (1.11.1)
     colorator (1.1.0)
     colored2 (3.1.2)
+    colorize (0.8.1)
     commonmarker (0.17.7.1)
       ruby-enum (~> 0.5)
     concurrent-ruby (1.0.5)
@@ -260,10 +261,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  claide
+  colorize
   danger
   danger-prose
   github-pages (~> 172)
   jekyll-sitemap
+  octokit
 
 BUNDLED WITH
    1.16.1

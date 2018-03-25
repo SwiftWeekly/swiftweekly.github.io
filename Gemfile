@@ -4,3 +4,6 @@ gem 'github-pages', '~> 172', group: :jekyll_plugins
 gem 'jekyll-sitemap'
 gem 'danger'
 gem 'danger-prose'
+gem 'claide'
+gem 'octokit'
+gem 'colorize'

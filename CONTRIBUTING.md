@@ -41,11 +41,31 @@ You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [G
 Example:
 
 ```bash
-# usage: ./new_draft.sh <DATE (yyyy-MM-dd)> <ISSUE #> <AUTHOR>
+# usage: ./new_draft.sh <DATE (YYYY-MM-dd)> <ISSUE #> <AUTHOR>
 
 $ ./new_draft.sh 2016-04-21 19 jsq  
 
 # creates _drafts/2016-04-21-issue-19.md 
+```
+
+### Generating a GitHub issue
+
+To generate a GitHub access token, see the [GitHub docs](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/).
+
+Example:
+
+```bash
+# usage: export SWIFTWEEKLY_TOKEN=<GitHub access token with `public_repo` scope>
+
+$ export SWIFTWEEKLY_TOKEN=access_token
+
+# usage: ruby ./github_issue_generator.rb --number=<ISSUE #> --date=<DATE (MMMM d, YYYY)>
+
+$ ruby ./github_issue_generator.rb --number=1 --date='December 6, 2015'
+
+# more options and help:
+
+$ ruby ./github_issue_generator.rb --help
 ```
 
 ### Preview the site locally, with drafts
