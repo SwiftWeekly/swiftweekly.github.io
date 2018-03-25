@@ -50,6 +50,8 @@ $ ./new_draft.sh 2016-04-21 19 jsq
 
 ### Generating a GitHub issue
 
+To generate a GitHub access token, see the [GitHub docs](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/).
+
 Example:
 
 ```bash
