@@ -2,9 +2,9 @@
 
 *Contributions are welcome and encouraged!*
 
-First and foremost, please review and abide by [our code of conduct](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CODE_OF_CONDUCT.md).
+Please review and abide by [our code of conduct](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CODE_OF_CONDUCT.md).
 
-You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [GitHub-Pages](https://pages.github.com) work — or be willing to learn. :smile: We are happy to help you with any questions, just ask!
+You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [GitHub-Pages](https://pages.github.com) work — or be willing to learn. :smile: We are happy to help you with any questions, just ask.
 
 **Suggestions:** Have something you want to share in the newsletter? Please find [the current issue notes](https://github.com/SwiftWeekly/swiftweekly.github.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22current+issue%22) and add a comment. Or you can [open an issue][issueLink] or [submit a pull request][prLink] to the [current draft](https://github.com/SwiftWeekly/swiftweekly.github.io/tree/master/_drafts) with a link and description.
 
@@ -88,9 +88,9 @@ We encourage all writes to use their own voice and express their own personality
 * For "Accepted proposals", "Rejected Proposals", etc. use the format: `SE-NNNN: TITLE was STATUS`.
     * **Example:** [SE-0150](https://github.com/apple/swift-evolution/blob/master/proposals/0150-package-manager-branch-support.md): Package Manager Support for branches [was accepted](https://lists.swift.org/pipermail/swift-evolution-announce/2017-February/000315.html).
 
-## 🕵️‍♀️ Evaluating ~~mailing list~~ [Swift Forum](https://swift.org/community/#forums) content
+## 🕵️‍♀️ Evaluating [Swift Forum](https://swift.org/community/#forums) content
 
-Not all ~~mailing list~~ forum discussions are important and valuable enough to be listed in the newsletter. There can be a lot of noise and bikeshedding that simply is not relevant to readers — or ideas are not solid enough. Try to avoid these and focus on "big picture" ideas and discussions pertinent to current or future proposals.
+Not all forum discussions are important and valuable enough to be listed in the newsletter. There can be a lot of noise and bikeshedding that simply is not relevant to readers — or ideas are not solid enough. Try to avoid these and focus on "big picture" ideas and discussions pertinent to current or future proposals.
 
 Some good indications on whether or not a discussion is worth including:
 * There is a lot of activity and replies.
@@ -132,8 +132,6 @@ We use [travis-ci](https://travis-ci.org/SwiftWeekly/swiftweekly.github.io), [da
 - Watch all of the main [Apple repositories](https://github.com/apple).
 - Follow the prominent [contributors](https://github.com/orgs/apple/people) on GitHub and Twitter.
 - Monitor and follow discussions on the [Swift Forums](https://forums.swift.org), and configure your notification settings.
-- ~~Monitor [swift-evolution-announce](https://lists.swift.org/pipermail/swift-evolution-announce/) for important, high-level announcements.~~
-- ~~Skim the other [mailing lists](https://lists.swift.org/mailman/listinfo) periodically. Look for interesting subject lines and Core Team participation in threads.~~
 - Starter tasks: check [this filter](https://bugs.swift.org/issues/?filter=10451).
 - When in doubt, refer to previous issues for examples.
 - Keep a draft running throughout the week, add a little bit of content each day.
