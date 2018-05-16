@@ -61,7 +61,7 @@ author: $3
 
 ### Swift Unwrapped
 
-> TODO: Latest episode of Swift Unwrapped
+> TODO: Latest episode(s) of Swift Unwrapped
 
 ### News and community
 
