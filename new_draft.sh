@@ -57,8 +57,6 @@ author: $3
 
 > TODO
 
-{% include task_remind.html %}
-
 ### Swift Unwrapped
 
 > TODO: Latest episode(s) of Swift Unwrapped
