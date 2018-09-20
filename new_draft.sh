@@ -47,11 +47,19 @@ echo "---
 layout: post
 title: ! 'Issue #$2'
 author: $3
+sponsor:
+    <!-- fill-in sponsor info or remove -->
+    link: TODO
+    heading: TODO
+    body: TODO
+    displaylink: TODO
 ---
 
 > TODO: intro comments
 
 <!--excerpt-->
+
+{% include sponsor.html %}
 
 ### Starter tasks
 

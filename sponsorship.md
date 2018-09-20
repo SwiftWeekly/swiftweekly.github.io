@@ -9,16 +9,11 @@ title: Sponsorship
 <h2 class="text-center">{{ page.title }}</h2>
 <p class="lead text-center">Interested in becoming a sponsor?</p>
 
-<div class="alert alert-danger" role="alert">
-    <h3>On hiatus <small class="text-danger"><i>04 Jan 2018</i></small></h3>
-    <p>We're taking a break from sponsorships. We may return in the future. Thank you for your support!</p>
-</div>
-
 <p>
-<i>Swift Weekly Brief</i> is distributed <b>every Thursday</b> to thousands of savvy Swift developers and enthusiasts.
+<i>Swift Weekly Brief</i> is distributed <b>every other Thursday</b> to thousands of savvy Swift developers and enthusiasts.
 Each issue contains quality links and commentary on what's happening in the <a href="https://swift.org">Swift.org</a> open source projects,
 as well as what's happening in the Swift community at large.
-There are over 2,500 subscribers and over <a href="{{ site.links.twitter }}">5,600 followers</a> on Twitter.
+There are over 2,500 subscribers and over <a href="{{ site.links.twitter }}">6,900 followers</a> on Twitter.
 </p>
 
 <h3>Sponsored Links</h3>
