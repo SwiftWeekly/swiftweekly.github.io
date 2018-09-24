@@ -48,5 +48,11 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 <a href="/issue-76/">Issue #76</a>
 </p>
 
+<p class="text-warning text-center">
+<b>When contacting us, please provide your sponsorship materials!</b>
+</p>
+
+<a class="btn btn-warning btn-lg center" href="mailto:bas@basbroek.nl?subject=Swift Weekly Brief Sponsorship">Get in touch</a>
+
 </div> <!-- col -->
 </div> <!-- row -->
