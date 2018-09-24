@@ -54,5 +54,21 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 
 <a class="btn btn-warning btn-lg center" href="mailto:bas@basbroek.nl?subject=Swift Weekly Brief Sponsorship">Get in touch</a>
 
+<hr/>
+
+<h3>Availability <small>2018</small></h3>
+<div class="table-responsive" markdown="1">
+| <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Issue | <i class="fa fa-star" aria-hidden="true"></i>&nbsp; Status |
+|:-|:-|
+| 04 October | **Booked** |
+| 18 October | Open |
+| 01 November | Open |
+| 15 November | Open |
+| 29 November | Open |
+| 13 December | Open |
+| 27 December | Open |
+{: class="table table-striped table-bordered"}
+</div>
+
 </div> <!-- col -->
 </div> <!-- row -->
