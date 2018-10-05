@@ -1,7 +1,7 @@
 language: ruby
 sudo: false
 cache: bundler
-rvm: 2.2.5
+rvm: 2.5.1
 
 script:
   - bundle exec jekyll build --future --drafts
