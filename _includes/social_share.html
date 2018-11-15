@@ -1,5 +1,5 @@
 
-{% assign base_edit_url = 'https://github.com/SwiftWeekly/swiftweekly.github.io/edit/master/_posts/' %}
+{% assign base_edit_url = 'https://github.com/SwiftWeekly/' | append: site.repo_name | append: '/edit/master/_posts/' %}
 
 {% assign issue_date = page.date | date: "%Y-%m-%d" %}
 {% assign issue_number = page.title | remove: 'Issue #' %}
