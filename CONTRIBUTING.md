@@ -68,6 +68,24 @@ $ ruby ./github_issue_generator.rb --number=1 --date='December 6, 2015'
 $ ruby ./github_issue_generator.rb --help
 ```
 
+### Boilerplate for proposal updates
+
+You can generate the boilerplate (eg. `SE-NNNN is under review`) with the
+`proposal.rb` script.
+
+Example:
+
+```bash
+# usage: ruby ./proposal.rb url-to-proposal url-to-forums status
+# in which status is one of 'accepted', 'returned', 'rejected' or 'review'.
+
+$ ruby ./proposal.rb https://github.com/apple/swift-evolution/blob/master/proposals/0231-optional-iteration.md https://forums.swift.org/t/rejected-se-0231-optional-iteration/17805 rejected
+
+# generates the following:
+
+# [SE-0231](https://github.com/apple/swift-evolution/blob/master/proposals/0231-optional-iteration.md) was [rejected](https://forums.swift.org/t/rejected-se-0231-optional-iteration/17805).
+```
+
 ### Preview the site locally, with drafts
 
 ```bash
@@ -106,7 +124,7 @@ We encourage all writes to use their own voice and express their own personality
     * **Example:** [SE-0185](https://github.com/apple/swift-evolution/blob/master/proposals/0185-synthesize-equatable-hashable.md): *Synthesizing Equatable and Hashable conformance* by Tony Allevato is [under review](https://lists.swift.org/pipermail/swift-evolution-announce/2017-August/000397.html).
 
 * For "Accepted proposals", "Rejected Proposals", etc. use the format: `SE-NNNN: TITLE was STATUS`.
-    * **Example:** [SE-0150](https://github.com/apple/swift-evolution/blob/master/proposals/0150-package-manager-branch-support.md): Package Manager Support for branches [was accepted](https://lists.swift.org/pipermail/swift-evolution-announce/2017-February/000315.html).
+    * **Example:** [SE-0150](https://github.com/apple/swift-evolution/blob/master/proposals/0150-package-manager-branch-support.md): Package Manager Support for branches was [accepted](https://lists.swift.org/pipermail/swift-evolution-announce/2017-February/000315.html).
 
 ## 🕵️‍♀️ Evaluating [Swift Forum](https://swift.org/community/#forums) content
 
