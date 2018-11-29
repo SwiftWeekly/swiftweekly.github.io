@@ -5,10 +5,10 @@ unless ARGV.length == 3
 end
 
 statusHash = {
-	'accepted' => 'was [accepted]',
-	'returned' => 'was [returned for revision]',
-	'rejected' => 'was [rejected]',
-	'review' => 'is [under review]'
+  'accepted' => 'was [accepted]',
+  'returned' => 'was [returned for revision]',
+  'rejected' => 'was [rejected]',
+  'review' => 'is [under review]'
 }
 
 unless status = statusHash[ARGV[2]]
