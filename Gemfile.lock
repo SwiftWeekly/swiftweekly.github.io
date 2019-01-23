@@ -233,7 +233,7 @@ GEM
     multipart-post (2.0.0)
     nap (1.1.0)
     no_proxy_fix (0.1.2)
-    nokogiri (1.10.0)
+    nokogiri (1.10.1)
       mini_portile2 (~> 2.4.0)
     octokit (4.13.0)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -280,4 +280,4 @@ DEPENDENCIES
   octokit
 
 BUNDLED WITH
-   1.17.1
+   2.0.1
