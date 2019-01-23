@@ -64,9 +64,9 @@ sponsor:
 
 > TODO
 
-### Swift Unwrapped
+### Podcasts
 
-> TODO: Latest episode(s) of Swift Unwrapped
+> TODO: Latest episode(s) of Swift Unwrapped & the Swift Community Podcast
 
 ### News and community
 
