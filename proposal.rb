@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
 
+require 'net/http'
+require 'uri'
+
 unless ARGV.length == 3
   abort('Usage: url-to-proposal url-to-forums status')
 end
@@ -28,4 +31,27 @@ proposal_number = format('%04d', proposal_number_integer)
 
 message = proposal_number
 
-puts "[SE-#{proposal_number}](#{proposal_url}) #{status}(#{forum_url})."
+org_repository = proposal_url
+
+def raw_url(original_url)
+	sanitized_url = original_url.sub('https://github.com', '')
+	parts = sanitized_url
+	  .split('/')
+	  .reject { |e| e.empty? }
+	organization = parts[0]
+	repository = parts[1]
+	branch = parts[3] # skips "blob"
+	file_path = parts[4..parts.length].join('/')
+
+	start = 'https://raw.githubusercontent.com'
+
+	"#{start}/#{organization}/#{repository}/#{branch}/#{file_path}"
+end
+
+request = Net::HTTP.get(URI.parse(raw_url(proposal_url)))
+
+title = request.each_line.first # "# Deprecate String Index Encoded Offsets"
+  .tr('#', '')                  # " Deprecate String Index Encoded Offsets"
+  .strip                        # "Deprecate String Index Encoded Offsets"
+
+puts "[SE-#{proposal_number}](#{proposal_url}): *#{title}* #{status}(#{forum_url})."
