@@ -25,6 +25,9 @@ Looks like you're publishing a new issue! 🎉
 end
 
 # Check spelling and prose
+prose.language = "en-us"
+prose.ignore_acronyms = true
+prose.ignore_numbers = true
 prose.ignored_words = [
     "Swift", "iOS", "macOS", "watchOS", "tvOS", "iPhone", "iPad", "nonnull", "nullable",
     "nullability", "corelibs-foundation", "corelibs-libdispatch", "stdlib", "GCD", "SwiftPM",
