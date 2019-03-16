@@ -22,7 +22,7 @@ GEM
     colorize (0.8.1)
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
-    concurrent-ruby (1.1.4)
+    concurrent-ruby (1.1.5)
     cork (0.3.0)
       colored2 (~> 3.1)
     danger (5.16.1)
