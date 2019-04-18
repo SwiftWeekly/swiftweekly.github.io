@@ -62,7 +62,7 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 |:-|:-|
 | April 18     | Open |
 | May 2        | Open |
-| May 16       | Open |
+| May 16       | **Booked** |
 | May 30       | Open |
 | June 13      | Open |
 | June 27      | Open |
@@ -72,6 +72,14 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 | August 22    | Open |
 | September 5  | Open |
 | September 19 | Open |
+| October 3    | Open |
+| October 17   | Open |
+| October 31   | Open |
+| November 14  | Open |
+| November 21  | **Booked** |
+| November 28  | Open |
+| December 12  | Open |
+| December 26  | **No issue** |
 {: class="table table-striped table-bordered"}
 </div>
 
