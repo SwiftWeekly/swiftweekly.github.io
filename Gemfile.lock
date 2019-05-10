@@ -230,7 +230,7 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.11.3)
-    multipart-post (2.0.0)
+    multipart-post (2.1.0)
     nap (1.1.0)
     no_proxy_fix (0.1.2)
     nokogiri (1.10.3)
@@ -265,7 +265,7 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    unicode-display_width (1.5.0)
+    unicode-display_width (1.6.0)
 
 PLATFORMS
   ruby
