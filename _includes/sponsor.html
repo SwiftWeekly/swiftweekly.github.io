@@ -1,8 +1,8 @@
 {% assign issue_num = page.title | remove: 'Issue #' %}
 {% if page.sponsor.custom-utm %}
-	{% assign utm_params = page.sponsor.custom-utm %}
+    {% assign utm_params = page.sponsor.custom-utm %}
 {% else %}
-	{% assign utm_params = "?utm_campaign=Swift_Weekly_Brief&utm_medium=email_web&utm_source=Swift_Weekly_Brief_" | append: issue_num %}
+    {% assign utm_params = "?utm_campaign=Swift_Weekly_Brief&utm_medium=email_web&utm_source=Swift_Weekly_Brief_" | append: issue_num %}
 {% endif %}
 
 {% if page.sponsor %}
