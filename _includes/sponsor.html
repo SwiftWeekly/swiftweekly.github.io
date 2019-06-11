@@ -1,12 +1,16 @@
 {% assign issue_num = page.title | remove: 'Issue #' %}
-{% assign utm_params = "?utm_campaign=Swift_Weekly_Brief&utm_medium=email_web&utm_source=Swift_Weekly_Brief_" %}
+{% if page.sponsor.custom-utm %}
+    {% assign utm_params = page.sponsor.custom-utm %}
+{% else %}
+    {% assign utm_params = "?utm_campaign=Swift_Weekly_Brief&utm_medium=email_web&utm_source=Swift_Weekly_Brief_" | append: issue_num %}
+{% endif %}
 
 {% if page.sponsor %}
 <div class="alert alert-warning sponsor">
     <h4>Sponsored Link</h4>
-    <h4><a href="{{ page.sponsor.link }}{{ utm_params }}{{ issue_num }}" target="_blank">{{ page.sponsor.heading }}</a></h4>
+    <h4><a href="{{ page.sponsor.link }}{{ utm_params }}" target="_blank">{{ page.sponsor.heading }}</a></h4>
     {{ page.sponsor.body | markdownify }}
-    <p><small><a href="{{ page.sponsor.link }}{{ utm_params }}{{ issue_num }}" target="_blank">{{ page.sponsor.displaylink }}</a></small></p>
+    <p><small><a href="{{ page.sponsor.link }}{{ utm_params }}" target="_blank">{{ page.sponsor.displaylink }}</a></small></p>
 </div>
 {% else %}
 <p class="text-muted text-center"><b>Interested in sponsoring Swift Weekly Brief? <a href="{{ site.url }}/sponsorship/">Learn more here</a>.</b></p>
