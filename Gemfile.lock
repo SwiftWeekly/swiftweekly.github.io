@@ -8,7 +8,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
-    claide (1.0.2)
+    claide (1.0.3)
     claide-plugins (0.9.2)
       cork
       nap
