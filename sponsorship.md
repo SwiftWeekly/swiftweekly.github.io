@@ -75,7 +75,7 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 | July 2       | Open |
 | July 16      | Open |
 | July 30      | Open |
-{: class="table table-striped table-bordered"}
+{: class="table table-bordered"}
 </div>
 
 </div> <!-- col -->
