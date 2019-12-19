@@ -40,12 +40,12 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 
 <p>
 <b>Examples of previous sponsors:</b>
-<a href="/issue-53/">Issue #53</a>,
-<a href="/issue-56/">Issue #56</a>,
 <a href="/issue-60/">Issue #60</a>,
 <a href="/issue-63/">Issue #63</a>,
 <a href="/issue-75/">Issue #75</a>,
-<a href="/issue-76/">Issue #76</a>
+<a href="/issue-76/">Issue #76</a>,
+<a href="/issue-139/">Issue #139</a>,
+<a href="/issue-148/">Issue #148</a>
 </p>
 
 <p class="text-warning text-center">
@@ -56,12 +56,25 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 
 <hr/>
 
-<h3>Availability <small>2019</small></h3>
+<h3>Availability <small>2020</small></h3>
 <div class="table-responsive" markdown="1">
 | <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Issue | <i class="fa fa-star" aria-hidden="true"></i>&nbsp; Status |
 |:-|:-|
-| December 5   | Open |
-| December 19  | Open |
+| January 16   | Open |
+| January 30   | Open |
+| February 13  | Open |
+| February 27  | Open |
+| March 12     | Open |
+| March 26     | Open |
+| April 9      | Open |
+| April 23     | Open |
+| May 7        | Open |
+| May 21       | Open |
+| June 4       | Open |
+| June 18      | Open |
+| July 2       | Open |
+| July 16      | Open |
+| July 30      | Open |
 {: class="table table-striped table-bordered"}
 </div>
 
