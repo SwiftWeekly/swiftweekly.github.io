@@ -63,7 +63,7 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 | January 16   | Open |
 | January 30   | Open |
 | February 13  | Open |
-| February 27  | **Booked** | <!-- NativeConnect -->
+| February 27  | **Booked** <!-- NativeConnect --> |
 | March 12     | Open |
 | March 26     | Open |
 | April 9      | Open |
