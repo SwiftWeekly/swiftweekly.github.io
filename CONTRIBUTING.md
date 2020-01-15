@@ -120,12 +120,6 @@ We encourage all writes to use their own voice and express their own personality
 * For the *"Commits and pull requests"* section use the format: `PERSON did ACTION`. 
     * **Example:** *"Chris Lattner opened a pull request for a prototype of async/await."*
 
-* For "Proposals in review" use the format: `SE-NNNN: TITLE by AUTHOR is under review`.
-    * **Example:** [SE-0185](https://github.com/apple/swift-evolution/blob/master/proposals/0185-synthesize-equatable-hashable.md): *Synthesizing Equatable and Hashable conformance* by Tony Allevato is [under review](https://lists.swift.org/pipermail/swift-evolution-announce/2017-August/000397.html).
-
-* For "Accepted proposals", "Rejected Proposals", etc. use the format: `SE-NNNN: TITLE was STATUS`.
-    * **Example:** [SE-0150](https://github.com/apple/swift-evolution/blob/master/proposals/0150-package-manager-branch-support.md): Package Manager Support for branches was [accepted](https://lists.swift.org/pipermail/swift-evolution-announce/2017-February/000315.html).
-
 ## 🕵️‍♀️ Evaluating [Swift Forum](https://swift.org/community/#forums) content
 
 Not all forum discussions are important and valuable enough to be listed in the newsletter. There can be a lot of noise and bikeshedding that simply is not relevant to readers — or ideas are not solid enough. Try to avoid these and focus on "big picture" ideas and discussions pertinent to current or future proposals.
@@ -148,11 +142,9 @@ New issues should be pushed to `master` **before noon** Pacific Time, preferably
 3. Make sure everything looks good. :ok_hand:
 4. Submit a [pull request][prLink] or push to `master`. :tada:
 
-### ~~Emails~~
+### Emails
 
-~~Emails are automatically sent via Mailchimp's [RSS-to-Email](https://mailchimp.com/features/rss-to-email/) feature. **Publishing too late (*at or after* noon PST) will prevent emails from being sent.** If emails fail to send on Thursday at noon PST, Mailchimp will retry on Friday at noon PST.~~
-
-> ⚠️ **Warning:** we currently are not sending emails. This section is here for historical reasons.
+Emails are automatically sent via Mailchimp's [RSS-to-Email](https://mailchimp.com/features/rss-to-email/) feature. **Publishing too late (*at or after* noon PST) will prevent emails from being sent.** If emails fail to send on Thursday at noon PST, Mailchimp will retry on Friday at noon PST.
 
 ### Tweets
 
