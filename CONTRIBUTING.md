@@ -142,11 +142,9 @@ New issues should be pushed to `master` **before noon** Pacific Time, preferably
 3. Make sure everything looks good. :ok_hand:
 4. Submit a [pull request][prLink] or push to `master`. :tada:
 
-### ~~Emails~~
+### Emails
 
-~~Emails are automatically sent via Mailchimp's [RSS-to-Email](https://mailchimp.com/features/rss-to-email/) feature. **Publishing too late (*at or after* noon PST) will prevent emails from being sent.** If emails fail to send on Thursday at noon PST, Mailchimp will retry on Friday at noon PST.~~
-
-> ⚠️ **Warning:** we currently are not sending emails. This section is here for historical reasons.
+Emails are automatically sent via Mailchimp's [RSS-to-Email](https://mailchimp.com/features/rss-to-email/) feature. **Publishing too late (*at or after* noon PST) will prevent emails from being sent.** If emails fail to send on Thursday at noon PST, Mailchimp will retry on Friday at noon PST.
 
 ### Tweets
 
