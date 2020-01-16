@@ -36,4 +36,6 @@ prose.ignored_words = [
     "libdispatch", "XCTest", "SourceKit", "CMake", "SIL", "ABI", "llbuild",
     "CoreFoundation", "Swift.org", "WWDC", "@objc"
 ]
-# prose.lint_files
+if !prose.get_files.nil?
+  prose.lint_files
+end
