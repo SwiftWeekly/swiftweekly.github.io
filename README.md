@@ -50,11 +50,11 @@ $ bundle exec jekyll serve --future --drafts --watch
 
 ## Contributing
 
-To contribute, please read our [Contributing Guide](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CONTRIBUTING.md).
+To contribute, please review our [Contributing Guide](https://github.com/SwiftWeekly/.github/blob/master/CONTRIBUTING.md).
 
 ## Conduct
 
-Please read our [Code of Conduct](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CODE_OF_CONDUCT.md). Violations will not be tolerated and will result in immediate removal or blocking from the organization.
+Please read our [Code of Conduct](https://github.com/SwiftWeekly/.github/blob/master/CODE_OF_CONDUCT.md). Violations will not be tolerated and will result in immediate removal or blocking from the organization.
 
 ## License
 
