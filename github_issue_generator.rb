@@ -10,7 +10,7 @@ class GitHubIssueGenerator < CLAide::Command
   def self.options
     [
       ['--number=1', 'The issue number to generate the GitHub issue for.'],
-      ['--date=MMMM d, YYYY', "The date of the issue's publication, for example `December 6, 2015`."],
+      ['--date=MMMM d, yyyy', "The date of the issue's publication, for example `December 6, 2015`."],
       ['--future-issue', 'Adds a `future issue` label and omits the `current issue` label.'],
       ['--no-writer', "Skips adding the runner of this script as the issue's assignee. If `--needs-writer` is set, this option will be ignored."],
       ['--needs-writer', 'Adds a `needs writer` label and does not assign the runner of this script.']
@@ -36,7 +36,7 @@ class GitHubIssueGenerator < CLAide::Command
     help! 'The --date flag is required.' unless @date
 
     help! 'The --number flag must be a valid number.' if @number.to_i.zero?
-    help! 'The --date flag is not valid. It should follow the MMMM d, YYYY date format, for example `December 6, 2015`.' unless valid_date?(@date)
+    help! 'The --date flag is not valid. It should follow the MMMM d, yyyy date format, for example `December 6, 2015`.' unless valid_date?(@date)
   end
 
   def run
