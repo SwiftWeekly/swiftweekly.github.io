@@ -1,0 +1,13 @@
+{% assign issue_num = page.title | remove: 'Issue #' %}
+{% if include.custom-utm %}
+    {% assign utm_params = include.indie_sponsor.custom-utm %}
+{% else %}
+    {% assign utm_params = "?utm_campaign=Swift_Weekly_Brief&utm_medium=email_web&utm_source=Swift_Weekly_Brief_" | append: issue_num %}
+{% endif %}
+
+<div class="alert alert-warning sponsor">
+    <h4>Indie Support Weeks <a href="https://github.com/JohnSundell/IndieSupportWeeks">#IndieSupportWeeks</a></h4>
+    <h4><a href="{{ include.link }}{{ utm_params }}" target="_blank">{{ include.heading }}</a></h4>
+    {{ include.body | markdownify }}
+    <p><small><a href="{{ include.link }}{{ utm_params }}" target="_blank">{{ include.displaylink }}</a> or download directly <a href="{{ include.app-store }}" target="_blank">on the App Store</a></small></p>
+</div>
