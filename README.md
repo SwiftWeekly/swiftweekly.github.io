@@ -1,8 +1,8 @@
-# [swiftweekly.github.io](https://swiftweekly.github.io) [![Build Status](https://travis-ci.org/SwiftWeekly/swiftweekly.github.io.svg?branch=master)](https://travis-ci.org/SwiftWeekly/swiftweekly.github.io)
+# [swiftweekly.github.io](https://swiftweekly.github.io) ![CI](https://github.com/swiftweekly/swiftweekly.github.io/workflows/CI/badge.svg)
 
 *A community-driven weekly newsletter about [Swift.org](https://swift.org)*
 
-> Started by [@jesse_squires](https://twitter.com/jesse_squires) and curated by [@BasThomas](https://twitter.com/BasThomas). 
+> Started by [@jesse_squires](https://twitter.com/jesse_squires) and curated by [@BasThomas](https://twitter.com/BasThomas).
 
 <img src="https://raw.githubusercontent.com/SwiftWeekly/swiftweekly.github.io/master/img/logo.png" width="250"/>
 
@@ -37,7 +37,7 @@ $ bundle exec jekyll build
 ### Previewing the site locally
 
 ```bash
-$ bundle exec jekyll serve 
+$ bundle exec jekyll serve
 # Now browse to http://localhost:4000
 ```
 
