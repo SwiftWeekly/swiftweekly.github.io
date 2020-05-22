@@ -25,7 +25,6 @@
 
    --code: #c7254e;
    --code-background: #f9f2f4;
-   --codeblock-background: #f5f5f5;
 
    --post-title-font-weight: lighter;
 }
@@ -45,7 +44,6 @@
 
       --code: #000000;
       --code-background: #959595;
-      --codeblock-background: #939393;
 
       --post-title-font-weight: 300; /* 400 is normal */
    }
@@ -80,10 +78,6 @@ hr {
 code {
    color: var(--code);
    background-color: var(--code-background);
-}
-
-pre {
-	background-color: var(--codeblock-background) !important;
 }
 
 /* LINKS */
