@@ -5,26 +5,23 @@
 
    --background: #ffffff;
    --body-text: #606060;
+   --secondary-text: #666666;
 
-   --special-text: #444444;
-   --attribute-social-visited: #444444;
-   --attribute-subscribe-hover: #444444;
+   --code-fg: #c7254e;
+   --code-bg: #f9f2f4;
 
-   --date: #666666;
-   --tagline: #666666;
-   --attribute-social-hover: #666666;
-   --attribute-subscribe-visited: #666666;
-   --attribute-sharing: #666666;
+   --button-fg: #666666;
+   --button-bg: #fff;
+   --button-bg-hover: #eee;
 
-   --attribute: #f05138;
-   --attribute-visited: #f05138;
-   --attribute-sharing-hover: #f05138;
+   --social-fg: #444444;
+   --social-fg-hover: #666666;
+   
+   --link-fg: #DC3A1D;
+   --link-fg-visited: #DC3A1D;
+   --link-fg-hover: #fbaf40;
 
-   --attribute-hover: #fbaf40;
-   --hr-border: #d7d7d7;
-
-   --code: #c7254e;
-   --code-background: #f9f2f4;
+   --hr-border: #666;
 
    --post-title-font-weight: lighter;
 }
@@ -32,18 +29,26 @@
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
    :root {
+
       --background: #1c1c1c;
       --body-text: #b2b2b2;
+      --secondary-text: #878787;
 
-      --special-text: #7c7c7c;
+      --code-fg: #000000;
+      --code-bg: #959595;
 
-      --tagline: #b2b2b2;
+      --button-fg: #878787;
+      --button-bg: #1c1c1c;
+      --button-bg-hover: #2f2f2f;
 
-      --attribute: #f7492e;
-      --attribute-hover: #f7ad2e;
+      --social-fg: #979797;
+      --social-fg-hover: #878787;
 
-      --code: #000000;
-      --code-background: #959595;
+      --link-fg: #f7492e;
+      --link-fg-visited: #f7492e;
+      --link-fg-hover: #f7ad2e;
+
+      --hr-border: #999;
 
       --post-title-font-weight: 300; /* 400 is normal */
    }
@@ -76,22 +81,22 @@ hr {
 }
 
 code {
-   color: var(--code);
-   background-color: var(--code-background);
+   color: var(--code-fg);
+   background-color: var(--code-bg);
 }
 
 /* LINKS */
 
 a {
-   color: var(--attribute);
+   color: var(--link-fg);
 }
 
 a:link {
-   border-bottom: 1px dotted var(--attribute);
+   border-bottom: 1px dotted var(--link-fg);
 }
 
 a:visited {
-   color: var(--attribute-visited);
+   color: var(--link-fg-visited);
    border-width: 0px;
    text-decoration: none;
 }
@@ -99,8 +104,8 @@ a:visited {
 a:hover,
 .tagline a:hover,
 .lead a:hover {
-   color: var(--attribute-hover);
-   border-color: var(--attribute-hover);
+   color: var(--link-fg-hover);
+   border-color: var(--link-fg-hover);
    text-decoration: none;
 }
 
@@ -133,12 +138,12 @@ header h2 {
 .tagline a,
 .lead a,
 .author-name a {
-   color: var(--special-text);
-   border-bottom: 1px dotted var(--special-text);
+   color: var(--secondary-text);
+   border-bottom: 1px dotted var(--secondary-text);
 }
 
 .tagline, .lead {
-   color: var(--tagline);
+   color: var(--secondary-text);
 }
 
 /* SPONSOR */
@@ -172,7 +177,7 @@ header h2 {
 
 .post-date {
    font-weight: normal;
-   color: var(--date);
+   color: var(--secondary-text);
    display: inline-block;
 }
 
@@ -186,11 +191,13 @@ header h2 {
 .sharing a,
 .sharing a:visited,
 .sharing a:link {
-   color: var(--attribute-sharing);
+   background-color: var(--button-bg);
+   color: var(--button-fg);
 }
 
 .sharing ul li a:hover {
-   color: var(--attribute-sharing-hover);
+   background-color: var(--button-bg-hover);
+   color: var(--button-fg);
    text-decoration: none;
 }
 
@@ -202,13 +209,15 @@ blockquote {
 
 /* SUBSCRIBE */
 
-.subscribe a,
-.subscribe a:visited {
-   color: var(--attribute-subscribe-visited);
+.subscribe ul li>a,
+.subscribe ul li>a:visited {
+   background-color: var(--button-bg);
+   color: var(--button-fg);
 }
 
 .subscribe ul li a:hover {
-   color: var(--attribute-subscribe-hover);
+   background-color: var(--button-bg-hover);
+   color: var(--button-fg);
    text-decoration: none;
 }
 
@@ -244,7 +253,7 @@ blockquote {
 
 footer a, footer a:visited,
 .social a, .social a:visited {
-  color: var(--attribute-social-visited);
+  color: var(--social-fg);
 }
 
 .social ul li a {
@@ -252,7 +261,7 @@ footer a, footer a:visited,
 }
 
 .social ul li a:hover {
-   color: var(--attribute-social-hover);
+   color: var(--social-fg-hover);
    text-decoration: none;
 }
 
