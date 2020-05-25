@@ -78,7 +78,7 @@
 @media (prefers-color-scheme: dark) {
    
    	.highlight .hll { background-color: #1c1c1c; }
-	.highlight { background: #272822; color: #f8f8f2; }
+	.highlight { background: #1c1c1c; color: #f8f8f2; }
 	.highlight .c { color: #949076; }
 	.highlight .err { background-color: #1e0010; color: #eb0083; }
 	.highlight .k { color: #66d9ef; }
