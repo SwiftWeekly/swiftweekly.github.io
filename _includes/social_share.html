@@ -20,10 +20,10 @@
          </li>
          {% endif %}
          <li>
-            <a href="https://twitter.com/intent/tweet?text=Issue%20{{ issue_number }}%20@{{ site.twitter.username }}%20{{ site.url }}{{ page.url }}%20written%20by%20@{{ author.twitter }}" title="Share on Twitter" target="_blank"> <i class="fa fa-lg fa-twitter"></i> </a>
+            <a href="https://twitter.com/intent/tweet?text=Issue%20{{ issue_number }}%20@{{ site.twitter.username }}%20{{ site.url }}{{ page.url }}%20written%20by%20@{{ author.twitter }}" title="Share on Twitter" aria-label="Share on Twitter" target="_blank"> <i class="fa fa-lg fa-twitter"></i> </a>
          </li>
          <li>
-            <a href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" target="_blank"> <i class="fa fa-lg fa-facebook"></i> </a>
+            <a href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" aria-label="Share on Facebook" target="_blank"> <i class="fa fa-lg fa-facebook"></i> </a>
          </li>
          {% if page.next.url %}
          <li>
