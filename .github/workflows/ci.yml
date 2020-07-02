@@ -40,6 +40,7 @@ jobs:
         run: bundle exec jekyll build
 
       - name: danger
+        if: github.event.pull_request.head.repo.full_name == github.repository
         env:
           DANGER_GITHUB_API_TOKEN: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
         run: bundle exec danger
