@@ -43,9 +43,9 @@ class GitHubIssueGenerator < CLAide::Command
     repo = 'SwiftWeekly/swiftweekly.github.io'
     title = "[#{@number}] Issue \##{@number} - #{@date}"
     body = <<-MD
-To contribute to this issue, simply leave a comment here. Please also review [our contributing guidelines](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CONTRIBUTING.md).
+To contribute to this issue, simply leave a comment here. Please also review [our contributing guidelines](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/main/CONTRIBUTING.md).
 
-The current draft for this issue in [`_drafts/`](https://github.com/SwiftWeekly/swiftweekly.github.io/tree/master/_drafts). If you want to contribute directly, feel free to [open a pull request](https://github.com/SwiftWeekly/swiftweekly.github.io/compare?expand=1).
+The current draft for this issue in [`_drafts/`](https://github.com/SwiftWeekly/swiftweekly.github.io/tree/main/_drafts). If you want to contribute directly, feel free to [open a pull request](https://github.com/SwiftWeekly/swiftweekly.github.io/compare?expand=1).
     MD
 
     labels = ['full issue notes']

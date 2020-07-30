@@ -5,7 +5,7 @@ is_editing_draft = !(git.modified_files.grep(/_drafts/).empty?)
 if is_editing_draft || is_adding_draft
   editing_message = <<-EOS
 Looks like you're editing a draft! 🤓
-**Don't forget** to review [our style guide](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CONTRIBUTING.md#-writing-style-guide) and [publish the issue](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CONTRIBUTING.md#-publishing-an-issue) when you're finished.
+**Don't forget** to review [our style guide](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/main/CONTRIBUTING.md#-writing-style-guide) and [publish the issue](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/main/CONTRIBUTING.md#-publishing-an-issue) when you're finished.
   EOS
   warn(editing_message)
 end
@@ -16,7 +16,7 @@ if is_publishing_issue
   publish_message = <<-EOS
 Looks like you're publishing a new issue! 🎉
 **Don't forget to:**
-1. Review [our style guide](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CONTRIBUTING.md#-writing-style-guide) before merging
+1. Review [our style guide](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/main/CONTRIBUTING.md#-writing-style-guide) before merging
 2. After you merge, close the GitHub issue notes for this newsletter issue
 3. Open the next GitHub issue, add the correct labels, assign it to the next writer
 4. Run the `new_draft.sh` script and push the next draft
