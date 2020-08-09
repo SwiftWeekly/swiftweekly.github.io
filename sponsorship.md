@@ -13,7 +13,7 @@ title: Sponsorship
 <i>Swift Weekly Brief</i> is distributed <b>every other Thursday</b> to thousands of savvy Swift developers and enthusiasts.
 Each issue contains quality links and commentary on what's happening in the <a href="https://swift.org">Swift.org</a> open source projects,
 as well as what's happening in the Swift community at large.
-There are over 4,000 subscribers and over <a href="{{ site.links.twitter }}">8,800 followers</a> on Twitter.
+There are over 4,000 subscribers and over <a href="{{ site.links.twitter }}">9,000 followers</a> on Twitter.
 </p>
 
 <h3>Sponsored Links</h3>

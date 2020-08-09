@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   build:
@@ -40,6 +40,10 @@ jobs:
         run: bundle exec jekyll build
 
       - name: danger
+        # The API token required for Danger to post comments is not available in fork PRs,
+        # thus disabling Danger for such PRs. See this post for more details:
+        # https://github.community/t/make-secrets-available-to-builds-of-forks/16166
+        if: github.event.pull_request.head.repo.full_name == github.repository
         env:
           DANGER_GITHUB_API_TOKEN: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
         run: bundle exec danger
