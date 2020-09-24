@@ -2,9 +2,9 @@
 
 *A community-driven weekly newsletter about [Swift.org](https://swift.org)*
 
-> Started by [@jesse_squires](https://twitter.com/jesse_squires) and curated by [@BasThomas](https://twitter.com/BasThomas).
+> Started by [@jesse_squires](https://twitter.com/jesse_squires) and curated by [@BasThomas](https://twitter.com/BasThomas) and [@fassko](https://twitter.com/fassko).
 
-<img src="https://raw.githubusercontent.com/SwiftWeekly/swiftweekly.github.io/master/img/logo.png" width="250"/>
+<img src="https://raw.githubusercontent.com/SwiftWeekly/swiftweekly.github.io/main/img/logo.png" width="250"/>
 
 ## About
 
