@@ -13,7 +13,7 @@ title: Sponsorship
 <i>Swift Weekly Brief</i> is distributed <b>every other Thursday</b> to thousands of savvy Swift developers and enthusiasts.
 Each issue contains quality links and commentary on what's happening in the <a href="https://swift.org">Swift.org</a> open source projects,
 as well as what's happening in the Swift community at large.
-There are over 4,000 subscribers and over <a href="{{ site.links.twitter }}">9,000 followers</a> on Twitter.
+There are over 4,200 subscribers and over <a href="{{ site.links.twitter }}">9,100 followers</a> on Twitter.
 </p>
 
 <h3>Sponsored Links</h3>
@@ -52,7 +52,7 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 <b>When contacting us, please provide your sponsorship materials!</b>
 </p>
 
-<a class="btn btn-warning btn-lg center" href="mailto:bas@basbroek.nl?subject=Swift Weekly Brief Sponsorship">Get in touch</a>
+<a class="btn btn-warning btn-lg center" href="mailto:fassko@gmail.com?subject=Swift Weekly Brief Sponsorship">Get in touch</a>
 
 <hr/>
 
@@ -60,13 +60,6 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 <div class="table-responsive" markdown="1">
 | <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Issue | <i class="fa fa-star" aria-hidden="true"></i>&nbsp; Status |
 |:-|:-|
-| July 2       | **Booked** <!-- Line --> |
-| July 16      | **Booked** <!-- Line --> |
-| July 30      | Open |
-| August 13    | Open |
-| August 27    | Open |
-| September 10 | Open |
-| September 24 | Open |
 | October 8    | Open |
 | October 22   | Open |
 | November 5   | Open |
