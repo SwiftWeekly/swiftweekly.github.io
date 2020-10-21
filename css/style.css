@@ -186,6 +186,17 @@ header h2 {
    margin-bottom: 2rem;
 }
 
+/* PAGINATOR */
+
+.pagination {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: 20px;
+  font-weight: normal;
+  font-size: 150%;
+}
+
 /* PAGES */
 
 .sharing a,
