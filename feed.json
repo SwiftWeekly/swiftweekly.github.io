@@ -29,7 +29,7 @@ layout: null
             {% endif %}
             "author": {
                 "name": "{{ site.data.authors[post.author].name }}",
-                "url": "https://twitter.com/{{ site.data.authors[post.author].twitter }}"
+                "url": "https://twitter.com/{{ site.data.authors[post.author].twitter }}",
                 "avatar": "https://github.com/{{ site.data.authors[post.author].github }}.png?size=100"
             },
             "summary": {{ post.excerpt | jsonify }},
