@@ -36,5 +36,5 @@ links:
     applenews: 'https://apple.news/TIlGIYluMTGWA-CIToVtF4Q'
 
 
-paginate: 50
+paginate: 25
 paginate_path: "/page:num/"
