@@ -13,7 +13,7 @@ title: Sponsorship
 <i>Swift Weekly Brief</i> is distributed <b>every other Thursday</b> to thousands of savvy Swift developers and enthusiasts.
 Each issue contains quality links and commentary on what's happening in the <a href="https://swift.org">Swift.org</a> open source projects,
 as well as what's happening in the Swift community at large.
-There are over 4,200 subscribers and over <a href="{{ site.links.twitter }}">9,100 followers</a> on Twitter.
+There are over 4,250 subscribers and over <a href="{{ site.links.twitter }}">9,200 followers</a> on Twitter.
 </p>
 
 <h3>Sponsored Links</h3>
@@ -60,13 +60,11 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 <div class="table-responsive" markdown="1">
 | <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Issue | <i class="fa fa-star" aria-hidden="true"></i>&nbsp; Status |
 |:-|:-|
-| October 8    | Open |
-| October 22   | Open |
-| November 5   | Open |
-| November 19  | Open |
 | December 3   | Open |
 | December 17  | Open |
 | December 31  | **No issue** |
+| January 14   | Open |
+| January 28   | Open |
 {: class="table table-bordered"}
 </div>
 

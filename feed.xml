@@ -34,6 +34,8 @@ layout: null
 
       <author>
          <name>{{ site.data.authors[post.author].name }}</name>
+         <url>https://twitter.com/{{ site.data.authors[post.author].twitter }}</url>
+         <avatar>https://github.com/{{ site.data.authors[post.author].github }}.png?size=100</avatar>
       </author>
 
       <content type="html">{{ post.content | xml_escape }}</content>
