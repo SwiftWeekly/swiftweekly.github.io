@@ -34,3 +34,7 @@ links:
     issue: 'https://github.com/SwiftWeekly/swiftweekly.github.io/issues/new'
     pull: 'https://github.com/SwiftWeekly/swiftweekly.github.io/compare'
     applenews: 'https://apple.news/TIlGIYluMTGWA-CIToVtF4Q'
+
+
+paginate: 25
+paginate_path: "/page:num/"

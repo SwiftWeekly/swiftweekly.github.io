@@ -24,6 +24,8 @@
    --hr-border: #666;
 
    --post-title-font-weight: lighter;
+
+   --list-background-color: #f3f3f3;
 }
 
 /* DARK MODE */
@@ -51,6 +53,7 @@
       --hr-border: #999;
 
       --post-title-font-weight: 300; /* 400 is normal */
+      --list-background-color: #111111;
    }
 }
 
@@ -159,6 +162,14 @@ header h2 {
 
 /* POST LIST */
 
+.post-list-item {
+   margin-top: 20px;
+   background-color: var(--list-background-color);
+   padding: 12px 30px;
+   border-radius: 15px;
+   overflow: hidden;
+}
+
 .post {
    padding-top: 2rem;
    padding-bottom: 2rem;
@@ -184,6 +195,26 @@ header h2 {
 .lead {
    padding: 0rem;
    margin-bottom: 2rem;
+}
+
+.post-readmore {
+   font-size: 25px;
+   font-weight: var(--post-title-font-weight);
+}
+
+/* PAGINATOR */
+
+.pagination {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    font-weight: normal;
+    font-size: 150%;
+}
+
+.pagination a, .pagination em {
+    padding: 4px 6px;
 }
 
 /* PAGES */
