@@ -2,13 +2,13 @@
 
 *A community-driven weekly newsletter about [Swift.org](https://swift.org)*
 
-> Started by [@jesse_squires](https://twitter.com/jesse_squires) and curated by [@BasThomas](https://twitter.com/BasThomas) and [@fassko](https://twitter.com/fassko).
+> Started by [@jesse_squires](https://twitter.com/jesse_squires), continued by [@BasThomas](https://twitter.com/BasThomas) and now curated by [@fassko](https://twitter.com/fassko).
 
 <img src="https://raw.githubusercontent.com/SwiftWeekly/swiftweekly.github.io/main/img/logo.png" width="250"/>
 
 ## About
 
-This newsletter was originally started by [Jesse Squires](https://github.com/jessesquires), and hosted on his blog at [jessesquires.com](http://www.jessesquires.com). After issue #4, this site was created to provide the newsletter with a proper, dedicated home. All previous issues were [migrated](http://www.jessesquires.com/new-weekly-brief/), and it is now completely open for the community. Currently, [Bas Broek](https://github.com/BasThomas) is leading the project. Contributions are welcomed and encouraged!
+This newsletter was originally started by [Jesse Squires](https://github.com/jessesquires), and hosted on his blog at [jessesquires.com](http://www.jessesquires.com). After issue #4, this site was created to provide the newsletter with a proper, dedicated home. All previous issues were [migrated](http://www.jessesquires.com/new-weekly-brief/), and it is now completely open for the community. At some point, [Bas Broek](https://twitter.com/BasThomas) took it over as the main contributor. Currently, [Kristaps Grinbergs](https://github.com/fassko) is leading the project. Contributions are welcomed and encouraged!
 
 Lovingly built with [Jekyll](https://jekyllrb.com), [Bootstrap](https://getbootstrap.com), [jQuery](https://jquery.com), and [Font Awesome](https://fortawesome.github.io/Font-Awesome/). Generously hosted by [GitHub](https://pages.github.com).
 
