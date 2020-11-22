@@ -205,12 +205,16 @@ header h2 {
 /* PAGINATOR */
 
 .pagination {
-  text-align: center;
-  margin: auto;
-  width: 100%;
-  padding: 20px;
-  font-weight: normal;
-  font-size: 150%;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    font-weight: normal;
+    font-size: 150%;
+}
+
+.pagination a, .pagination em {
+    padding: 4px 6px;
 }
 
 /* PAGES */
