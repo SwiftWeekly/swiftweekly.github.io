@@ -204,7 +204,7 @@ header h2 {
 
 /* PAGINATOR */
 
-.pagination {
+.post-list-pagination {
     text-align: center;
     margin: auto;
     width: 100%;
@@ -213,7 +213,7 @@ header h2 {
     font-size: 150%;
 }
 
-.pagination a, .pagination em {
+.post-list-pagination a, .pagination em {
     padding: 4px 6px;
 }
 
