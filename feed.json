@@ -30,7 +30,8 @@ layout: null
             "author": {
                 "name": "{{ site.data.authors[post.author].name }}",
                 "url": "https://twitter.com/{{ site.data.authors[post.author].twitter }}",
-                "avatar": "https://github.com/{{ site.data.authors[post.author].github }}.png?size=100"
+                "avatar": "https://github.com/{{ site.data.authors[post.author].github }}.png?size=100",
+                "twitter": "{{ site.data.authors[post.author].twitter }}"
             },
             "summary": {{ post.excerpt | jsonify }},
             "content_html": {{ post.content | jsonify }}
