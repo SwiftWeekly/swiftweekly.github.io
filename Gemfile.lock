@@ -285,6 +285,7 @@ GEM
 
 PLATFORMS
   ruby
+  universal-darwin-20
 
 DEPENDENCIES
   claide
@@ -296,4 +297,4 @@ DEPENDENCIES
   octokit
 
 BUNDLED WITH
-   2.1.4
+   2.2.2
