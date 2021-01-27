@@ -9,3 +9,5 @@ gem 'danger-prose'
 gem 'claide'
 gem 'octokit'
 gem 'colorize'
+
+gem "jekyll-commonmark-ghpages", "~> 0.1.6"

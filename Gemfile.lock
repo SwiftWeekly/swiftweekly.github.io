@@ -62,7 +62,7 @@ GEM
     gemoji (3.0.1)
     git (1.8.1)
       rchardet (~> 1.8)
-    github-pages (210)
+    github-pages (211)
       github-pages-health-check (= 1.16.1)
       jekyll (= 3.9.0)
       jekyll-avatar (= 0.7.0)
@@ -104,7 +104,7 @@ GEM
       mercenary (~> 0.3)
       minima (= 2.5.1)
       nokogiri (>= 1.10.4, < 2.0)
-      rouge (= 3.23.0)
+      rouge (= 3.26.0)
       terminal-table (~> 1.4)
     github-pages-health-check (1.16.1)
       addressable (~> 2.3)
@@ -256,7 +256,7 @@ GEM
       ffi (~> 1.0)
     rchardet (1.8.0)
     rexml (3.2.4)
-    rouge (3.23.0)
+    rouge (3.26.0)
     ruby-enum (0.8.0)
       i18n
     ruby2_keywords (0.0.4)
@@ -296,6 +296,7 @@ DEPENDENCIES
   danger
   danger-prose
   github-pages
+  jekyll-commonmark-ghpages (~> 0.1.6)
   jekyll-sitemap
   octokit
 
