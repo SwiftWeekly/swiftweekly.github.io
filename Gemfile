@@ -10,4 +10,6 @@ gem 'claide'
 gem 'octokit'
 gem 'colorize'
 
-gem "jekyll-commonmark-ghpages", "~> 0.1.6"
+group :jekyll_plugins do
+  gem 'jekyll-commonmark-ghpages'
+end

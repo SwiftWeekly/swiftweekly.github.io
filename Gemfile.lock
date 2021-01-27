@@ -296,7 +296,7 @@ DEPENDENCIES
   danger
   danger-prose
   github-pages
-  jekyll-commonmark-ghpages (~> 0.1.6)
+  jekyll-commonmark-ghpages
   jekyll-sitemap
   octokit
 
