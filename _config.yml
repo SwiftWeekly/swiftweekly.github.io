@@ -4,6 +4,7 @@ highlighter: rouge
 
 plugins:
     - jekyll-sitemap
+    - jekyll-paginate
 
 # File rules
 exclude: [vendor, Dangerfile, Gemfile, Gemfile.lock, LICENSE, README.md, CODE_OF_CONDUCT.md, CONTRIBUTING.md, new_draft.sh, github_issue_generator.rb]
