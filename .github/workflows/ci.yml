@@ -34,6 +34,7 @@ jobs:
 
       - name: bundle install
         run: |
+          gem uninstall jekyll-commonmark-ghpages
           bundle config path vendor/bundle
           bundle install --without=documentation --jobs 4 --retry 3
           echo "::add-path::/Users/runner/Library/Python/2.7/bin"
