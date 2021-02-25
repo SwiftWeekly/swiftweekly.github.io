@@ -237,7 +237,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (5.14.3)
+    minitest (5.14.4)
     multipart-post (2.1.1)
     nap (1.1.0)
     no_proxy_fix (0.1.2)
