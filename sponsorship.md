@@ -25,7 +25,7 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 </p>
 
 <p class="text-muted text-center">
-<b>Thank you for supporting this independent, community-driven newsletter!</b>
+<b>Thank you for supporting this independent, community-driven newsletter.</b>
 </p>
 
 <h3>Details</h3>
@@ -49,7 +49,7 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 </p>
 
 <p class="text-warning text-center">
-<b>When contacting us, please provide your sponsorship materials!</b>
+<b>When contacting us, please provide your sponsorship materials.</b>
 </p>
 
 <a class="btn btn-warning btn-lg center" href="mailto:fassko@gmail.com?subject=Swift Weekly Brief Sponsorship">Get in touch</a>
