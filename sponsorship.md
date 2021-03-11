@@ -25,7 +25,7 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 </p>
 
 <p class="text-muted text-center">
-<b>Thank you for supporting this independent, community-driven newsletter!</b>
+<b>Thank you for supporting this independent, community-driven newsletter.</b>
 </p>
 
 <h3>Details</h3>
@@ -34,8 +34,8 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 </p>
 
 <p>
-<b>Analytics:</b> for each issue, the following <a href="https://www.utm-parameters.com/utm-parameters-using-google-analytics/">UTM parameters</a> are generated for sponsored links:
-<code>utm_campaign=Swift_Weekly_Brief</code> and <code>utm_source=Swift_Weekly_Brief_{Issue}</code> where <code>{Issue}</code> is the issue number of the newsletter. For example "Swift_Weekly_Brief_42" would be generated for Issue #42.
+<b>Analytics:</b> for each issue, the following <a href="https://www.utm-parameters.com/utm-parameters-using-google-analytics/">UTM parameters</a> are generated for all links:
+<code>utm_source=Swift_Weekly_Brief</code>, <code>utm_medium=email</code> and <code>utm_campaign=Issue_{Issue}</code> where <code>{Issue}</code> is the issue number of the newsletter. For example "Issue_42" would be generated for Issue #42.
 </p>
 
 <p>
@@ -49,7 +49,7 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 </p>
 
 <p class="text-warning text-center">
-<b>When contacting us, please provide your sponsorship materials!</b>
+<b>When contacting us, please provide your sponsorship materials.</b>
 </p>
 
 <a class="btn btn-warning btn-lg center" href="mailto:fassko@gmail.com?subject=Swift Weekly Brief Sponsorship">Get in touch</a>
