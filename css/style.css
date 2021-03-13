@@ -116,6 +116,10 @@ a:active {
    text-decoration:none;
 }
 
+.input-group-btn {
+	margin-left: -3px;
+}
+
 h1 > a:link,
 .sponsor a:link,
 a.btn {
