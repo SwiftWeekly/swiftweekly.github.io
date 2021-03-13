@@ -88,6 +88,14 @@ code {
    background-color: var(--code-bg);
 }
 
+td {
+  color: var(--body-text);
+}
+
+th {
+  color: var(--body-text);
+}
+
 /* LINKS */
 
 a {
@@ -99,7 +107,7 @@ a:link {
 }
 
 a:visited {
-   color: var(--link-fg-visited);
+/*   color: var(--link-fg-visited);*/
    border-width: 0px;
    text-decoration: none;
 }
