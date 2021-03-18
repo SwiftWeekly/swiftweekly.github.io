@@ -107,7 +107,6 @@ a:link {
 }
 
 a:visited {
-/*   color: var(--link-fg-visited);*/
    border-width: 0px;
    text-decoration: none;
 }
