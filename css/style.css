@@ -371,6 +371,7 @@ footer a, footer a:visited,
     margin: 0;
     width: 350px;
     vertical-align: top;
+    margin-top: 10px;
 }
 
 #newsletter_signup .button {
@@ -389,6 +390,7 @@ footer a, footer a:visited,
     display: inline-block;
     margin: 0;
     transition: all 0.23s ease-in-out 0s;
+    margin-top: 10px;
 }
 
 #newsletter_signup .button:hover {
