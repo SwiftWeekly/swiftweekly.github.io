@@ -5,12 +5,6 @@ title: Home
 
 <!-- post-list -->
 <div>
-    <div class="row">
-    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
-        {% include search_box.html %}
-    </div>
-    </div>
-
     {% for post in paginator.posts %}
       {% assign author = site.data.authors[post.author] %}
       <div class="post-list-item">

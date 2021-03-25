@@ -15,7 +15,7 @@ permalink: /:title/
 # Site
 title: 'Swift Weekly Brief'
 description: 'A community-driven weekly newsletter about Swift.org'
-url: https://swiftweekly.github.io
+url: https://swiftweeklybrief.com
 logo: /img/logo.png
 timezone: America/Los_Angeles
 

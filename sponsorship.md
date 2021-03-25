@@ -4,7 +4,7 @@ title: Sponsorship
 ---
 
 <div class="row">
-<div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+<div class="mx-auto col-sm-10 col-md-10">
 
 <h2 class="text-center">{{ page.title }}</h2>
 <p class="lead text-center">Interested in becoming a sponsor?</p>
