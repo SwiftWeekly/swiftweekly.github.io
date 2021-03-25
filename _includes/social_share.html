@@ -13,21 +13,21 @@
    </small>
 
    <nav aria-label="Page navigation">
-      <ul class="pagination">
+      <ul class="pagination justify-content-center">
          {% if page.previous.url %}
-         <li>
-            <a href="{{ page.previous.url }}" title="Previous issue"><i class="fa fa-chevron-left" aria-hidden="true"></i> Prev</a>
+         <li class="page-item">
+            <a class="page-link border-0" href="{{ page.previous.url }}" title="Previous issue"><i class="fa fa-chevron-left" aria-hidden="true"></i> Prev</a>
          </li>
          {% endif %}
-         <li>
-            <a href="https://twitter.com/intent/tweet?text=Issue%20{{ issue_number }}%20@{{ site.twitter.username }}%20{{ site.url }}{{ page.url }}%20written%20by%20@{{ author.twitter }}" title="Share on Twitter" aria-label="Share on Twitter" target="_blank"> <i class="fa fa-lg fa-twitter"></i> </a>
+         <li class="page-item">
+            <a class="page-link border-0" href="https://twitter.com/intent/tweet?text=Issue%20{{ issue_number }}%20@{{ site.twitter.username }}%20{{ site.url }}{{ page.url }}%20written%20by%20@{{ author.twitter }}" title="Share on Twitter" aria-label="Share on Twitter" target="_blank"> <i class="fa fa-lg fa-twitter"></i> </a>
          </li>
-         <li>
-            <a href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" aria-label="Share on Facebook" target="_blank"> <i class="fa fa-lg fa-facebook"></i> </a>
+         <li class="page-item">
+            <a class="page-link border-0" href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" aria-label="Share on Facebook" target="_blank"> <i class="fa fa-lg fa-facebook"></i> </a>
          </li>
          {% if page.next.url %}
-         <li>
-            <a href="{{ page.next.url }}" title="Next issue">Next <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+         <li class="page-item">
+            <a class="page-link border-0" href="{{ page.next.url }}" title="Next issue">Next <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
          </li>
          {% endif %}
       </ul>
