@@ -1,91 +1,90 @@
 /* COMMON ELEMENTS */
 
 :root {
-   color-scheme: light dark;
-
-   --background: #ffffff;
-   --body-text: #606060;
-   --secondary-text: #666666;
-
-   --code-fg: #c7254e;
-   --code-bg: #f9f2f4;
-
-   --button-fg: #666666;
-   --button-bg: #fff;
-   --button-bg-hover: #eee;
-
-   --social-fg: #444444;
-   --social-fg-hover: #666666;
-   
-   --link-fg: #DC3A1D;
-   --link-fg-visited: #DC3A1D;
-   --link-fg-hover: #fbaf40;
-
-   --hr-border: #666;
-
-   --post-title-font-weight: lighter;
-
-   --list-background-color: #f3f3f3;
+  color-scheme: light dark;
+  
+  --background: #ffffff;
+  --body-text: #606060;
+  --secondary-text: #666666;
+  
+  --code-fg: #c7254e;
+  --code-bg: #f9f2f4;
+  
+  --button-fg: #666666;
+  --button-bg: #fff;
+  --button-bg-hover: #eee;
+  
+  --social-fg: #444444;
+  --social-fg-hover: #666666;
+  
+  --link-fg: #DC3A1D;
+  --link-fg-visited: #DC3A1D;
+  --link-fg-hover: #fbaf40;
+  
+  --hr-border: #666;
+  
+  --post-title-font-weight: lighter;
+  
+  --list-background-color: #f3f3f3;
 }
 
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
-   :root {
-
-      --background: #1c1c1c;
-      --body-text: #b2b2b2;
-      --secondary-text: #878787;
-
-      --code-fg: #000000;
-      --code-bg: #959595;
-
-      --button-fg: #878787;
-      --button-bg: #1c1c1c;
-      --button-bg-hover: #2f2f2f;
-
-      --social-fg: #979797;
-      --social-fg-hover: #878787;
-
-      --link-fg: #f7492e;
-      --link-fg-visited: #f7492e;
-      --link-fg-hover: #f7ad2e;
-
-      --hr-border: #999;
-
-      --post-title-font-weight: 300; /* 400 is normal */
-      --list-background-color: #111111;
-   }
+  :root {
+    --background: #1c1c1c;
+    --body-text: #b2b2b2;
+    --secondary-text: #878787;
+    
+    --code-fg: #000000;
+    --code-bg: #959595;
+    
+    --button-fg: #878787;
+    --button-bg: #1c1c1c;
+    --button-bg-hover: #2f2f2f;
+    
+    --social-fg: #979797;
+    --social-fg-hover: #878787;
+    
+    --link-fg: #f7492e;
+    --link-fg-visited: #f7492e;
+    --link-fg-hover: #f7ad2e;
+    
+    --hr-border: #999;
+    
+    --post-title-font-weight: 300; /* 400 is normal */
+    --list-background-color: #111111;
+  }
 }
 
 body {
-   background-color: var(--background);
-   color: var(--body-text);
-   padding-bottom: 1rem;
-   padding-top: 1rem;
+  background-color: var(--background);
+  color: var(--body-text);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 body p {
-   line-height: 2.7rem;
-   padding: 0.5rem 0rem 0.5rem 0rem;
-   font-size: 16px;
+  line-height: 2.7rem;
+  padding: 0.5rem 0rem 0.5rem 0rem;
+  font-size: 16px;
 }
 
 hr {
-   border-color: var(--hr-border);
-   width: 50%;
+  border-color: var(--hr-border);
+  width: 50%;
 }
 
 .center {
-   float: none;
-   margin-left: auto;
-   margin-right: auto;
-   display: block;
-   text-align: center;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
 }
 
 code {
-   color: var(--code-fg);
-   background-color: var(--code-bg);
+  color: var(--code-fg);
+  background-color: var(--code-bg);
 }
 
 td {
@@ -99,28 +98,28 @@ th {
 /* LINKS */
 
 a {
-   color: var(--link-fg);
+  color: var(--link-fg);
 }
 
 a:link {
-   border-bottom: 1px dotted var(--link-fg);
+  border-bottom: 1px dotted var(--link-fg);
 }
 
 a:visited {
-   border-width: 0px;
-   text-decoration: none;
+  border-width: 0px;
+  text-decoration: none;
 }
 
 a:hover,
 .tagline a:hover,
 .lead a:hover {
-   color: var(--link-fg-hover);
-   border-color: var(--link-fg-hover);
-   text-decoration: none;
+  color: var(--link-fg-hover);
+  border-color: var(--link-fg-hover);
+  text-decoration: none;
 }
 
 a:active {
-   text-decoration:none;
+  text-decoration:none;
 }
 
 .input-group-btn {
@@ -130,102 +129,102 @@ a:active {
 h1 > a:link,
 .sponsor a:link,
 a.btn {
-   border-width: 0px;
+  border-width: 0px;
 }
 
 /* HEADER */
 
 header {
-   text-align: center;
+  text-align: center;
 }
 
 header h1 {
-   font-size: 50px;
-   font-weight: normal;
+  font-size: 50px;
+  font-weight: normal;
 }
 
 header h2 {
-   font-size: 15px;
-   line-height: 22px;
+  font-size: 15px;
+  line-height: 22px;
 }
 
 .tagline a,
 .lead a,
 .author-name a {
-   color: var(--secondary-text);
-   border-bottom: 1px dotted var(--secondary-text);
+  color: var(--secondary-text);
+  border-bottom: 1px dotted var(--secondary-text);
 }
 
 .tagline, .lead {
-   color: var(--secondary-text);
+  color: var(--secondary-text);
 }
 
 /* SPONSOR */
 
 .sponsor p {
-   padding: 0rem;
+  padding: 0rem;
 }
 
 .sponsor {
-   margin-top: 3rem;
-   margin-bottom: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 /* POST LIST */
 
 .post-list-item {
-   margin-top: 20px;
-   background-color: var(--list-background-color);
-   padding: 12px 30px;
-   border-radius: 15px;
-   overflow: hidden;
+  margin-top: 20px;
+  background-color: var(--list-background-color);
+  padding: 12px 30px;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .post {
-   padding-top: 2rem;
-   padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .post-title {
-   font-size: 40px;
-   font-weight: var(--post-title-font-weight);
+  font-size: 40px;
+  font-weight: var(--post-title-font-weight);
 }
 
 .post-subtitle {
-   font-size: 30px;
-   font-weight: bolder;
-   margin: 0rem 0rem 1.5rem 0rem;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 0rem 0rem 1.5rem 0rem;
 }
 
 .post-date {
-   font-weight: normal;
-   color: var(--secondary-text);
-   display: inline-block;
+  font-weight: normal;
+  color: var(--secondary-text);
+  display: inline-block;
 }
 
 .lead {
-   padding: 0rem;
-   margin-bottom: 2rem;
+  padding: 0rem;
+  margin-bottom: 2rem;
 }
 
 .post-readmore {
-   font-size: 25px;
-   font-weight: var(--post-title-font-weight);
+  font-size: 25px;
+  font-weight: var(--post-title-font-weight);
 }
 
 /* PAGINATOR */
 
 .post-list-pagination {
-    text-align: center;
-    margin: auto;
-    width: 100%;
-    padding: 20px;
-    font-weight: normal;
-    font-size: 150%;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: 20px;
+  font-weight: normal;
+  font-size: 150%;
 }
 
 .post-list-pagination a, .pagination em {
-    padding: 4px 6px;
+  padding: 4px 6px;
 }
 
 /* PAGES */
@@ -233,53 +232,53 @@ header h2 {
 .sharing a,
 .sharing a:visited,
 .sharing a:link {
-   background-color: var(--button-bg);
-   color: var(--button-fg);
+  background-color: var(--button-bg);
+  color: var(--button-fg);
 }
 
 .sharing ul li a:hover {
-   background-color: var(--button-bg-hover);
-   color: var(--button-fg);
-   text-decoration: none;
+  background-color: var(--button-bg-hover);
+  color: var(--button-fg);
+  text-decoration: none;
 }
 
 blockquote {
-   color: var(--body-text);
-   font-size: 16px;
-   margin-left: 22px;
+  color: var(--body-text);
+  font-size: 16px;
+  margin-left: 22px;
 }
 
 /* SUBSCRIBE */
 
 .subscribe ul li>a,
 .subscribe ul li>a:visited {
-   background-color: var(--button-bg);
-   color: var(--button-fg);
+  background-color: var(--button-bg);
+  color: var(--button-fg);
 }
 
 .subscribe ul li a:hover {
-   background-color: var(--button-bg-hover);
-   color: var(--button-fg);
-   text-decoration: none;
+  background-color: var(--button-bg-hover);
+  color: var(--button-fg);
+  text-decoration: none;
 }
 
 .subscribe ul {
-   -webkit-padding-start: 0px !important;
-   -webkit-margin-before: 0px !important;
-   -webkit-margin-after: 0px !important;
+  -webkit-padding-start: 0px !important;
+  -webkit-margin-before: 0px !important;
+  -webkit-margin-after: 0px !important;
 }
 
 .subscribe ul li {
-   display: inline-block;
-   padding: 0.25rem;
+  display: inline-block;
+  padding: 0.25rem;
 }
 
 /* AUTHORS */
 
 .posts-list {
-   padding: 0px;
-   margin: 0px;
-   -webkit-padding-start: 4px;
+  padding: 0px;
+  margin: 0px;
+  -webkit-padding-start: 4px;
 }
 
 .posts-list li {
@@ -288,7 +287,7 @@ blockquote {
 }
 
 .post-count {
-   display: inline-block;
+  display: inline-block;
 }
 
 /* BOTTOM ICONS */
@@ -303,21 +302,21 @@ footer a, footer a:visited,
 }
 
 .social ul li a:hover {
-   color: var(--social-fg-hover);
-   text-decoration: none;
+  color: var(--social-fg-hover);
+  text-decoration: none;
 }
 
 .social ul {
-   -webkit-padding-start: 0px !important;
-   -webkit-margin-before: 0px !important;
-   -webkit-margin-after: 0px !important;
+  -webkit-padding-start: 0px !important;
+  -webkit-margin-before: 0px !important;
+  -webkit-margin-after: 0px !important;
 
-   -moz-padding-start: 0px !important;
+  -moz-padding-start: 0px !important;
 }
 
 .social ul li {
-   display: inline-block;
-   padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+  display: inline-block;
+  padding: 0.25rem 0.25rem 0.25rem 0.25rem;
 }
 
 .social ul li {
@@ -327,70 +326,70 @@ footer a, footer a:visited,
 
 /* iphone 6 plus */
 @media (max-width: 414px) {
-   header h1 {
-      font-size: 46px;
-   }
+  header h1 {
+    font-size: 46px;
+  }
 }
 
 /* iphone 6 */
 @media (max-width: 375px) {
-   header h1 {
-      font-size: 42px;
-   }
+  header h1 {
+    font-size: 42px;
+  }
 }
 
 /* iphone 5 */
 @media (max-width: 320px) {
-   header h1 {
-      font-size: 36px;
-   }
+  header h1 {
+    font-size: 36px;
+  }
 
-   header h2 {
-      font-size: 13px;
-   }
+  header h2 {
+    font-size: 13px;
+  }
 }
 
 #newsletter_signup form {
-    text-align: center;
-    padding: 10px 0 5px 0;
+  text-align: center;
+  padding: 10px 0 5px 0;
 }
 
 #newsletter_signup input.email {
-    font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;
-    font-size: 15px;
-    border: 1px solid #ABB0B2;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    color: #343434;
-    background-color: #fff;
-    box-sizing: border-box;
-    height: 32px;
-    padding: 0px 0.4em;
-    display: inline-block;
-    margin: 0;
-    width: 350px;
-    vertical-align: top;
-    margin-top: 10px;
+  font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;
+  font-size: 15px;
+  border: 1px solid #ABB0B2;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #343434;
+  background-color: #fff;
+  box-sizing: border-box;
+  height: 32px;
+  padding: 0px 0.4em;
+  display: inline-block;
+  margin: 0;
+  width: 350px;
+  vertical-align: top;
+  margin-top: 10px;
 }
 
 #newsletter_signup .button {
-    font-size: 13px;
-    border: none;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    letter-spacing: .03em;
-    color: #fff;
-    background-color: #aaa;
-    box-sizing: border-box;
-    height: 32px;
-    line-height: 32px;
-    padding: 0 18px;
-    display: inline-block;
-    margin: 0;
-    transition: all 0.23s ease-in-out 0s;
-    margin-top: 10px;
+  font-size: 13px;
+  border: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  letter-spacing: .03em;
+  color: #fff;
+  background-color: #aaa;
+  box-sizing: border-box;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 18px;
+  display: inline-block;
+  margin: 0;
+  transition: all 0.23s ease-in-out 0s;
+  margin-top: 10px;
 }
 
 #newsletter_signup .button:hover {
