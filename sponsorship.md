@@ -13,12 +13,12 @@ title: Sponsorship
 <i>Swift Weekly Brief</i> is distributed <b>every other Thursday</b> to thousands of savvy Swift developers and enthusiasts.
 Each issue contains quality links and commentary on what's happening in the <a href="https://swift.org">Swift.org</a> open source projects,
 as well as what's happening in the Swift community at large.
-There are over 4,250 subscribers and over <a href="{{ site.links.twitter }}">9,200 followers</a> on Twitter.
+There are over 4,350 subscribers and over <a href="{{ site.links.twitter }}">9,920 followers</a> on Twitter.
 </p>
 
 <h3>Sponsored Links</h3>
 <p>
-There is a single Sponsored Link available per issue for <b>$200</b>.
+There is a single Sponsored Link available per issue for <b>$350</b>.
 This is featured prominently at the beginning of an issue &mdash; after the opening comments but before the first section headline.
 These links are great to get conferences, developer tools, workshops, products, or services noticed by subscribers and followers.
 Sponsored Links should be relevant to the Swift programming community. To sponsor an issue, get in touch using the button below.
