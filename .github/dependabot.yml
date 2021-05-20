@@ -1,16 +1,14 @@
+# Documentation for all configuration options:
+# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
 version: 2
 updates:
-- package-ecosystem: bundler
-  directory: "/"
-  schedule:
-    interval: daily
-    time: "13:00"
-  open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: github-pages
-    versions:
-    - "212"
-    - "214"
-  - dependency-name: danger
-    versions:
-    - 8.2.3
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: bundler
+    directory: "/"
+    schedule:
+      interval: "weekly"
