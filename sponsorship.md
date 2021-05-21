@@ -60,9 +60,11 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 <div class="table-responsive" markdown="1">
 | <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Issue | <i class="fa fa-star" aria-hidden="true"></i>&nbsp; Status |
 |:-|:-|
-| May 20   | Open |
 | June 3   | Open |
 | June 17   | Open |
+| July 1   | Open |
+| July 15   | Open |
+| July 29   | Open |
 {: class="table table-bordered"}
 </div>
 
