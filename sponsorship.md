@@ -56,7 +56,7 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 
 <hr/>
 
-<h3>Availability <small>2020</small></h3>
+<h3>Availability <small>2021</small></h3>
 <div class="table-responsive" markdown="1">
 | <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Issue | <i class="fa fa-star" aria-hidden="true"></i>&nbsp; Status |
 |:-|:-|
