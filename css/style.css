@@ -64,7 +64,7 @@ body {
 }
 
 body p {
-  line-height: 2.7rem;
+  line-height: 1.6rem;
   padding: 0.5rem 0rem 0.5rem 0rem;
   font-size: 16px;
 }
@@ -328,6 +328,10 @@ footer a, footer a:visited,
 @media (max-width: 414px) {
   header h1 {
     font-size: 46px;
+  }
+
+  .post-list-item {
+    padding: 12px 20px;
   }
 }
 
