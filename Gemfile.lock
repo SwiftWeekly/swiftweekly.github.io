@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (6.0.3.7)
+    activesupport (6.0.4)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -41,7 +41,7 @@ GEM
       terminal-table (>= 1, < 4)
     danger-prose (2.0.7)
       danger
-    dnsruby (1.61.5)
+    dnsruby (1.61.7)
       simpleidn (~> 0.1)
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
@@ -65,7 +65,7 @@ GEM
       faraday (>= 0.8)
     faraday-net_http (1.0.1)
     faraday-net_http_persistent (1.1.0)
-    ffi (1.15.1)
+    ffi (1.15.3)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     git (1.8.1)
@@ -241,6 +241,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
+    mini_portile2 (2.5.3)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
@@ -249,6 +250,9 @@ GEM
     multipart-post (2.1.1)
     nap (1.1.0)
     no_proxy_fix (0.1.2)
+    nokogiri (1.11.7)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     nokogiri (1.11.7-x86_64-darwin)
       racc (~> 1.4)
     octokit (4.21.0)
