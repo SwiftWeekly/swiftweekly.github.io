@@ -74,7 +74,7 @@ GEM
     gemoji (3.0.1)
     git (1.9.1)
       rchardet (~> 1.8)
-    github-pages (216)
+    github-pages (217)
       github-pages-health-check (= 1.17.2)
       jekyll (= 3.9.0)
       jekyll-avatar (= 0.7.0)
@@ -264,4 +264,4 @@ DEPENDENCIES
   octokit
 
 BUNDLED WITH
-   2.2.6
+   2.2.23
