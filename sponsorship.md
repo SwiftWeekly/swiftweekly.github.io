@@ -63,7 +63,7 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 | October 21   | Taken |
 | November 4   | Open |
 | November 18   | Open |
-| December 2   | Open |
+| December 2   | Taken |
 | December 16   | Open |
 {: class="table table-bordered"}
 </div>
