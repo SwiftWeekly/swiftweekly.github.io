@@ -12,3 +12,5 @@ gem 'danger-prose'
 gem 'claide'
 gem 'octokit'
 gem 'colorize'
+
+gem "webrick", "~> 1.7"
