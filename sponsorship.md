@@ -18,7 +18,7 @@ There are over 4.5K+ subscribers and over <a href="{{ site.links.twitter }}">10.
 
 <h3>Sponsored Links</h3>
 <p>
-There is a single Sponsored Link available per issue for <b>$350</b>.
+There is a single Sponsored Link available per issue.
 This is featured prominently at the beginning of an issue &mdash; after the opening comments but before the first section headline.
 These links are great to get conferences, developer tools, workshops, products, or services noticed by subscribers and followers.
 Sponsored Links should be relevant to the Swift programming community. To sponsor an issue, get in touch using the button below.
@@ -60,11 +60,9 @@ Sponsored Links should be relevant to the Swift programming community. To sponso
 <div class="table-responsive" markdown="1">
 | <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Issue | <i class="fa fa-star" aria-hidden="true"></i>&nbsp; Status |
 |:-|:-|
-| October 7   | Taken |
-| October 21   | Open |
-| November 4   | Open |
+| November 4   | Taken |
 | November 18   | Open |
-| December 2   | Open |
+| December 2   | Taken |
 | December 16   | Open |
 {: class="table table-bordered"}
 </div>
