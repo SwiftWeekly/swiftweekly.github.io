@@ -76,7 +76,7 @@ GEM
     gemoji (3.0.1)
     git (1.9.1)
       rchardet (~> 1.8)
-    github-pages (221)
+    github-pages (222)
       github-pages-health-check (= 1.17.9)
       jekyll (= 3.9.0)
       jekyll-avatar (= 0.7.0)
