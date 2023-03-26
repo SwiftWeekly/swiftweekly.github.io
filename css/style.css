@@ -2,29 +2,29 @@
 
 :root {
   color-scheme: light dark;
-  
+
   --background: #ffffff;
   --body-text: #606060;
   --secondary-text: #666666;
-  
+
   --code-fg: #c7254e;
   --code-bg: #f9f2f4;
-  
+
   --button-fg: #666666;
   --button-bg: #fff;
   --button-bg-hover: #eee;
-  
+
   --social-fg: #444444;
   --social-fg-hover: #666666;
-  
+
   --link-fg: #DC3A1D;
   --link-fg-visited: #DC3A1D;
   --link-fg-hover: #fbaf40;
-  
+
   --hr-border: #666;
-  
+
   --post-title-font-weight: lighter;
-  
+
   --list-background-color: #f3f3f3;
 }
 
@@ -34,23 +34,23 @@
     --background: #1c1c1c;
     --body-text: #b2b2b2;
     --secondary-text: #878787;
-    
+
     --code-fg: #000000;
     --code-bg: #959595;
-    
+
     --button-fg: #878787;
     --button-bg: #1c1c1c;
     --button-bg-hover: #2f2f2f;
-    
+
     --social-fg: #979797;
     --social-fg-hover: #878787;
-    
+
     --link-fg: #f7492e;
     --link-fg-visited: #f7492e;
     --link-fg-hover: #f7ad2e;
-    
+
     --hr-border: #999;
-    
+
     --post-title-font-weight: 300; /* 400 is normal */
     --list-background-color: #111111;
   }
@@ -61,12 +61,6 @@ body {
   color: var(--body-text);
   padding-bottom: 1rem;
   padding-top: 1rem;
-}
-
-body p {
-  line-height: 1.6rem;
-  padding: 0.5rem 0rem 0.5rem 0rem;
-  font-size: 16px;
 }
 
 hr {
@@ -174,7 +168,6 @@ header h2 {
 
 .post-list-item {
   margin-top: 20px;
-  background-color: var(--list-background-color);
   padding: 12px 30px;
   border-radius: 15px;
   overflow: hidden;
